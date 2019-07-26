@@ -1,4 +1,4 @@
-# junit-merge
+# cucumber-json-merge
 
 
 [![CircleCI](https://circleci.com/gh/bitcoder/cucumber-json-merge.svg?style=shield)](https://circleci.com/gh/bitcoder/cucumber-json-merge) [![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
@@ -7,6 +7,7 @@
 
 ## NodeJS CLI for merging Cucumber JSON test results
 
+This work was highly based on previous work from [junit-merge](https://github.com/drazisil/junit-merge)
 
 ### Installation
 
