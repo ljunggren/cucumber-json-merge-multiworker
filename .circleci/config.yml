@@ -136,6 +136,9 @@ jobs:
 
     deploy:
       <<: *defaults
+      docker:
+          -
+              image: 'circleci/node:10'
       steps:
         - attach_workspace:
             at: ~/repo
