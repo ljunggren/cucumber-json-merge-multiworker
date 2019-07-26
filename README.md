@@ -1,25 +1,23 @@
 # junit-merge
 
 
-[![CircleCI](https://circleci.com/gh/drazisil/junit-merge.svg?style=shield)](https://circleci.com/gh/drazisil/junit-merge) [![Coverage Status](https://coveralls.io/repos/github/drazisil/junit-merge/badge.svg?branch=master)](https://coveralls.io/github/drazisil/junit-merge?branch=master)
+[![CircleCI](https://circleci.com/gh/bitcoder/cucumber-json-merge.svg?style=shield)](https://circleci.com/gh/bitcoder/cucumber-json-merge) [![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Greenkeeper badge](https://badges.greenkeeper.io/drazisil/junit-merge.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/bitcoder/cucumber-json-merge.svg)](https://greenkeeper.io/)
 
-## NodeJS CLI for merging JUnit XML test results
-
-This version works with Node 6, Node 8, and Node 10. It drops support for Node 4
+## NodeJS CLI for merging Cucumber JSON test results
 
 
 ### Installation
 
-    npm install -g junit-merge
+    npm install -g cucumber-json-merge
 
 Or just download the repository and include it in your `node_modules` directly.
 
 ### Usage
 
  ```
- Usage: junit-merge [options] <xmlFile1.xml> [xmlFile2.xml..]
+ Usage: cucumber-json-merge [options] <report1.json> [report2.json...]
 
 
   Options:

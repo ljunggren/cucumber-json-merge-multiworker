@@ -1,17 +1,16 @@
 {
-  "name": "junit-merge",
-  "version": "2.0.0",
-  "description": "NodeJS CLI for merging JUnit XML test results",
+  "name": "cucumber-json-merge",
+  "version": "0.0.1",
+  "description": "NodeJS CLI for merging Cucumber JSON test results",
   "main": "index.js",
-  "bin": "./bin/junit-merge",
+  "bin": "./bin/cucumber-json-merge",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "commander": "^2.18.0",
     "fs-readdir-recursive": "^1.1.0",
-    "mkdirp": "^0.5.1",
-    "xmldoc": "^1.1.2"
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -38,17 +37,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drazisil/junit-merge.git"
+    "url": "git+https://github.com/bitcoder/cucumber-json-merge.git"
   },
   "keywords": [
     "junit"
   ],
-  "author": "Joseph W Becher <jwbecher@drazisil.com>",
+  "author": "Sergio Freire <sergio.freire@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/drazisil/junit-merge/issues"
+    "url": "https://github.com/bitcoder/cucumber-json-merge/issues"
   },
-  "homepage": "https://github.com/drazisil/junit-merge#readme",
+  "homepage": "https://github.com/bitcoder/cucumber-json-merge#readme",
   "standard": {
     "globals": [
       "describe",

@@ -24,7 +24,7 @@ jobs:
                     command: |
                         npm run test
                         mkdir -p test-results/junit
-                        bin/junit-merge test-results.xml test/fixtures/3.xml
+                        bin/cucumber-json-merge test/fixtures/1.json test/fixtures/2.json
                         cp test-results.xml test-results/junit/
             -
                 store_artifacts:
@@ -32,7 +32,7 @@ jobs:
                     destination: tests
             -
                 store_artifacts:
-                    path: merged-test-results.xml
+                    path: merged-test-results.json
                     destination: tests
             -
                 store_artifacts:
@@ -65,7 +65,7 @@ jobs:
                     command: |
                         npm run test
                         mkdir -p test-results/junit
-                        bin/junit-merge test-results.xml test/fixtures/3.xml
+                        bin/cucumber-json-merge test/fixtures/1.json test/fixtures/2.json
                         cp test-results.xml test-results/junit/
             -
                 store_artifacts:
@@ -73,7 +73,7 @@ jobs:
                     destination: tests
             -
                 store_artifacts:
-                    path: merged-test-results.xml
+                    path: merged-test-results.json
                     destination: tests
             -
                 store_artifacts:
@@ -119,7 +119,7 @@ jobs:
 
                         yarn run pkg
 
-                        ./ghr -u drazisil -r junit-merge --replace $RELEASE_TAG
+                        ./ghr -u bitcoder -r cucumber-json-merge --replace $RELEASE_TAG
                         pkg
             -
                 store_artifacts:

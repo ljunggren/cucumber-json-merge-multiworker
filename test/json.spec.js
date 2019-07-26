@@ -1,7 +1,7 @@
 var junitMerge = require("../lib/index.js");
 var should = require("chai").should(); // eslint-disable-line no-unused-vars
-
-describe("XML Handling", function() {
+/*
+describe("JSON Handling", function() {
   describe("getTestsuites()", function() {
     it("should return a testsuite", function() {
       junitMerge
@@ -35,21 +35,22 @@ describe("XML Handling", function() {
     });
   });
 });
+*/
 
 describe("File Handling", function() {
   describe("mergeFiles()", function() {
     it("should return No tests found", function() {
       try {
-        junitMerge.mergeFiles(["./test/fixtures/empty.xml"]);
+        junitMerge.mergeFiles(["./test/fixtures/empty.json"]);
       } catch (err) {
-        err.message.should.equal("No tests found");
+        err.message.should.equal("Invalid JSON content");
       }
     });
 
-    it("should return merged xml file", function() {
+    it("should return merged json file", function() {
       junitMerge
-        .mergeFiles(["./test/fixtures/1.xml", "./test/fixtures/3.xml"])
-        .length.should.equal(1077);
+        .mergeFiles(["./test/fixtures/2.json", "./test/fixtures/2.json"])
+        .length.should.equal(3771);
     });
   });
 });

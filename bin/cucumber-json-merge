@@ -16,16 +16,16 @@ program
   .option(
     "-o, --out <mergedfile>",
     "file to output to",
-    "./merged-test-results.xml"
+    "./merged-test-results.json"
   )
-  .arguments("<xmlFile1.xml> [xmlFile2.xml..]");
+  .arguments("<res1.json> [res2.json..]");
 
 program.parse(process.argv);
 
 // Was a directory provided?
 if (program.dir) {
   try {
-    var res = jmerge.listXmlFiles(program.dir, program.recursive);
+    var res = jmerge.listJsonFiles(program.dir, program.recursive);
     var res2 = jmerge.mergeFiles(res);
     jmerge.writeMergedFile(program.out, res2, program.createDir);
   } catch (err) {
