@@ -72,10 +72,6 @@ jobs:
                         bin/cucumber-json-merge test/fixtures/1.json test/fixtures/2.json
                         cp test-results.xml test-results/junit/
             -
-                persist_to_workspace:
-                    root: ~/repo
-                    paths: .
-            -
                 store_artifacts:
                     path: test-results
                     destination: tests
@@ -91,6 +87,7 @@ jobs:
                 store_test_results:
                     path: test-results
     package:
+        <<: *defaults
         docker:
             -
                 image: 'circleci/node:8'
@@ -129,6 +126,10 @@ jobs:
 
                         ./ghr -u bitcoder -r cucumber-json-merge --replace $RELEASE_TAG
                         pkg
+            -
+                persist_to_workspace:
+                    root: ~/repo
+                    paths: .
             -
                 store_artifacts:
                     path: pkg
