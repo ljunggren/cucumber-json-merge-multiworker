@@ -1,6 +1,6 @@
 {
   "name": "cucumber-json-merge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NodeJS CLI for merging Cucumber JSON test results",
   "main": "index.js",
   "bin": "./bin/cucumber-json-merge",
