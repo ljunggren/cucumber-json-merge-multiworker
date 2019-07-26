@@ -1,6 +1,6 @@
 {
   "name": "cucumber-json-merge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NodeJS CLI for merging Cucumber JSON test results",
   "main": "index.js",
   "bin": "./bin/cucumber-json-merge",
@@ -40,7 +40,8 @@
     "url": "git+https://github.com/bitcoder/cucumber-json-merge.git"
   },
   "keywords": [
-    "junit"
+    "cucumber",
+    "reports"
   ],
   "author": "Sergio Freire <sergio.freire@gmail.com>",
   "license": "Apache-2.0",
