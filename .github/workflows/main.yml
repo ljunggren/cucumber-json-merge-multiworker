@@ -50,7 +50,7 @@ jobs:
         run: npm run build
 
       - name: Run tests
-        run: npm run coverage
+        run: npm test
 
       - name: Send code coverage results to Coveralls
         uses: coverallsapp/github-action@v1.1.0
@@ -88,7 +88,7 @@ jobs:
         run: npm ci
 
       - name: Build the code
-        run: npm run build
+        run: npm build
 
       - name: Publish to NPM
         uses: ./
