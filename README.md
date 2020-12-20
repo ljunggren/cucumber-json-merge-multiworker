@@ -1,5 +1,6 @@
 # cucumber-json-merge
 
+[![NPM version](https://img.shields.io/npm/v/cucumber-json-merge.svg)](https://www.npmjs.com/package/cucumber-json-merge) [![License](https://img.shields.io/github/license/bitcoder/cucumber-json-merge.svg)](https://github.com/bitcoder/cucumber-json-merge/blob/master/LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Known Vulnerabilities](https://snyk.io/test/github/bitcoder/cucumber-json-merge/badge.svg)](https://snyk.io/test/github/bitcoder/cucumber-json-merge)
