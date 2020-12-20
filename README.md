@@ -1,9 +1,8 @@
 # cucumber-json-merge
 
-
-[![CircleCI](https://circleci.com/gh/bitcoder/cucumber-json-merge.svg?style=shield)](https://circleci.com/gh/bitcoder/cucumber-json-merge) [![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Greenkeeper badge](https://badges.greenkeeper.io/bitcoder/cucumber-json-merge.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/bitcoder/cucumber-json-merge/badge.svg)](https://snyk.io/test/github/bitcoder/cucumber-json-merge)
 
 ## NodeJS CLI for merging Cucumber JSON test results
 
