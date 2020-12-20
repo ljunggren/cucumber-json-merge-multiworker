@@ -32,7 +32,15 @@ Or just download the repository and include it in your `node_modules` directly.
     -h, --help              output usage information
 ```
 
-### Contributing
+## Contributing
 
 Feel free to submit issues and/or PRs!  In lieu of a formal style guide, 
 please follow existing styles.
+
+## Contact
+
+You can find me on [Twitter](https://twitter.com/darktelecom).
+
+## LICENSE
+
+[Apache 2.0](LICENSE).
