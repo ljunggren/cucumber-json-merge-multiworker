@@ -1,6 +1,6 @@
 {
   "name": "cucumber-json-merge",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeJS CLI for merging Cucumber JSON test results",
   "main": "index.js",
   "bin": "./bin/cucumber-json-merge",
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "mocha": "./node_modules/.bin/_mocha -- test/**/*.spec.js",
-    "cov": "nyc --all --reporter=html --reporter=text mocha test/**/*.spec.js --reporter-options configFile=config.json",
+    "cov": "nyc --all --reporter=html --reporter=text --reporter=lcov mocha test/**/*.spec.js --reporter-options configFile=config.json",
     "test": "npm run lint && npm run mocha && npm run cov",
     "lint": "eslint lib test",
     "pkg": "pkg . --out-path=pkg"
