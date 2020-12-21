@@ -5,6 +5,7 @@
 [![CI status](https://img.shields.io/github/workflow/status/bitcoder/cucumber-json-merge/CI-CD?label=CI&style=flat-square)](https://github.com/bitcoder/cucumber-json-merge/actions?query=workflow%3ACI-CD)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Known Vulnerabilities](https://snyk.io/test/github/bitcoder/cucumber-json-merge/badge.svg)](https://snyk.io/test/github/bitcoder/cucumber-json-merge)
+[![NPM downloads](https://img.shields.io/npm/dw/cucumber-json-merge.svg)](https://www.npmjs.com/package/cucumber-json-merge)
 
 ## NodeJS CLI for merging Cucumber JSON test results
 
