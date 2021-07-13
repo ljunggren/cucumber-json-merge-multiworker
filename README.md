@@ -1,26 +1,26 @@
-# cucumber-json-merge
-
+# cucumber-json-merge-multiworker
+!!!
 [![NPM version](https://img.shields.io/npm/v/cucumber-json-merge.svg)](https://www.npmjs.com/package/cucumber-json-merge) [![License](https://img.shields.io/github/license/bitcoder/cucumber-json-merge.svg)](https://github.com/bitcoder/cucumber-json-merge/blob/master/LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/bitcoder/cucumber-json-merge/badge.svg?branch=master)](https://coveralls.io/github/bitcoder/cucumber-json-merge?branch=master)
 [![CI status](https://img.shields.io/github/workflow/status/bitcoder/cucumber-json-merge/CI-CD?label=CI&style=flat-square)](https://github.com/bitcoder/cucumber-json-merge/actions?query=workflow%3ACI-CD)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Known Vulnerabilities](https://snyk.io/test/github/bitcoder/cucumber-json-merge/badge.svg)](https://snyk.io/test/github/bitcoder/cucumber-json-merge)
 [![NPM downloads](https://img.shields.io/npm/dw/cucumber-json-merge.svg)](https://www.npmjs.com/package/cucumber-json-merge)
-
+!!!
 ## NodeJS CLI for merging Cucumber JSON test results
 
-This work was highly based on previous work from [junit-merge](https://github.com/drazisil/junit-merge)
+This work is an experimental fork of [cucumber-json-merge](https://github.com/bitcoder/cucumber-json-merge) to include support for multi-worker Cucumber jobs, where Scenario Outline iterations can reside in separate files.
 
 ### Installation
 
-    npm install -g cucumber-json-merge
+    npm install -g cucumber-json-merge-multiworker
 
 Or just download the repository and include it in your `node_modules` directly.
 
 ### Usage
 
  ```
- Usage: cucumber-json-merge [options] <report1.json> [report2.json...]
+ Usage: cucumber-json-merge-multiworker [options] <report1.json> [report2.json...]
 
 
   Options:
@@ -40,7 +40,7 @@ please follow existing styles.
 
 ## Contact
 
-You can find me on [Twitter](https://twitter.com/darktelecom).
+You can find me on [Twitter](https://twitter.com/boozangcloud).
 
 ## LICENSE
 
