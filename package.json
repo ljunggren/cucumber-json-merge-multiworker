@@ -1,9 +1,9 @@
 {
-  "name": "cucumber-json-merge",
-  "version": "0.0.7",
-  "description": "NodeJS CLI for merging Cucumber JSON test results",
+  "name": "cucumber-json-merge-multiworker",
+  "version": "0.0.8",
+  "description": "NodeJS CLI for merging Cucumber JSON test results (multi-worker)",
   "main": "index.js",
-  "bin": "./bin/cucumber-json-merge",
+  "bin": "./bin/cucumber-json-merge-multiworker",
   "directories": {
     "test": "test"
   },
@@ -37,18 +37,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoder/cucumber-json-merge.git"
+    "url": "git+https://github.com/ljunggren/cucumber-json-merge-multiworker.git"
   },
   "keywords": [
     "cucumber",
     "reports"
   ],
-  "author": "Sergio Freire <sergio.freire@gmail.com>",
+  "author": "Mats Ljunggren <mats.ljunggren@boozang.com>, Sergio Freire <sergio.freire@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bitcoder/cucumber-json-merge/issues"
+    "url": "https://github.com/ljunggren/cucumber-json-merge-multiworker/issues"
   },
-  "homepage": "https://github.com/bitcoder/cucumber-json-merge#readme",
+  "homepage": "https://github.com/ljunggren/cucumber-json-merge-multiworker#readme",
   "standard": {
     "globals": [
       "describe",
