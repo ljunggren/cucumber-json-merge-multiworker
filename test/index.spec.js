@@ -10,8 +10,8 @@ describe("File Handling", function() {
       cucumberMerge.listJsonFiles("test/fixtures").length.should.equal(3);
     });
 
-    it("should return 4 files", function() {
-      cucumberMerge.listJsonFiles("test/fixtures", true).length.should.equal(4);
+    it("should return 6 files", function() {
+      cucumberMerge.listJsonFiles("test/fixtures", true).length.should.equal(6);
     });
 
     it("should report not a valid directory", function() {
