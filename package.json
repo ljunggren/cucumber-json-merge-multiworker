@@ -1,6 +1,6 @@
 {
   "name": "cucumber-json-merge-multiworker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "NodeJS CLI for merging Cucumber JSON test results (multi-worker)",
   "main": "index.js",
   "bin": "./bin/cucumber-json-merge-multiworker",
