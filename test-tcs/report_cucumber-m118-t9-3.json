@@ -1,0 +1,158 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m118] Sales - negative checks",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-462",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m118",
+    "uri": "jira-features/2_NISTA-462.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m118.t9(3)] No double coverage (Jenkins CI - 19)",
+        "description": "No double coverage",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-462"
+          },
+          {
+            "name": "@NISTA-512"
+          },
+          {
+            "name": "@done"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 12579000000,
+              "status": "passed"
+            },
+            "name": "A contact is created with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDQwLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIjE5ODMtMDItMTdUMDA6MDA6MDAiLAogICIkcGFyYW1ldGVyLmNhbXBDbHViU2VjdGlvbiI6ICJUQ1MgQ0FNUElORyBDTFVCIEdFIiwKICAiJHBhcmFtZXRlci5jb3VudHJ5Q29kZSI6ICJDSCIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIkJPT01JIiwKICAiJHBhcmFtZXRlci5jdXN0b21lclR5cGVDb2RlIjogIjAiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUxhYmVsIjogImNsaWVudCBwcml26SIsCiAgIiRwYXJhbWV0ZXIuZW1haWwiOiAicmVuZS1mcmFuY2submt1c2lAdGNzLmNoIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZyb21Cb29taSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhvdXNlTnVtYmVyIjogIjExIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvY2FsaXR5IjogIk1leXJpbiIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiA3MDAwMTQ5MTksCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgdmVybmllciIsCiAgIiRwYXJhbWV0ZXIuc2FsZXNDaGFubmVsIjogImNvbnRhY3QgY2VudGVyIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdHJlZXQiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAiTkEiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiY2xpZW50IHByaXbpIiwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0IiwKICAiJHBhcmFtZXRlci56aXBDb2RlIjogIjEyMTciLAogICIkcGFyYW1ldGVyLnppcENvZGVDb21wbGVtZW50IjogIjAwIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJEZWxhYWhzIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJMb3VuZWdmIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmV4dGVybmFsSUQiOiAiMTA2ODE3Mzg5IiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmlkZW50aWZpZXIiOiAiMzEwMyIsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OLmV4dGVybmFsSUQiOiAiJHJlc3VsdC5yZXNwb25zZUpTT04uZXh0ZXJuYWxJRCA9PiBFcnJvciBkYXRhOiBDYW5ub3QgcmVhZCBwcm9wZXJ0aWVzIG9mIHVuZGVmaW5lZCAocmVhZGluZyAnZXh0ZXJuYWxJRCcpIiwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04uaWRlbnRpZmllciI6ICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5pZGVudGlmaWVyID0+IEVycm9yIGRhdGE6IENhbm5vdCByZWFkIHByb3BlcnRpZXMgb2YgdW5kZWZpbmVkIChyZWFkaW5nICdpZGVudGlmaWVyJykiLAogICIkcmVzdWx0LnJlc3BvbnNlVGV4dCI6ICI8P3htbCB2ZXJzaW9uPScxLjAnIGVuY29kaW5nPSdVVEYtOCc/PjxTOkVudmVsb3BlIHhtbG5zOlM9XCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy9zb2FwL2VudmVsb3BlL1wiPjxTOkJvZHk+PHdzczpjcmVhdGVBY2NvdW50X1YzUmVzcG9uc2UgeG1sbnM6d3NzPVwiaHR0cDovL3d3dy5ib29taS5jb20vY29ubmVjdG9yL3dzc1wiPlxuPG5zMTpDYWxsaW5TRkRDX2NyZWF0ZUFjY291bnRfVjNSZXNwb25zZSB4bWxuczpuczE9XCJDcmVhdGVBY2NvdW50X1YzUmVzcG9uc2UuYm9vbWkuY29tXCI+XG4gIDxuczE6cmVzdWx0PlxuICAgIDxuczE6ZXJyb3JDb2RlPjAwMDwvbnMxOmVycm9yQ29kZT5cbiAgICA8bnMxOmluZm9Db2RlPjAwMDwvbnMxOmluZm9Db2RlPlxuICAgIDxuczE6cGVyc29uYWxSZWZlcmVuY2U+MTA2ODE3Mzg5PC9uczE6cGVyc29uYWxSZWZlcmVuY2U+XG4gIDwvbnMxOnJlc3VsdD5cbjwvbnMxOkNhbGxpblNGRENfY3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlPjwvd3NzOmNyZWF0ZUFjY291bnRfVjNSZXNwb25zZT48L1M6Qm9keT48L1M6RW52ZWxvcGU+IiwKICAiJHJlc3VsdC5zdGF0dXMiOiAyMDAsCiAgIiR0ZXN0LmFwaURhdGEiOiB7CiAgICAicHJvZmVzc2lvbiI6IHsKICAgICAgImlkIjogNCwKICAgICAgImRlc2MiOiAiRmFybWVyIgogICAgfSwKICAgICJhZGRyZXNzZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpBZGRyZXNzSUJPIiwKICAgICAgICAiemlwQ29kZSI6ICIxMjE0IiwKICAgICAgICAiY291bnRyeSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIkNIIgogICAgICAgIH0sCiAgICAgICAgImFkZHJlc3NUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgInN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICAgICAgICJjaXR5TmFtZSI6ICJWZXJuaWVyIiwKICAgICAgICAiaG91c2VOciI6ICI0IgogICAgICB9CiAgICBdLAogICAgInN1YnNjcmlwdGlvbnMiOiBbXSwKICAgICJnZW5kZXIiOiB7CiAgICAgICJpZCI6IDIsCiAgICAgICJkZXNjIjogIk1hbGUiCiAgICB9LAogICAgImVudGl0eVR5cGUiOiB7CiAgICAgICJpZCI6IDEKICAgIH0sCiAgICAiaWRlbnRpZmllcnMiOiBbCiAgICAgIHsKICAgICAgICAiaWRUeXBlIjogewogICAgICAgICAgImV4dENvZGUiOiAiUkVGUEVSUyIKICAgICAgICB9LAogICAgICAgICJpZFZhbHVlIjogIjk3NjYxMjIzMyIKICAgICAgfQogICAgXSwKICAgICJjYW1wU2VjdGlvblZPIjogewogICAgICAiZXh0Q29kZSI6ICIyMTIiCiAgICB9LAogICAgImNvbnRhY3RBZmZpbml0eU1lbWJlcnNoaXBzIjogWwogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiUGh5c2ljYWwgUGVyc29ucyIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MQogICAgICB9LAogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiTGVnYWwgRW50aXR5IgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkyCiAgICAgIH0KICAgIF0sCiAgICAidGVsZXBob25lcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOlRlbGVwaG9uZUlCTyIsCiAgICAgICAgInRlbGVwaG9uZU51bWJlciI6ICIxMjM0NTY2NzkiLAogICAgICAgICJ0ZWxlcGhvbmVUeXBlIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIldvcmsgdGVsZXBob25lIgogICAgICAgIH0sCiAgICAgICAgInRlbGVwaG9uZVByZWZpeCI6ICIwMTAiLAogICAgICAgICJjb3VudHJ5RGlhbENvZGUiOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiMzIiCiAgICAgICAgfQogICAgICB9CiAgICBdLAogICAgImRhdGVPZkJpcnRoIjogIjE5ODMtMDItMTdUMDA6MDA6MDAiLAogICAgInNlY3Rpb25UQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiR0UiCiAgICB9LAogICAgImxhbmd1YWdlIjogewogICAgICAiaWQiOiAxMDAwMDAxCiAgICB9LAogICAgInRpdGxlIjogewogICAgICAiaWQiOiAxMDAwMDAyLAogICAgICAiZGVzYyI6ICJEb24iCiAgICB9LAogICAgInByZWZlcnJlZFBheW1lbnRNZXRob2QiOiB7CiAgICAgICJleHRDb2RlIjogIlFSLUJpbGwiCiAgICB9LAogICAgImV4dGVybmFsQ29udGFjdE51bWJlciI6ICI5NzY2MTIyMzMiLAogICAgImNvbnRhY3RTdWJUeXBlVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjAiCiAgICB9LAogICAgImVtYWlscyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkVtYWlsSUJPIiwKICAgICAgICAiZW1haWxUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgImVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIKICAgICAgfQogICAgXSwKICAgICJuYW1lIjogIkJldXRlb3QiLAogICAgImZpcnN0TmFtZSI6ICJDdWN0b3ByIiwKICAgICJuYXRpb25hbGl0eSI6IHsKICAgICAgImV4dENvZGUiOiAiQ0giCiAgICB9LAogICAgImNvbnNlbnRzIjogW10sCiAgICAiZmFtaWx5U3RhdHVzIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYXJyaWVkIgogICAgfQogIH0KfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 301743000000,
+              "status": "passed"
+            },
+            "name": "The contact has an active policy for the product: TCS Livret Protection Internet",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiB0cnVlLAogICIkcGFyYW1ldGVyLmJpa2VJbnN1cmFuY2VMaW1pdCI6ICIiLAogICIkcGFyYW1ldGVyLmJyZWFrZG93bkFzc2lzdGFuY2UiOiAiIiwKICAiJHBhcmFtZXRlci5jYW1wQ2x1YlNlY3Rpb24iOiAiVENTIENBTVBJTkcgQ0xVQiBHRSIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdENyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFbWFpbCI6ICIiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjEwNjgxNzM4OSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJBcmVhIjogIk1vbmRlIiwKICAiJHBhcmFtZXRlci5jb3ZlclR5cGUiOiAiUHJvdGVjdGlvbiBQbHVzIiwKICAiJHBhcmFtZXRlci5jcmVhdGVNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5jcmVhdGVPZmZlciI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuZGVwYW5uYWdlIjogIkF2ZWMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFJhdGUiOiAiIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFR5cGUiOiAiIiwKICAiJHBhcmFtZXRlci5kb3duZ3JhZGUiOiAiIiwKICAiJHBhcmFtZXRlci5lbmRQb2xpY3lOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZhbWlseU1lbWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmZpbmFsRGVjaXNpb24iOiAiIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5mb3JlaWduTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzSW5zdXJhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzTFBEIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaW5kX2ZhbSI6ICJGYW1pbGxlIiwKICAiJHBhcmFtZXRlci5pbnRlcmNoYW5nZWFibGVMaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pc0VuZG9yc2VtZW50IjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNUZWNobmljYWxDaGFuZ2UiOiAiIiwKICAiJHBhcmFtZXRlci5pc1ZhbGlkYXRpb25BdHRyaWJ1dGVzIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIubGVnYWxQcm90ZWN0aW9uRHJpdmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIubGVnYWxSZXNpZGVuY2UiOiAic3Vpc3NlIiwKICAiJHBhcmFtZXRlci5sb2dpblByb2ZpbGUiOiAiYmFja29mZmljZSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFN0YXR1cyI6IHRydWUsCiAgIiRwYXJhbWV0ZXIubW90b3Jpc2UiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIub2ZmZXIiOiAiUG9saWN5IiwKICAiJHBhcmFtZXRlci5vcGVuSW52b2ljZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyQ2FyZCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJUeXBlIjogImNjIGJlcm4iLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBMaXZyZXQgUHJvdGVjdGlvbiBJbnRlcm5ldCIsCiAgIiRwYXJhbWV0ZXIuc2VjdGlvbiI6ICJHRSIsCiAgIiRwYXJhbWV0ZXIuc3RhcnREYXRlIjogInRvZGF5LTE1IiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJOb24gYXBwbGljYWJsZSIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZUV1cm9wZSI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VTd2l0emVybGFuZCI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsV2VpZ2h0RXhjZWVkTGltaXQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 33001000000,
+              "status": "passed"
+            },
+            "name": "I am logged in as frontoffice in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmZvcmNlIjogdHJ1ZSwKICAiJHByb2plY3QubG9naW5EYXRhLmN1cnJlbnRVc2VySWQiOiAiYmdmb2YxMCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 128887000000,
+              "status": "passed"
+            },
+            "name": "I start to create a proposal for product: TCS Livret Protection Internet for the contact",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNyZWF0ZU1lbWJlcnNoaXAiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBMaXZyZXQgUHJvdGVjdGlvbiBJbnRlcm5ldCIsCiAgIiRwYXJhbWV0ZXIuc3RhcnREYXRlIjogIjE4LzAyLzIwMjMiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuZXh0ZXJuYWxJRCI6ICIxMDY4MTczODkiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 9227000000,
+              "status": "passed"
+            },
+            "name": "An alert is displayed and the proposal cannot be created",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnByb2R1Y3RCdW5kbGUiOiAiIiwKICAiJHBhcmFtZXRlci51bmRlcndyaXRpbmdBbGVydCI6ICJMZSBk6XRlbnRldXIgZGUgbGEgcG9saWNlIGEgZOlq4CB1bmUgcG9saWNlIGFjdGl2ZSBwb3VyIGNlIHByb2R1aXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 1583000000,
+              "status": "passed"
+            },
+            "name": "I sign out from IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t9/9/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          }
+        ],
+        "extraData": {
+          "id": "m118.t9(3)",
+          "name": "No double coverage",
+          "worker": "Jenkins CI - 19",
+          "start": "06:37:12",
+          "end": "06:45:21"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m125] Endorsements management",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-876",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m125",
+    "uri": "jira-features/2_NISTA-876.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m125.t26(0)] Technical endorsment (Jenkins CI - 14)",
+        "description": "Technical endorsment",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-876"
+          },
+          {
+            "name": "@NISTA-2018"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 65371000000,
+              "status": "passed"
+            },
+            "name": "A contact with an active TCS Membership policy with breakdownAssistance: Sans dépannage and paid by paymentMethod: cash",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiB0cnVlLAogICIkcGFyYW1ldGVyLmJpa2VJbnN1cmFuY2VMaW1pdCI6ICIiLAogICIkcGFyYW1ldGVyLmJyZWFrZG93bkFzc2lzdGFuY2UiOiAiIiwKICAiJHBhcmFtZXRlci5jYW1wQ2x1YlNlY3Rpb24iOiAiVENTIENBTVBJTkcgQ0xVQiBHRSIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdENyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFbWFpbCI6ICIiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjQ3NjYwOTczMyIsCiAgIiRwYXJhbWV0ZXIuY292ZXJBcmVhIjogIk1vbmRlIiwKICAiJHBhcmFtZXRlci5jb3ZlclR5cGUiOiAiUHJvdGVjdGlvbiBQbHVzIiwKICAiJHBhcmFtZXRlci5jcmVhdGVNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5jcmVhdGVPZmZlciI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuZGVwYW5uYWdlIjogIlNhbnMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFJhdGUiOiAiIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFR5cGUiOiAiIiwKICAiJHBhcmFtZXRlci5kb3duZ3JhZGUiOiAiIiwKICAiJHBhcmFtZXRlci5lbmRQb2xpY3lOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZhbWlseU1lbWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmZpbmFsRGVjaXNpb24iOiAiIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuZm9yZWlnbkxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0luc3VyYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0xQRCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmluZF9mYW0iOiAiRmFtaWxsZSIsCiAgIiRwYXJhbWV0ZXIuaW50ZXJjaGFuZ2VhYmxlTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaXNFbmRvcnNlbWVudCI6ICIiLAogICIkcGFyYW1ldGVyLmlzVGVjaG5pY2FsQ2hhbmdlIjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNWYWxpZGF0aW9uQXR0cmlidXRlcyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmxlZ2FsUHJvdGVjdGlvbkRyaXZlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9naW5Qcm9maWxlIjogImJhY2tvZmZpY2UiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLm9wZW5JbnZvaWNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJDYXJkIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgYmVybiIsCiAgIiRwYXJhbWV0ZXIucGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFNvY2npdGFyaWF0IiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXktMTAiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAiIiwKICAiJHBhcmFtZXRlci5zdWJUeXBlIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlRXVyb3BlIjogIiIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZVN3aXR6ZXJsYW5kIjogIiIsCiAgIiRwYXJhbWV0ZXIudG90YWxXZWlnaHRFeGNlZWRMaW1pdCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnVzZUNyZWRpdEJhbGFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 227007000000,
+              "status": "passed"
+            },
+            "name": "I change the breakdown assistance to newbreakdownAssistance: Avec dépannage through the technical endorsment functionality",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICI0NzY2MDk3MzMiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlT2ZmZXIiOiB0cnVlLAogICIkcGFyYW1ldGVyLmRlcGFubmFnZSI6ICJBdmVjIGTpcGFubmFnZSIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRSYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRUeXBlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZG93bmdyYWRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW5kUG9saWN5TnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mYW1pbHlNZW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkZhbWlsbGUiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuaXNWYWxpZGF0aW9uQXR0cmlidXRlcyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmxlZ2FsUHJvdGVjdGlvbkRyaXZlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9naW5Qcm9maWxlIjogImJhY2tvZmZpY2UiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLm9wZW5JbnZvaWNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJDYXJkIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgYmVybiIsCiAgIiRwYXJhbWV0ZXIucGF5bWVudE1ldGhvZCI6ICJRUi1CaWxsIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFNvY2npdGFyaWF0IiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXkrMSIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VFdXJvcGUiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlU3dpdHplcmxhbmQiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbFdlaWdodEV4Y2VlZExpbWl0IjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIudXNlQ3JlZGl0QmFsYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 5062000000,
+              "status": "passed"
+            },
+            "name": "A blocking message is displayed and I cannot complete the technical endorsment process",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnByb2Nlc3MiOiAidGVjaG5pY2FsIGNoYW5nZSIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 9019000000,
+              "status": "passed"
+            },
+            "name": "The policy version is not impacted",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLm51bWVyYXRvciI6ICIiLAogICIkcGFyYW1ldGVyLm9mZmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvZHVjdCI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3RJZGVudGlmaWVyIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvcG9zYWxPclBvbGljeU51bWJlciI6ICJQTzQ3NjYwOTczMy0xMDEwMC8wMCIsCiAgIiRwYXJhbWV0ZXIudmVyc2lvbiI6ICIwMCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 258622000000,
+              "status": "passed"
+            },
+            "name": "I change the payment method to newPaymentMethod: QR-Bill through the technical endorsment functionality",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/9/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICI0NzY2MDk3MzMiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlT2ZmZXIiOiB0cnVlLAogICIkcGFyYW1ldGVyLmRlcGFubmFnZSI6ICJTYW5zIGTpcGFubmFnZSIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRSYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRUeXBlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZG93bmdyYWRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW5kUG9saWN5TnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mYW1pbHlNZW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkZhbWlsbGUiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuaXNWYWxpZGF0aW9uQXR0cmlidXRlcyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmxlZ2FsUHJvdGVjdGlvbkRyaXZlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9naW5Qcm9maWxlIjogImJhY2tvZmZpY2UiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLm9wZW5JbnZvaWNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJDYXJkIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgYmVybiIsCiAgIiRwYXJhbWV0ZXIucGF5bWVudE1ldGhvZCI6ICJRUi1CaWxsIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFNvY2npdGFyaWF0IiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXkrMSIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VFdXJvcGUiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlU3dpdHplcmxhbmQiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbFdlaWdodEV4Y2VlZExpbWl0IjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIudXNlQ3JlZGl0QmFsYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 8662000000,
+              "status": "passed"
+            },
+            "name": "I can complete the technical endorsment process and the policy version is not impacted",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m125/t26/11/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLm51bWVyYXRvciI6ICIiLAogICIkcGFyYW1ldGVyLm9mZmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvZHVjdCI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3RJZGVudGlmaWVyIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvcG9zYWxPclBvbGljeU51bWJlciI6ICJQTzQ3NjYwOTczMy0xMDEwMC8wMCIsCiAgIiRwYXJhbWV0ZXIudmVyc2lvbiI6ICIwMCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m125.t26(0)",
+          "name": "Technical endorsment",
+          "worker": "Jenkins CI - 14",
+          "start": "05:55:25",
+          "end": "06:05:02"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,303 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">  
+      <style>
+    html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}a{background-color:transparent}a:active,a:hover{outline:0}input{color:inherit;font:inherit;margin:0;line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}.container{position:relative;width:100%;max-width:1200px;margin:0 auto;padding:0 20px;box-sizing:border-box}.column,.columns{width:100%;float:left;box-sizing:border-box}@media (min-width:400px){.container{width:85%;padding:0}}@media (min-width:550px){.container{width:80%}.column,.columns{margin-left:4%}.column:first-child,.columns:first-child{margin-left:0}.one.column,.one.columns{width:4.66666666667%}.two.columns{width:13.3333333333%}.three.columns{width:22%}.four.columns{width:30.6666666667%}}html{font-size:62.5%}body{font-size:1.5em;line-height:1.6;font-weight:400;font-family:HelveticaNeue,"Helvetica Neue",Raleway,Helvetica,Arial,sans-serif;color:#222;margin:0}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:2rem;font-weight:300}h1{font-size:4rem;line-height:1.2;letter-spacing:-.1rem}h2{font-size:3.6rem;line-height:1.25;letter-spacing:-.1rem}h3{font-size:3rem;line-height:1.3;letter-spacing:-.1rem}h4{font-size:2.4rem;line-height:1.35;letter-spacing:-.08rem}h5{font-size:1.8rem;line-height:1.5;letter-spacing:-.05rem}h6{font-size:1.5rem;line-height:1.6;letter-spacing:0}@media (min-width:550px){h1{font-size:5rem}h2{font-size:4.2rem}h3{font-size:3.6rem}h4{font-size:3rem}h5{font-size:2.4rem}h6{font-size:1.5rem}}p{margin-top:0}td,th{padding:9px 15px;text-align:left;border-bottom:1px solid #e1e1e1}td:first-child,th:first-child{padding-left:5px}td:last-child,th:last-child{padding-right:5px}.button,button{margin-bottom:1rem}fieldset,input,select,textarea{margin-bottom:1.5rem}blockquote,dl,figure,form,ol,p,pre,table,ul{margin-bottom:2.5rem}.container:after,.row:after,.u-cf{content:"";display:table;clear:both}    
+    
+    .top_header{margin:7rem 0}.top_header .heading{font-size:3rem;color:#404159}.chart_section table,.tabs_section table{width:100%;border-collapse:collapse;border-spacing:0}.chart_section table tr,.tabs_section table tr{padding:.5rem .5rem}.chart_section table th,.tabs_section table th{color:rgba(43,44,59,.8);font-size:1.1rem;text-transform:uppercase}.chart_section{margin-bottom:6rem}.chart_section .table_area{margin-bottom:2rem}@media all and (min-width:768px){.chart_section .table_area{margin-bottom:0}}.chart_section .table_area.last_of-type{margin:0}.chart_section .table_area .table_header{border-top-right-radius:5px;border-top-left-radius:5px;padding:1.1rem 1rem}.chart_section .table_area .table_header h6{margin-bottom:0;font-weight:600;font-size:1.3rem}.chart_section .table_area .table_header.test{background:#f99fa0}.chart_section .table_area .table_header.steps{background:#fdcedc}.chart_section .table_area .table_header.issues{background:#ded0fb}.chart_section .table_area .table_header.workers{background:#b9dfd4}.chart_section .table_area th{padding:0 .9rem!important;width:70%}.chart_section .table_area td{font-size:1.4rem}.tabs_section{margin-bottom:6rem}.tabs_section tr:nth-of-type(even){background-color:rgba(0,0,0,.05)}.tabs_section tr td{font-size:1.3rem}footer{padding:2rem 0}footer .copy{font-size:1rem}.tabset>input[type=radio]{position:absolute;left:-200vw}.tab-panels>section{padding:1rem}.tabset .tab-panel{display:none;overflow-x:auto;white-space:nowrap}.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6),.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5){display:block}.tabset>label{position:relative;display:inline-block;padding:1.1rem 1rem;padding-right:3rem;cursor:pointer;font-weight:600;border-top-left-radius:5px;border-top-right-radius:5px;border-bottom:3px solid transparent;margin-bottom:-1px;transition:all .4s ease-in;width:80%;font-size:1.3rem}.tabset>label:hover{background-color:rgba(0,0,0,.05)}@media all and (min-width:768px){.tabset>label{width:auto}}.tabset>input:checked+label{border-color:#e1e1e1;border-bottom:1px solid #fff;border-bottom:3px solid #1183ee}.tab-panel{border-top:1px solid #e1e1e1}
+    
+    .expanded-row-content {white-space:pre; font-size: 12px !important; color: #777; border-top: none; display: grid; grid-column: 1/-1; font-size: 13px;} .hide-row { display: none;} #issuetable tr{cursor: pointer; display: grid; border-bottom: 1px solid #e1e1e1; grid-template-columns: 50px 300px 300px 100px 150px 100px} #issuetable th,#issuetable td {border:none;} .chart_section td{float:right}
+      </style>
+      <script>
+        const toggleRow = (element) => {
+    
+        let o=element.getElementsByClassName('expanded-row-content')[0]
+        o.classList.toggle('hide-row');
+    
+        setTimeout(function(){
+          if(!o.classList.contains("hide-row")){
+            o.innerText=o.innerText.replace(/\\n/g,"\n")
+            o.innerText=o.innerText.replace(/\\\"/g,"\"")
+          }
+        },10)
+      }
+      </script>
+      <title>Boozang - Test Execution Summary</title>
+    </head>
+    <body>
+      <div class="container">
+        <header class="top_header">
+          <h1 class="heading">Test Execution Summary</h1>
+        </header>
+        <section class="chart_section">
+          <div class="row">
+            <div class="three columns">
+              <article class="table_area">
+                <header class="table_header test">
+                  <h6>Summary</h6>
+                </header>
+                <table>
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <th>Total Scenarios</th>
+                      <td>256</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Failed Scenarios</th>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Total Workers</th>
+                      <td>9</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </article>
+            </div>
+            <div class="three columns">
+              <article class="table_area">
+                <header class="table_header steps">
+                  <h6>Test Steps</h6>
+                </header>
+                <table>
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Total</th>
+                      <td>1285</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Failed</th>
+                      <td>16</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Skipped</th>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Pending</th>
+                      <td>1241</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </article>
+            </div>
+            <div class="three columns">
+              <article class="table_area">
+                <header class="table_header issues">
+                  <h6>Total Issues</h6>
+                </header>
+                <table>
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Application</th>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Automation</th>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Unknown</th>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">To be defined</th>
+                      <td>8</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </article>
+            </div>
+            <div class="three columns">
+              <article class="table_area">
+                <header class="table_header workers">
+                  <h6>Failed Scenario Breakdown</h6>
+                </header>
+                <table>
+                  <thead></thead>
+                  <tbody>
+                    <tr>
+                      <th>Application fails</th>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Automation fails</th>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Unknown fails</th>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">TBD fails</th>
+                      <td>9</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- tabs -->
+        <section class="tabs_section">
+          <div class="tabset">
+            <!-- Tab 1 -->
+            <input type="radio" name="tabset" id="tab1" aria-controls="issues" checked>
+            <label for="tab1">Issue Overview</label>
+            <!-- Tab 2 -->
+            <input type="radio" name="tabset" id="tab2" aria-controls="steps">
+            <label for="tab2">Slowest Test Steps</label>
+            <!-- Tab 3 -->
+            <input type="radio" name="tabset" id="tab3" aria-controls="workers">
+            <label for="tab3">Workers Job Log</label>
+    
+            <div class="tab-panels">
+              <section id="issues" class="tab-panel">
+                <table id="issuetable">
+                  <thead>
+                    <tr>
+                      <th scope="col">Impact</th>
+                      <th scope="col">Error Hash</th>
+                      <th scope="col">Description</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Scope</th>
+                      <th scope="col">Url</th>
+                      <th scope="col"></td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr onClick='toggleRow(this)'>
+      <td>5</td>
+      <td>35E9E7ACB16C3875A912A19645B2E8E6</td>
+      <td>Policy cancellation blocked</td>
+      <td>unknown</td>
+      <td>m66.t6</td>
+      <td><a href='https://jira.tcsgroup.ch/browse/IDITS-18476' style='white-space:nowrap;' target='_blank'>IDITS-18476</a></td>
+      <td class="expanded-row-content hide-row">Errors message:
+GD9012: The object you have finished updating was chenged by another user. Please exit the update process and start it over</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>2</td>
+      <td>FDA9014B1D7043D66F3739C337A7277A</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>05B0FC3F170EDF8660CE9C12CC0DFA7E</td>
+      <td>Detach family member in SFDC</td>
+      <td>auto</td>
+      <td>m7.t23</td>
+      <td></td>
+      <td class="expanded-row-content hide-row">Unable to click on "Valider" button when detaching a family meber in SFDC</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>82F42402C22698BB0241FAB4E305461D</td>
+      <td>Policy status not updated</td>
+      <td>unknown</td>
+      <td>m66.t9</td>
+      <td><a href='https://jira.tcsgroup.ch/browse/IDITS-20313' style='white-space:nowrap;' target='_blank'>IDITS-20313</a></td>
+      <td class="expanded-row-content hide-row">Status not updated correctly when the IBAN is set manually during cancellation process</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>3842DBE02933113F33E2375968FB026A</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>5C967DB34008A7C25FEDCEFDBEC2DA05</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>191F729C30228E36D51F6582DB2AE428</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>63A90EC68C59231F82145B5D304786AE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>EA1B67DCBFDC4198A8AB9097749F14A6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>33A601267BA759D8C9B866FD92E7A466</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr><tr onClick='toggleRow(this)'>
+      <td>1</td>
+      <td>FB90E49A675412CB7CA2A2661F9969AE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="expanded-row-content hide-row">undefined</td>
+    </tr>
+                  </tbody>
+                </table>
+              </section>
+              <section id="steps" class="tab-panel">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Time(unit: second)</th>
+                      <th>Test Step</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>541</td><td>The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 5 totalCoverageEurope: 5</td></tr><tr><td>535</td><td>The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 5 totalCoverageEurope: 4</td></tr><tr><td>507</td><td>A contact with product: TCS Protection juridique circulation indFam1: Individuel policy</td></tr><tr><td>442</td><td>The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 2 totalCoverageEurope: 3</td></tr><tr><td>442</td><td>A contact with product: TCS Sociétariat indFam1: Individuel policy</td></tr><tr><td>409</td><td>The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 1 totalCoverageEurope: 3</td></tr><tr><td>395</td><td>The contact has a cancelled policy for a product: TCS Protection juridique immeuble</td></tr><tr><td>379</td><td>The contact has a cancelled policy for a product: TCS Livret Protection Internet</td></tr><tr><td>377</td><td>The contact has a cancelled policy for a product: TCS Assurance Vélo</td></tr><tr><td>377</td><td>The contact has a cancelled policy for a product: TCS Livret Protection Internet</td></tr><tr><td>377</td><td>The contact has a cancelled policy for a product: TCS Protection juridique circulation</td></tr><tr><td>372</td><td>The contact has a cancelled policy for a product: TCS Protection juridique immeuble</td></tr><tr><td>369</td><td>The contact has a cancelled policy for a product: TCS Assurance Vélo</td></tr><tr><td>360</td><td>The contact has a cancelled policy for a product: TCS Protection juridique privée</td></tr><tr><td>356</td><td>The contact has a cancelled policy for a product: TCS Protection juridique privée</td></tr><tr><td>355</td><td>The contact has a cancelled policy for a product: TCS Protection juridique circulation</td></tr><tr><td>349</td><td>The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 1 totalCoverageEurope: 1</td></tr><tr><td>342</td><td>The contact acquire a product: TCS Sociétariat Camping policy with a manual discount of discountRate: 10</td></tr><tr><td>339</td><td>A product: TCS Sociétariat renewal open invoice exists for the contact</td></tr><tr><td>337</td><td>The contact acquires a "TCS Protection juridique immeuble" policy</td></tr>
+                  </tbody>
+                </table>
+              </section>
+              <section id="workers" class="tab-panel">
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Start</th>
+                      <th scope="col">End</th>
+                      <th scope="col">Worker</th>
+                      <th scope="col">Test id</th>
+                      <th scope="col">Test name</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>05:08:11</td><td>05:13:29</td><td>Jenkins CI - 16</td><td>m70.t8</td><td>Push contact with family relations</td></tr><tr><td>05:08:11</td><td>05:20:58</td><td>Jenkins CI - 19</td><td>m170.t4(1)</td><td>Pay a debt - Endorsement proposal</td></tr><tr><td>05:08:11</td><td>05:16:23</td><td>Jenkins CI - 13</td><td>m157.t1(7)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>05:08:11</td><td>05:15:58</td><td>Jenkins CI - 12</td><td>m157.t1(3)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>05:08:11</td><td>05:11:47</td><td>Jenkins CI - 18</td><td>m118.t13(4)</td><td>No coverage for foreign residence</td></tr><tr><td>05:08:11</td><td>05:12:10</td><td>Jenkins CI - 17</td><td>m117.t45(0)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>05:08:11</td><td>05:14:34</td><td>Jenkins CI - 14</td><td>m117.t4(13)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:08:11</td><td>05:12:34</td><td>Jenkins CI - 15</td><td>m117.t1(1)</td><td>Policy cancellation - Immediate cancellation</td></tr><tr><td>05:08:13</td><td>05:11:12</td><td>Jenkins CI - 11</td><td>m157.t3(1)</td><td>Change contact portfolio through API calls</td></tr><tr><td>05:11:21</td><td>05:14:31</td><td>Jenkins CI - 11</td><td>m70.t1</td><td>Add an address for an account</td></tr><tr><td>05:11:58</td><td>05:17:02</td><td>Jenkins CI - 18</td><td>m117.t8(2)</td><td>Policy cancellation - Reception date</td></tr><tr><td>05:12:21</td><td>05:18:33</td><td>Jenkins CI - 17</td><td>m116.t1(5)</td><td>New SOC pricing</td></tr><tr><td>05:12:45</td><td>05:20:47</td><td>Jenkins CI - 15</td><td>m157.t1(8)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>05:13:40</td><td>05:19:05</td><td>Jenkins CI - 16</td><td>m133.t15(0)</td><td>BVR Underpayment</td></tr><tr><td>05:14:41</td><td>05:20:02</td><td>Jenkins CI - 11</td><td>m133.t15(1)</td><td>BVR Underpayment</td></tr><tr><td>05:14:46</td><td>05:18:43</td><td>Jenkins CI - 14</td><td>m117.t5(4)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>05:16:09</td><td>05:23:01</td><td>Jenkins CI - 12</td><td>m117.t45(3)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>05:16:35</td><td>05:22:43</td><td>Jenkins CI - 13</td><td>m117.t4(12)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:17:14</td><td>05:23:19</td><td>Jenkins CI - 18</td><td>m116.t1(0)</td><td>New SOC pricing</td></tr><tr><td>05:18:45</td><td>05:21:22</td><td>Jenkins CI - 17</td><td>m125.t9(0)</td><td>Endorsement negative checks - date endorsement invalid</td></tr><tr><td>05:18:55</td><td>05:25:45</td><td>Jenkins CI - 14</td><td>m117.t45(7)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>05:19:16</td><td>05:25:12</td><td>Jenkins CI - 16</td><td>m117.t4(10)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:20:12</td><td>05:33:26</td><td>Jenkins CI - 11</td><td>m133.t35(0)</td><td>Credit balance allocation - endorsement</td></tr><tr><td>05:20:58</td><td>05:22:18</td><td>Jenkins CI - 15</td><td>m42.t15(2)</td><td>API - Create contact with parameters</td></tr><tr><td>05:21:10</td><td>05:25:45</td><td>Jenkins CI - 19</td><td>m133.t15(3)</td><td>BVR Underpayment</td></tr><tr><td>05:21:33</td><td>05:27:19</td><td>Jenkins CI - 17</td><td>m116.t6(3)</td><td>New ETI pricing</td></tr><tr><td>05:22:29</td><td>05:26:50</td><td>Jenkins CI - 15</td><td>m117.t5(6)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>05:22:54</td><td>05:28:49</td><td>Jenkins CI - 13</td><td>m72.t10(5)</td><td>Create proposal/policy for product</td></tr><tr><td>05:23:12</td><td>05:26:19</td><td>Jenkins CI - 12</td><td>m118.t12(4)</td><td>No coverage for contact under minimum age</td></tr><tr><td>05:23:31</td><td>05:31:58</td><td>Jenkins CI - 18</td><td>m116.t9(8)</td><td>LPD Pricing</td></tr><tr><td>05:25:24</td><td>05:32:33</td><td>Jenkins CI - 16</td><td>m116.t4(0)</td><td>SOC Camp pricing</td></tr><tr><td>05:25:56</td><td>05:28:56</td><td>Jenkins CI - 19</td><td>m72.t10(16)</td><td>Create proposal/policy for product</td></tr><tr><td>05:25:56</td><td>05:31:50</td><td>Jenkins CI - 14</td><td>m125.t21(1)</td><td>Storno endosement process</td></tr><tr><td>05:26:30</td><td>05:33:17</td><td>Jenkins CI - 12</td><td>m116.t9(7)</td><td>LPD Pricing</td></tr><tr><td>05:27:01</td><td>05:30:13</td><td>Jenkins CI - 15</td><td>m117.t5(1)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>05:27:31</td><td>05:34:37</td><td>Jenkins CI - 17</td><td>m116.t9(1)</td><td>LPD Pricing</td></tr><tr><td>05:29:01</td><td>05:38:59</td><td>Jenkins CI - 13</td><td>m116.t44(9)</td><td>Dependant products for family members</td></tr><tr><td>05:29:11</td><td>05:32:35</td><td>Jenkins CI - 19</td><td>m117.t1(0)</td><td>Policy cancellation - Immediate cancellation</td></tr><tr><td>05:30:25</td><td>05:34:38</td><td>Jenkins CI - 15</td><td>m118.t6(0)</td><td>Membership Camping without Camping section</td></tr><tr><td>05:32:02</td><td>05:34:05</td><td>Jenkins CI - 14</td><td>m70.t9</td><td>Create partner</td></tr><tr><td>05:32:10</td><td>05:40:45</td><td>Jenkins CI - 18</td><td>m116.t11(2)</td><td>LPI Pricing</td></tr><tr><td>05:32:44</td><td>05:38:14</td><td>Jenkins CI - 16</td><td>m125.t11(2)</td><td>Endorsement management SOC - <idScenario></td></tr><tr><td>05:32:47</td><td>05:36:24</td><td>Jenkins CI - 19</td><td>m117.t5(7)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>05:33:29</td><td>05:37:07</td><td>Jenkins CI - 12</td><td>m157.t3(4)</td><td>Change contact portfolio through API calls</td></tr><tr><td>05:33:40</td><td>05:37:32</td><td>Jenkins CI - 11</td><td>m117.t1(2)</td><td>Policy cancellation - Immediate cancellation</td></tr><tr><td>05:34:17</td><td>05:37:08</td><td>Jenkins CI - 14</td><td>m144.t1(3)</td><td>Check renewal pricing</td></tr><tr><td>05:34:49</td><td>05:40:38</td><td>Jenkins CI - 17</td><td>m144.t1(1)</td><td>Check renewal pricing</td></tr><tr><td>05:34:52</td><td>05:37:37</td><td>Jenkins CI - 15</td><td>m118.t13(3)</td><td>No coverage for foreign residence</td></tr><tr><td>05:36:36</td><td>05:42:49</td><td>Jenkins CI - 19</td><td>m116.t1(3)</td><td>New SOC pricing</td></tr><tr><td>05:37:19</td><td>05:40:17</td><td>Jenkins CI - 14</td><td>m133.t36(0)</td><td>Invoice due date - New policy</td></tr><tr><td>05:37:19</td><td>05:43:22</td><td>Jenkins CI - 12</td><td>m117.t4(15)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:37:46</td><td>05:43:30</td><td>Jenkins CI - 11</td><td>m117.t4(7)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:37:46</td><td>05:43:53</td><td>Jenkins CI - 15</td><td>m116.t6(5)</td><td>New ETI pricing</td></tr><tr><td>05:38:25</td><td>05:39:28</td><td>Jenkins CI - 16</td><td>m157.t3(0)</td><td>Change contact portfolio through API calls</td></tr><tr><td>05:39:11</td><td>05:46:31</td><td>Jenkins CI - 13</td><td>m116.t4(5)</td><td>SOC Camp pricing</td></tr><tr><td>05:39:40</td><td>05:42:51</td><td>Jenkins CI - 16</td><td>m144.t1(2)</td><td>Check renewal pricing</td></tr><tr><td>05:40:29</td><td>05:43:35</td><td>Jenkins CI - 14</td><td>m118.t13(2)</td><td>No coverage for foreign residence</td></tr><tr><td>05:40:53</td><td>05:46:53</td><td>Jenkins CI - 17</td><td>m117.t4(16)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:40:57</td><td>05:46:36</td><td>Jenkins CI - 18</td><td>m72.t10(13)</td><td>Create proposal/policy for product</td></tr><tr><td>05:43:02</td><td>05:54:22</td><td>Jenkins CI - 16</td><td>m133.t39(2)</td><td>QR payment E2E</td></tr><tr><td>05:43:02</td><td>05:49:10</td><td>Jenkins CI - 19</td><td>m116.t6(4)</td><td>New ETI pricing</td></tr><tr><td>05:43:34</td><td>05:49:12</td><td>Jenkins CI - 12</td><td>m117.t4(5)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:43:42</td><td>05:46:42</td><td>Jenkins CI - 11</td><td>m117.t6(0)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>05:43:47</td><td>05:49:16</td><td>Jenkins CI - 14</td><td>m72.t10(14)</td><td>Create proposal/policy for product</td></tr><tr><td>05:44:05</td><td>05:52:11</td><td>Jenkins CI - 15</td><td>m116.t9(15)</td><td>LPD Pricing</td></tr><tr><td>05:46:44</td><td>05:58:47</td><td>Jenkins CI - 13</td><td>m116.t16(1)</td><td>LPP Pricing</td></tr><tr><td>05:46:48</td><td>05:55:10</td><td>Jenkins CI - 18</td><td>m116.t46(5)</td><td>Manual discount pricing</td></tr><tr><td>05:46:56</td><td>05:51:27</td><td>Jenkins CI - 11</td><td>m117.t31(2)</td><td>Policy cancellation - with or without IBAN</td></tr><tr><td>05:47:06</td><td>05:54:13</td><td>Jenkins CI - 17</td><td>m117.t6(7)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>05:49:23</td><td>05:56:39</td><td>Jenkins CI - 19</td><td>m157.t1(9)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>05:49:25</td><td>05:56:26</td><td>Jenkins CI - 12</td><td>m117.t6(5)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>05:49:26</td><td>05:55:12</td><td>Jenkins CI - 14</td><td>m72.t10(0)</td><td>Create proposal/policy for product</td></tr><tr><td>05:51:40</td><td>06:00:16</td><td>Jenkins CI - 11</td><td>m118.t9(5)</td><td>No double coverage</td></tr><tr><td>05:52:24</td><td>05:59:17</td><td>Jenkins CI - 15</td><td>m116.t9(3)</td><td>LPD Pricing</td></tr><tr><td>05:54:25</td><td>05:57:23</td><td>Jenkins CI - 17</td><td>m118.t12(0)</td><td>No coverage for contact under minimum age</td></tr><tr><td>05:54:34</td><td>05:57:13</td><td>Jenkins CI - 16</td><td>m117.t4(2)</td><td>Policy cancellation - Default settings</td></tr><tr><td>05:55:22</td><td>05:59:46</td><td>Jenkins CI - 18</td><td>m68.t3</td><td>Add and remove spouse</td></tr><tr><td>05:55:25</td><td>06:05:02</td><td>Jenkins CI - 14</td><td>m125.t26(0)</td><td>Technical endorsment</td></tr><tr><td>05:56:38</td><td>05:59:51</td><td>Jenkins CI - 12</td><td>m118.t13(5)</td><td>No coverage for foreign residence</td></tr><tr><td>05:56:53</td><td>06:09:11</td><td>Jenkins CI - 19</td><td>m133.t34(0)</td><td>Credit balance allocation - acquisition</td></tr><tr><td>05:57:25</td><td>06:01:07</td><td>Jenkins CI - 16</td><td>m117.t6(1)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>05:57:37</td><td>06:03:04</td><td>Jenkins CI - 17</td><td>m72.t10(12)</td><td>Create proposal/policy for product</td></tr><tr><td>05:59:00</td><td>06:02:36</td><td>Jenkins CI - 13</td><td>m117.t5(5)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>05:59:30</td><td>06:09:35</td><td>Jenkins CI - 15</td><td>m116.t44(0)</td><td>Dependant products for family members</td></tr><tr><td>06:00:01</td><td>06:08:54</td><td>Jenkins CI - 18</td><td>m157.t1(0)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>06:00:04</td><td>06:00:58</td><td>Jenkins CI - 12</td><td>m42.t15(0)</td><td>API - Create contact with parameters</td></tr><tr><td>06:00:29</td><td>06:06:39</td><td>Jenkins CI - 11</td><td>m116.t6(0)</td><td>New ETI pricing</td></tr><tr><td>06:01:10</td><td>06:08:01</td><td>Jenkins CI - 12</td><td>m116.t11(1)</td><td>LPI Pricing</td></tr><tr><td>06:01:22</td><td>06:04:28</td><td>Jenkins CI - 16</td><td>m117.t31(0)</td><td>Policy cancellation - with or without IBAN</td></tr><tr><td>06:02:48</td><td>06:07:52</td><td>Jenkins CI - 13</td><td>m118.t9(0)</td><td>No double coverage</td></tr><tr><td>06:03:17</td><td>06:08:58</td><td>Jenkins CI - 17</td><td>m72.t10(8)</td><td>Create proposal/policy for product</td></tr><tr><td>06:04:44</td><td>06:11:12</td><td>Jenkins CI - 16</td><td>m117.t45(4)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>06:05:15</td><td>06:07:34</td><td>Jenkins CI - 14</td><td>m127.t7(2)</td><td>Proposal and policy numbering</td></tr><tr><td>06:06:52</td><td>06:16:50</td><td>Jenkins CI - 11</td><td>m116.t44(8)</td><td>Dependant products for family members</td></tr><tr><td>06:07:46</td><td>06:11:42</td><td>Jenkins CI - 14</td><td>m117.t5(2)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>06:08:04</td><td>06:10:51</td><td>Jenkins CI - 13</td><td>m118.t12(3)</td><td>No coverage for contact under minimum age</td></tr><tr><td>06:08:13</td><td>06:20:35</td><td>Jenkins CI - 12</td><td>m116.t39(6)</td><td>Carte Entreprise Pricing</td></tr><tr><td>06:09:07</td><td>06:14:36</td><td>Jenkins CI - 18</td><td>m157.t3(3)</td><td>Change contact portfolio through API calls</td></tr><tr><td>06:09:08</td><td>06:16:21</td><td>Jenkins CI - 17</td><td>m116.t11(0)</td><td>LPI Pricing</td></tr><tr><td>06:09:28</td><td>06:17:59</td><td>Jenkins CI - 19</td><td>m116.t9(12)</td><td>LPD Pricing</td></tr><tr><td>06:09:48</td><td>06:15:12</td><td>Jenkins CI - 15</td><td>m125.t21(2)</td><td>Storno endosement process</td></tr><tr><td>06:11:04</td><td>06:13:41</td><td>Jenkins CI - 13</td><td>m118.t13(0)</td><td>No coverage for foreign residence</td></tr><tr><td>06:11:26</td><td>06:19:36</td><td>Jenkins CI - 16</td><td>m116.t9(10)</td><td>LPD Pricing</td></tr><tr><td>06:11:55</td><td>06:16:55</td><td>Jenkins CI - 14</td><td>m117.t8(0)</td><td>Policy cancellation - Reception date</td></tr><tr><td>06:13:54</td><td>06:21:38</td><td>Jenkins CI - 13</td><td>m157.t1(4)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>06:14:48</td><td>06:17:44</td><td>Jenkins CI - 18</td><td>m133.t36(3)</td><td>Invoice due date - New policy</td></tr><tr><td>06:15:25</td><td>06:18:55</td><td>Jenkins CI - 15</td><td>m70.t10</td><td>Create a legal account</td></tr><tr><td>06:16:34</td><td>06:26:45</td><td>Jenkins CI - 17</td><td>m116.t44(6)</td><td>Dependant products for family members</td></tr><tr><td>06:17:03</td><td>06:25:51</td><td>Jenkins CI - 11</td><td>m125.t21(5)</td><td>Storno endosement process</td></tr><tr><td>06:17:08</td><td>06:21:06</td><td>Jenkins CI - 14</td><td>m117.t45(2)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>06:17:57</td><td>06:20:49</td><td>Jenkins CI - 18</td><td>m133.t36(1)</td><td>Invoice due date - New policy</td></tr><tr><td>06:18:12</td><td>06:25:15</td><td>Jenkins CI - 19</td><td>m116.t11(4)</td><td>LPI Pricing</td></tr><tr><td>06:19:08</td><td>06:21:56</td><td>Jenkins CI - 15</td><td>m127.t8</td><td>Second proposal numbering</td></tr><tr><td>06:19:49</td><td>06:26:05</td><td>Jenkins CI - 16</td><td>m170.t2(1)</td><td>Pay a debt - Renewal</td></tr><tr><td>06:20:48</td><td>06:29:52</td><td>Jenkins CI - 12</td><td>m116.t39(2)</td><td>Carte Entreprise Pricing</td></tr><tr><td>06:21:02</td><td>06:24:46</td><td>Jenkins CI - 18</td><td>m117.t6(2)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>06:21:19</td><td>06:24:43</td><td>Jenkins CI - 14</td><td>m118.t8(0)</td><td>No dependent product without main product</td></tr><tr><td>06:21:52</td><td>06:30:02</td><td>Jenkins CI - 13</td><td>m157.t1(1)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>06:22:09</td><td>06:28:16</td><td>Jenkins CI - 15</td><td>m144.t1(7)</td><td>Check renewal pricing</td></tr><tr><td>06:24:57</td><td>06:33:25</td><td>Jenkins CI - 14</td><td>m118.t9(4)</td><td>No double coverage</td></tr><tr><td>06:25:02</td><td>06:31:46</td><td>Jenkins CI - 18</td><td>m117.t45(6)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>06:25:30</td><td>06:33:28</td><td>Jenkins CI - 19</td><td>m157.t1(2)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>06:26:04</td><td>06:27:14</td><td>Jenkins CI - 11</td><td>m42.t3</td><td>Update a contact with the contact services API</td></tr><tr><td>06:26:19</td><td>06:32:08</td><td>Jenkins CI - 16</td><td>m144.t1(6)</td><td>Check renewal pricing</td></tr><tr><td>06:26:59</td><td>06:33:18</td><td>Jenkins CI - 17</td><td>m125.t21(3)</td><td>Storno endosement process</td></tr><tr><td>06:27:26</td><td>06:35:22</td><td>Jenkins CI - 11</td><td>m157.t1(6)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>06:28:29</td><td>06:31:37</td><td>Jenkins CI - 15</td><td>m144.t1(4)</td><td>Check renewal pricing</td></tr><tr><td>06:30:05</td><td>06:40:07</td><td>Jenkins CI - 12</td><td>m116.t44(10)</td><td>Dependant products for family members</td></tr><tr><td>06:30:16</td><td>06:36:34</td><td>Jenkins CI - 13</td><td>m144.t1(5)</td><td>Check renewal pricing</td></tr><tr><td>06:31:51</td><td>06:37:24</td><td>Jenkins CI - 15</td><td>m117.t4(8)</td><td>Policy cancellation - Default settings</td></tr><tr><td>06:31:59</td><td>06:38:00</td><td>Jenkins CI - 18</td><td>m72.t10(6)</td><td>Create proposal/policy for product</td></tr><tr><td>06:32:22</td><td>06:43:36</td><td>Jenkins CI - 16</td><td>m133.t39(0)</td><td>QR payment E2E</td></tr><tr><td>06:33:32</td><td>06:39:24</td><td>Jenkins CI - 17</td><td>m117.t4(14)</td><td>Policy cancellation - Default settings</td></tr><tr><td>06:33:39</td><td>06:41:54</td><td>Jenkins CI - 14</td><td>m118.t9(2)</td><td>No double coverage</td></tr><tr><td>06:33:39</td><td>06:36:58</td><td>Jenkins CI - 19</td><td>m117.t4(4)</td><td>Policy cancellation - Default settings</td></tr><tr><td>06:35:35</td><td>06:46:58</td><td>Jenkins CI - 11</td><td>m133.t39(1)</td><td>QR payment E2E</td></tr><tr><td>06:36:48</td><td>06:39:28</td><td>Jenkins CI - 13</td><td>m117.t7(0)</td><td>Policy cancellation - Product Dependencies</td></tr><tr><td>06:37:12</td><td>06:45:21</td><td>Jenkins CI - 19</td><td>m118.t9(3)</td><td>No double coverage</td></tr><tr><td>06:37:38</td><td>06:44:05</td><td>Jenkins CI - 15</td><td>m117.t45(5)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>06:38:14</td><td>06:43:31</td><td>Jenkins CI - 18</td><td>m72.t10(3)</td><td>Create proposal/policy for product</td></tr><tr><td>06:39:38</td><td>06:42:27</td><td>Jenkins CI - 17</td><td>m117.t5(3)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>06:39:38</td><td>06:46:55</td><td>Jenkins CI - 13</td><td>m116.t4(3)</td><td>SOC Camp pricing</td></tr><tr><td>06:40:21</td><td>06:50:54</td><td>Jenkins CI - 12</td><td>m116.t44(5)</td><td>Dependant products for family members</td></tr><tr><td>06:42:08</td><td>06:47:58</td><td>Jenkins CI - 14</td><td>m72.t10(10)</td><td>Create proposal/policy for product</td></tr><tr><td>06:42:44</td><td>06:49:56</td><td>Jenkins CI - 17</td><td>m117.t6(4)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>06:43:46</td><td>06:49:07</td><td>Jenkins CI - 18</td><td>m72.t10(1)</td><td>Create proposal/policy for product</td></tr><tr><td>06:43:50</td><td>06:46:24</td><td>Jenkins CI - 16</td><td>m127.t7(1)</td><td>Proposal and policy numbering</td></tr><tr><td>06:44:19</td><td>06:47:30</td><td>Jenkins CI - 15</td><td>m118.t8(1)</td><td>No dependent product without main product</td></tr><tr><td>06:45:35</td><td>06:51:01</td><td>Jenkins CI - 19</td><td>m118.t9(1)</td><td>No double coverage</td></tr><tr><td>06:46:38</td><td>06:54:12</td><td>Jenkins CI - 16</td><td>m117.t6(6)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>06:47:09</td><td>06:55:22</td><td>Jenkins CI - 13</td><td>m116.t4(1)</td><td>SOC Camp pricing</td></tr><tr><td>06:47:12</td><td>06:50:58</td><td>Jenkins CI - 11</td><td>m117.t7(1)</td><td>Policy cancellation - Product Dependencies</td></tr><tr><td>06:47:43</td><td>06:50:31</td><td>Jenkins CI - 15</td><td>m118.t13(1)</td><td>No coverage for foreign residence</td></tr><tr><td>06:48:12</td><td>06:54:39</td><td>Jenkins CI - 14</td><td>m116.t1(4)</td><td>New SOC pricing</td></tr><tr><td>06:49:22</td><td>06:50:42</td><td>Jenkins CI - 18</td><td>m42.t15(1)</td><td>API - Create contact with parameters</td></tr><tr><td>06:50:14</td><td>06:55:42</td><td>Jenkins CI - 17</td><td>m117.t8(3)</td><td>Policy cancellation - Reception date</td></tr><tr><td>06:50:45</td><td>06:56:21</td><td>Jenkins CI - 15</td><td>m72.t10(9)</td><td>Create proposal/policy for product</td></tr><tr><td>06:50:56</td><td>06:58:39</td><td>Jenkins CI - 18</td><td>m116.t4(6)</td><td>SOC Camp pricing</td></tr><tr><td>06:51:10</td><td>06:55:07</td><td>Jenkins CI - 11</td><td>m117.t45(1)</td><td>Policy cancellation - Revive policy</td></tr><tr><td>06:51:10</td><td>07:01:26</td><td>Jenkins CI - 12</td><td>m116.t44(1)</td><td>Dependant products for family members</td></tr><tr><td>06:51:14</td><td>06:54:02</td><td>Jenkins CI - 19</td><td>m118.t12(2)</td><td>No coverage for contact under minimum age</td></tr><tr><td>06:54:17</td><td>07:00:34</td><td>Jenkins CI - 19</td><td>m72.t10(4)</td><td>Create proposal/policy for product</td></tr><tr><td>06:54:27</td><td>06:57:41</td><td>Jenkins CI - 16</td><td>m118.t12(5)</td><td>No coverage for contact under minimum age</td></tr><tr><td>06:54:52</td><td>07:00:55</td><td>Jenkins CI - 14</td><td>m116.t1(2)</td><td>New SOC pricing</td></tr><tr><td>06:55:20</td><td>07:01:19</td><td>Jenkins CI - 11</td><td>m116.t6(6)</td><td>New ETI pricing</td></tr><tr><td>06:55:36</td><td>07:01:52</td><td>Jenkins CI - 13</td><td>m116.t6(2)</td><td>New ETI pricing</td></tr><tr><td>06:55:57</td><td>07:01:53</td><td>Jenkins CI - 17</td><td>m116.t6(1)</td><td>New ETI pricing</td></tr><tr><td>06:56:35</td><td>07:05:19</td><td>Jenkins CI - 15</td><td>m125.t21(0)</td><td>Storno endosement process</td></tr><tr><td>06:57:56</td><td>07:03:38</td><td>Jenkins CI - 16</td><td>m72.t10(11)</td><td>Create proposal/policy for product</td></tr><tr><td>06:58:53</td><td>07:07:32</td><td>Jenkins CI - 18</td><td>m116.t46(3)</td><td>Manual discount pricing</td></tr><tr><td>07:00:50</td><td>07:07:14</td><td>Jenkins CI - 19</td><td>m116.t1(1)</td><td>New SOC pricing</td></tr><tr><td>07:01:10</td><td>07:08:59</td><td>Jenkins CI - 14</td><td>m116.t4(2)</td><td>SOC Camp pricing</td></tr><tr><td>07:01:34</td><td>07:09:59</td><td>Jenkins CI - 11</td><td>m116.t9(14)</td><td>LPD Pricing</td></tr><tr><td>07:01:42</td><td>07:03:47</td><td>Jenkins CI - 12</td><td>m70.t2</td><td>Create a personal account</td></tr><tr><td>07:02:08</td><td>07:10:32</td><td>Jenkins CI - 13</td><td>m116.t9(9)</td><td>LPD Pricing</td></tr><tr><td>07:02:09</td><td>07:11:09</td><td>Jenkins CI - 17</td><td>m116.t46(2)</td><td>Manual discount pricing</td></tr><tr><td>07:03:53</td><td>07:09:41</td><td>Jenkins CI - 16</td><td>m72.t10(7)</td><td>Create proposal/policy for product</td></tr><tr><td>07:04:02</td><td>07:09:10</td><td>Jenkins CI - 12</td><td>m133.t15(2)</td><td>BVR Underpayment</td></tr><tr><td>07:05:35</td><td>07:11:30</td><td>Jenkins CI - 15</td><td>m125.t22(2)</td><td>Change policy holder</td></tr><tr><td>07:07:30</td><td>07:14:31</td><td>Jenkins CI - 19</td><td>m116.t9(4)</td><td>LPD Pricing</td></tr><tr><td>07:07:46</td><td>07:16:31</td><td>Jenkins CI - 18</td><td>m116.t39(1)</td><td>Carte Entreprise Pricing</td></tr><tr><td>07:09:15</td><td>07:17:55</td><td>Jenkins CI - 14</td><td>m116.t46(0)</td><td>Manual discount pricing</td></tr><tr><td>07:09:28</td><td>07:26:22</td><td>Jenkins CI - 12</td><td>m133.t35(1)</td><td>Credit balance allocation - endorsement</td></tr><tr><td>07:09:56</td><td>07:17:10</td><td>Jenkins CI - 16</td><td>m116.t9(6)</td><td>LPD Pricing</td></tr><tr><td>07:10:13</td><td>07:17:31</td><td>Jenkins CI - 11</td><td>m116.t21(1)</td><td>LPB Pricing</td></tr><tr><td>07:10:48</td><td>07:16:48</td><td>Jenkins CI - 13</td><td>m125.t22(0)</td><td>Change policy holder</td></tr><tr><td>07:11:24</td><td>07:20:04</td><td>Jenkins CI - 17</td><td>m116.t39(0)</td><td>Carte Entreprise Pricing</td></tr><tr><td>07:11:45</td><td>07:24:04</td><td>Jenkins CI - 15</td><td>m133.t34(1)</td><td>Credit balance allocation - acquisition</td></tr><tr><td>07:14:47</td><td>07:23:42</td><td>Jenkins CI - 19</td><td>m116.t46(6)</td><td>Manual discount pricing</td></tr><tr><td>07:16:46</td><td>07:27:32</td><td>Jenkins CI - 18</td><td>m116.t44(11)</td><td>Dependant products for family members</td></tr><tr><td>07:17:03</td><td>07:21:02</td><td>Jenkins CI - 13</td><td>m68.t2</td><td>Add child</td></tr><tr><td>07:17:25</td><td>07:26:20</td><td>Jenkins CI - 16</td><td>m116.t21(0)</td><td>LPB Pricing</td></tr><tr><td>07:17:45</td><td>07:23:25</td><td>Jenkins CI - 11</td><td>m125.t11(3)</td><td>Endorsement management SOC - <idScenario></td></tr><tr><td>07:18:10</td><td>07:30:15</td><td>Jenkins CI - 14</td><td>m116.t39(5)</td><td>Carte Entreprise Pricing</td></tr><tr><td>07:20:19</td><td>07:29:05</td><td>Jenkins CI - 17</td><td>m125.t18(1)</td><td>Endorsement management LPD</td></tr><tr><td>07:21:16</td><td>07:24:05</td><td>Jenkins CI - 13</td><td>m127.t4</td><td>Renewed policy numbering</td></tr><tr><td>07:23:40</td><td>07:29:42</td><td>Jenkins CI - 11</td><td>m125.t14(1)</td><td>Endorsement management ETI</td></tr><tr><td>07:23:57</td><td>07:29:12</td><td>Jenkins CI - 19</td><td>m125.t11(0)</td><td>Endorsement management SOC - <idScenario></td></tr><tr><td>07:24:22</td><td>07:30:29</td><td>Jenkins CI - 13</td><td>m144.t1(0)</td><td>Check renewal pricing</td></tr><tr><td>07:24:23</td><td>07:27:11</td><td>Jenkins CI - 15</td><td>m127.t7(3)</td><td>Proposal and policy numbering</td></tr><tr><td>07:26:36</td><td>07:35:06</td><td>Jenkins CI - 16</td><td>m116.t46(7)</td><td>Manual discount pricing</td></tr><tr><td>07:26:39</td><td>07:32:42</td><td>Jenkins CI - 12</td><td>m72.t10(2)</td><td>Create proposal/policy for product</td></tr><tr><td>07:27:26</td><td>07:29:18</td><td>Jenkins CI - 15</td><td>m127.t7(0)</td><td>Proposal and policy numbering</td></tr><tr><td>07:27:48</td><td>07:37:55</td><td>Jenkins CI - 18</td><td>m116.t44(2)</td><td>Dependant products for family members</td></tr><tr><td>07:29:21</td><td>07:38:19</td><td>Jenkins CI - 17</td><td>m125.t20(1)</td><td>Endorsement management LPP</td></tr><tr><td>07:29:28</td><td>07:34:16</td><td>Jenkins CI - 19</td><td>m68.t4</td><td>Add and remove child</td></tr><tr><td>07:29:34</td><td>07:32:18</td><td>Jenkins CI - 15</td><td>m117.t4(0)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:30:00</td><td>07:33:41</td><td>Jenkins CI - 11</td><td>m68.t1</td><td>Add spouse</td></tr><tr><td>07:30:32</td><td>07:36:40</td><td>Jenkins CI - 14</td><td>m125.t22(3)</td><td>Change policy holder</td></tr><tr><td>07:30:44</td><td>07:33:42</td><td>Jenkins CI - 13</td><td>m133.t36(2)</td><td>Invoice due date - New policy</td></tr><tr><td>07:32:33</td><td>07:36:12</td><td>Jenkins CI - 15</td><td>m117.t5(0)</td><td>Policy cancellation - Cancellation notice period</td></tr><tr><td>07:32:58</td><td>07:41:25</td><td>Jenkins CI - 12</td><td>m116.t9(13)</td><td>LPD Pricing</td></tr><tr><td>07:33:57</td><td>07:41:46</td><td>Jenkins CI - 11</td><td>m157.t1(5)</td><td>Acquire and check prices policies from Sales UI</td></tr><tr><td>07:33:57</td><td>07:39:48</td><td>Jenkins CI - 13</td><td>m117.t4(11)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:34:32</td><td>07:38:35</td><td>Jenkins CI - 19</td><td>m70.t5</td><td>Check the push contact from SFDC to IDIT</td></tr><tr><td>07:35:21</td><td>07:44:34</td><td>Jenkins CI - 16</td><td>m116.t46(4)</td><td>Manual discount pricing</td></tr><tr><td>07:36:28</td><td>07:39:35</td><td>Jenkins CI - 15</td><td>m117.t7(2)</td><td>Policy cancellation - Product Dependencies</td></tr><tr><td>07:36:55</td><td>07:48:54</td><td>Jenkins CI - 14</td><td>m170.t4(0)</td><td>Pay a debt - Endorsement proposal</td></tr><tr><td>07:38:11</td><td>07:44:08</td><td>Jenkins CI - 18</td><td>m117.t4(6)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:38:34</td><td>07:38:48</td><td>Jenkins CI - 17</td><td>m42.t7</td><td>Get contact with contact services API</td></tr><tr><td>07:38:50</td><td>07:42:04</td><td>Jenkins CI - 19</td><td>m117.t4(3)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:39:03</td><td>07:41:25</td><td>Jenkins CI - 17</td><td>m157.t3(2)</td><td>Change contact portfolio through API calls</td></tr><tr><td>07:39:51</td><td>07:47:11</td><td>Jenkins CI - 15</td><td>m116.t9(0)</td><td>LPD Pricing</td></tr><tr><td>07:40:04</td><td>07:42:22</td><td>Jenkins CI - 13</td><td>m117.t4(1)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:41:41</td><td>07:49:06</td><td>Jenkins CI - 17</td><td>m117.t6(3)</td><td>Policy cancellation - Reopen policy</td></tr><tr><td>07:41:41</td><td>07:50:30</td><td>Jenkins CI - 12</td><td>m116.t9(11)</td><td>LPD Pricing</td></tr><tr><td>07:42:01</td><td>07:48:17</td><td>Jenkins CI - 11</td><td>m117.t4(9)</td><td>Policy cancellation - Default settings</td></tr><tr><td>07:42:19</td><td>07:47:25</td><td>Jenkins CI - 19</td><td>m117.t8(1)</td><td>Policy cancellation - Reception date</td></tr><tr><td>07:42:38</td><td>07:45:51</td><td>Jenkins CI - 13</td><td>m117.t31(1)</td><td>Policy cancellation - with or without IBAN</td></tr><tr><td>07:44:24</td><td>07:47:27</td><td>Jenkins CI - 18</td><td>m118.t12(1)</td><td>No coverage for contact under minimum age</td></tr><tr><td>07:44:49</td><td>07:55:23</td><td>Jenkins CI - 16</td><td>m116.t39(4)</td><td>Carte Entreprise Pricing</td></tr><tr><td>07:46:06</td><td>07:56:34</td><td>Jenkins CI - 13</td><td>m72.t2(0)</td><td>Update Proposal start date</td></tr><tr><td>07:47:27</td><td>07:56:15</td><td>Jenkins CI - 15</td><td>m116.t11(3)</td><td>LPI Pricing</td></tr><tr><td>07:47:42</td><td>07:53:04</td><td>Jenkins CI - 19</td><td>m72.t10(15)</td><td>Create proposal/policy for product</td></tr><tr><td>07:47:43</td><td>07:54:53</td><td>Jenkins CI - 18</td><td>m116.t16(0)</td><td>LPP Pricing</td></tr><tr><td>07:48:33</td><td>07:56:01</td><td>Jenkins CI - 11</td><td>m116.t4(7)</td><td>SOC Camp pricing</td></tr><tr><td>07:49:09</td><td>07:56:31</td><td>Jenkins CI - 14</td><td>m116.t9(2)</td><td>LPD Pricing</td></tr><tr><td>07:49:22</td><td>07:56:54</td><td>Jenkins CI - 17</td><td>m116.t4(4)</td><td>SOC Camp pricing</td></tr><tr><td>07:50:45</td><td>07:56:58</td><td>Jenkins CI - 12</td><td>m116.t22(0)</td><td>Bike Insurance pricing</td></tr><tr><td>07:53:20</td><td>08:03:19</td><td>Jenkins CI - 19</td><td>m116.t39(3)</td><td>Carte Entreprise Pricing</td></tr><tr><td>07:55:10</td><td>08:00:37</td><td>Jenkins CI - 18</td><td>m125.t11(1)</td><td>Endorsement management SOC - <idScenario></td></tr><tr><td>07:55:39</td><td>08:04:31</td><td>Jenkins CI - 16</td><td>m125.t17(0)</td><td>Endorsement management LPI</td></tr><tr><td>07:56:17</td><td>08:06:59</td><td>Jenkins CI - 11</td><td>m116.t44(7)</td><td>Dependant products for family members</td></tr><tr><td>07:56:32</td><td>08:05:03</td><td>Jenkins CI - 15</td><td>m116.t46(1)</td><td>Manual discount pricing</td></tr><tr><td>07:56:47</td><td>08:07:16</td><td>Jenkins CI - 14</td><td>m116.t44(4)</td><td>Dependant products for family members</td></tr><tr><td>07:56:50</td><td>08:03:19</td><td>Jenkins CI - 13</td><td>m125.t14(2)</td><td>Endorsement management ETI</td></tr><tr><td>07:57:12</td><td>08:05:52</td><td>Jenkins CI - 12</td><td>m125.t18(0)</td><td>Endorsement management LPD</td></tr><tr><td>07:57:12</td><td>08:04:19</td><td>Jenkins CI - 17</td><td>m116.t9(5)</td><td>LPD Pricing</td></tr><tr><td>08:00:53</td><td>08:07:20</td><td>Jenkins CI - 18</td><td>m170.t2(0)</td><td>Pay a debt - Renewal</td></tr><tr><td>08:03:36</td><td>08:12:30</td><td>Jenkins CI - 13</td><td>m125.t20(0)</td><td>Endorsement management LPP</td></tr><tr><td>08:03:41</td><td>08:10:08</td><td>Jenkins CI - 19</td><td>m125.t14(0)</td><td>Endorsement management ETI</td></tr><tr><td>08:04:35</td><td>08:14:53</td><td>Jenkins CI - 17</td><td>m116.t44(3)</td><td>Dependant products for family members</td></tr><tr><td>08:04:48</td><td>08:11:09</td><td>Jenkins CI - 16</td><td>m116.t45(0)</td><td>TCS Home pricing</td></tr><tr><td>08:05:19</td><td>08:14:11</td><td>Jenkins CI - 15</td><td>m125.t21(4)</td><td>Storno endosement process</td></tr><tr><td>08:06:08</td><td>08:12:17</td><td>Jenkins CI - 12</td><td>m125.t22(1)</td><td>Change policy holder</td></tr><tr><td>08:07:16</td><td>08:12:39</td><td>Jenkins CI - 11</td><td>m127.t3</td><td>Endorsed policy numbering</td></tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <p class="copy"> &copy; 2021 - Boozang INC. ALL RIGHTS RESERVED. </p>
+        </footer>
+      </div>
+    </body>
+    </html>

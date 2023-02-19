@@ -1,0 +1,104 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m116] Product pricing",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-678",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m116",
+    "uri": "jira-features/2_NISTA-678.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m116.t22(0)] Bike Insurance pricing (Jenkins CI - 12)",
+        "description": "Bike Insurance pricing",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-678"
+          },
+          {
+            "name": "@NISTA-1667"
+          },
+          {
+            "name": "@IDITS-18493"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 9586000000,
+              "status": "passed"
+            },
+            "name": "A contact is created with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t22/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDM1LAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDU19DQU1QSU5HX0NMVUJfR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIkFQSSIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlQ29kZSI6ICIwIiwKICAiJHBhcmFtZXRlci5jdXN0b21lclR5cGVMYWJlbCI6ICJDbGllbnQgcHJpdukiLAogICIkcGFyYW1ldGVyLmVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJTkRJVklEVUFMIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mcm9tQm9vbWkiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob3VzZU51bWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogIlNVSVNTRSIsCiAgIiRwYXJhbWV0ZXIubG9jYWxpdHkiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6IDcwMDAxNDkxOSwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJDQ19WRVJOSUVSIiwKICAiJHBhcmFtZXRlci5zYWxlc0NoYW5uZWwiOiAiQ09OVEFDVF9DRU5URVIiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0cmVldCI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAiTkEiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiQ0xJRU5UX1BSSVbJIiwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0IiwKICAiJHBhcmFtZXRlci56aXBDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZUNvbXBsZW1lbnQiOiAiIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJVYXB0YWRmIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJEaXF1aXhyIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmV4dGVybmFsSUQiOiAiMjc2NjE2NjUxIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmlkZW50aWZpZXIiOiAxMDAwMTc3MzA4MTEsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OIjogewogICAgImlkZW50aWZpZXIiOiAxMDAwMTc3MzA4MTEsCiAgICAiZXh0ZXJuYWxJRCI6ICIyNzY2MTY2NTEiLAogICAgImlkIjogLTgzNDgxNDU2CiAgfSwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04uZXh0ZXJuYWxJRCI6ICIyNzY2MTY2NTEiLAogICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5pZGVudGlmaWVyIjogMTAwMDE3NzMwODExLAogICIkcmVzdWx0LnJlc3BvbnNlVGV4dCI6ICJ7XCJpZGVudGlmaWVyXCI6MTAwMDE3NzMwODExLFwiZXh0ZXJuYWxJRFwiOlwiMjc2NjE2NjUxXCIsXCJpZFwiOi04MzQ4MTQ1Nn0iLAogICIkcmVzdWx0LnN0YXR1cyI6IDIwMSwKICAiJHRlc3QuYXBpRGF0YSI6IHsKICAgICJwcm9mZXNzaW9uIjogewogICAgICAiaWQiOiA0LAogICAgICAiZGVzYyI6ICJGYXJtZXIiCiAgICB9LAogICAgImFkZHJlc3NlcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkFkZHJlc3NJQk8iLAogICAgICAgICJ6aXBDb2RlIjogIjEyMTQiLAogICAgICAgICJjb3VudHJ5IjogewogICAgICAgICAgImV4dENvZGUiOiAiQ0giCiAgICAgICAgfSwKICAgICAgICAiYWRkcmVzc1R5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxCiAgICAgICAgfSwKICAgICAgICAic3RyZWV0TmFtZSI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgICAgICAgImNpdHlOYW1lIjogIlZlcm5pZXIiLAogICAgICAgICJob3VzZU5yIjogIjQiCiAgICAgIH0KICAgIF0sCiAgICAic3Vic2NyaXB0aW9ucyI6IFtdLAogICAgImdlbmRlciI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFsZSIKICAgIH0sCiAgICAiZW50aXR5VHlwZSI6IHsKICAgICAgImlkIjogMQogICAgfSwKICAgICJpZGVudGlmaWVycyI6IFsKICAgICAgewogICAgICAgICJpZFR5cGUiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJSRUZQRVJTIgogICAgICAgIH0sCiAgICAgICAgImlkVmFsdWUiOiAiMjc2NjE2NjUxIgogICAgICB9CiAgICBdLAogICAgImNhbXBTZWN0aW9uVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjIxMiIKICAgIH0sCiAgICAiY29udGFjdEFmZmluaXR5TWVtYmVyc2hpcHMiOiBbCiAgICAgIHsKICAgICAgICAiYWZmaW5pdHlWTyI6IHsKICAgICAgICAgICJpZCI6IDIsCiAgICAgICAgICAiZGVzYyI6ICJQaHlzaWNhbCBQZXJzb25zIgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkxCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiYWZmaW5pdHlWTyI6IHsKICAgICAgICAgICJpZCI6IDEsCiAgICAgICAgICAiZGVzYyI6ICJMZWdhbCBFbnRpdHkiCiAgICAgICAgfSwKICAgICAgICAibWVtYmVyc2hpcElkIjogMjg4OTIKICAgICAgfQogICAgXSwKICAgICJ0ZWxlcGhvbmVzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6VGVsZXBob25lSUJPIiwKICAgICAgICAidGVsZXBob25lTnVtYmVyIjogIjEyMzQ1NjY3OSIsCiAgICAgICAgInRlbGVwaG9uZVR5cGUiOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiV29yayB0ZWxlcGhvbmUiCiAgICAgICAgfSwKICAgICAgICAidGVsZXBob25lUHJlZml4IjogIjAxMCIsCiAgICAgICAgImNvdW50cnlEaWFsQ29kZSI6IHsKICAgICAgICAgICJpZCI6IDEsCiAgICAgICAgICAiZGVzYyI6ICIzMiIKICAgICAgICB9CiAgICAgIH0KICAgIF0sCiAgICAiZGF0ZU9mQmlydGgiOiAiMTk4OC0wMi0xN1QwMDowMDowMCIsCiAgICAic2VjdGlvblRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICJHRSIKICAgIH0sCiAgICAibGFuZ3VhZ2UiOiB7CiAgICAgICJpZCI6IDEwMDAwMDEKICAgIH0sCiAgICAidGl0bGUiOiB7CiAgICAgICJpZCI6IDEwMDAwMDIsCiAgICAgICJkZXNjIjogIkRvbiIKICAgIH0sCiAgICAicHJlZmVycmVkUGF5bWVudE1ldGhvZCI6IHsKICAgICAgImV4dENvZGUiOiAiUVItQmlsbCIKICAgIH0sCiAgICAiZXh0ZXJuYWxDb250YWN0TnVtYmVyIjogIjI3NjYxNjY1MSIsCiAgICAiY29udGFjdFN1YlR5cGVUQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiMCIKICAgIH0sCiAgICAiZW1haWxzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6RW1haWxJQk8iLAogICAgICAgICJlbWFpbFR5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxCiAgICAgICAgfSwKICAgICAgICAiZW1haWwiOiAicmVuZS1mcmFuY2submt1c2lAdGNzLmNoIgogICAgICB9CiAgICBdLAogICAgIm5hbWUiOiAiVWFwdGFkZiIsCiAgICAiZmlyc3ROYW1lIjogIkRpcXVpeHIiLAogICAgIm5hdGlvbmFsaXR5IjogewogICAgICAiZXh0Q29kZSI6ICJDSCIKICAgIH0sCiAgICAiY29uc2VudHMiOiBbXSwKICAgICJmYW1pbHlTdGF0dXMiOiB7CiAgICAgICJpZCI6IDIsCiAgICAgICJkZXNjIjogIk1hcnJpZWQiCiAgICB9CiAgfQp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 295246000000,
+              "status": "passed"
+            },
+            "name": "I create a policy for the new \"TCS Assurance Vélo\"",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t22/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICIyNzY2MTY2NTEiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmNyZWF0ZU9mZmVyIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5kZXBhbm5hZ2UiOiAiQXZlYyBk6XBhbm5hZ2UiLAogICIkcGFyYW1ldGVyLmRpc2NvdW50UmF0ZSI6ICIiLAogICIkcGFyYW1ldGVyLmRpc2NvdW50VHlwZSI6ICIiLAogICIkcGFyYW1ldGVyLmRvd25ncmFkZSI6ICIiLAogICIkcGFyYW1ldGVyLmVuZFBvbGljeU51bWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSW5kaXZpZHVhbCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5TWVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZmluYWxEZWNpc2lvbiI6ICIiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5mb3JlaWduTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzSW5zdXJhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzTFBEIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaW5kX2ZhbSI6ICJGYW1pbGxlIiwKICAiJHBhcmFtZXRlci5pbnRlcmNoYW5nZWFibGVMaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pc0VuZG9yc2VtZW50IjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNUZWNobmljYWxDaGFuZ2UiOiAiIiwKICAiJHBhcmFtZXRlci5pc1ZhbGlkYXRpb25BdHRyaWJ1dGVzIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIubGVnYWxQcm90ZWN0aW9uRHJpdmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIubGVnYWxSZXNpZGVuY2UiOiAic3Vpc3NlIiwKICAiJHBhcmFtZXRlci5sb2dpblByb2ZpbGUiOiAiYmFja29mZmljZSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFN0YXR1cyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLm1vdG9yaXNlIjogIiIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLm9mZmVyIjogIlBvbGljeSIsCiAgIiRwYXJhbWV0ZXIub3Blbkludm9pY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5wYXJlbnRDb250YWN0RXh0TnVtIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lckNhcmQiOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyBiZXJuIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLnByaWNlIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvZHVjdCI6ICJUQ1MgQXNzdXJhbmNlIFbpbG8iLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0YXJ0RGF0ZSI6ICJ0b2RheSsxIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJOb24gYXBwbGljYWJsZSIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZUV1cm9wZSI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VTd2l0emVybGFuZCI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsV2VpZ2h0RXhjZWVkTGltaXQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 66001000000,
+              "status": "passed"
+            },
+            "name": "The price shall be price: CHF 69.00",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t22/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLnByaWNlIjogIkNIRjY5MDAiLAogICIkcGFyYW1ldGVyLnVzZUNyZWRpdEJhbGFuY2UiOiAiIgp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m116.t22(0)",
+          "name": "Bike Insurance pricing",
+          "worker": "Jenkins CI - 12",
+          "start": "07:50:45",
+          "end": "07:56:58"
+        }
+      }
+    ]
+  }
+]

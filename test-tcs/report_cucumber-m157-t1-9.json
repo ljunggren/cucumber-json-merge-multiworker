@@ -1,0 +1,320 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m157] Sales User Interface (HUI)",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-2488",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m157",
+    "uri": "jira-features/2_NISTA-2488.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m157.t1(9)] Acquire and check prices policies from Sales UI (Jenkins CI - 19)",
+        "description": "Acquire and check prices policies from Sales UI",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-2488"
+          },
+          {
+            "name": "@NISTA-2477"
+          },
+          {
+            "name": "@IDITS-18493"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 14570000000,
+              "status": "passed"
+            },
+            "name": "A created contact in SFDC age: 45 subtype: Non applicable section: GE <subsection>",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICI0NSIsCiAgIiRwYXJhbWV0ZXIuYmlydGhkYXkiOiAiMTk3OC0wMi0xN1QwMDowMDowMCIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIkNIIiwKICAiJHBhcmFtZXRlci5jcmVhdGlvbkZsb3ciOiAiQk9PTUkiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMTUiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUxhYmVsIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci5lbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSW5kaXZpZHVhbCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZnJvbUJvb21pIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG91c2VOdW1iZXIiOiAiMTEiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9jYWxpdHkiOiAiTWV5cmluIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6IDcwMDAxNDkxOSwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyB2ZXJuaWVyIiwKICAiJHBhcmFtZXRlci5zYWxlc0NoYW5uZWwiOiAiY29udGFjdCBjZW50ZXIiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0cmVldCI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiLAogICIkcGFyYW1ldGVyLnppcENvZGUiOiAiMTIxNyIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZUNvbXBsZW1lbnQiOiAiMDAiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuTm9tIjogIlRhcnpvbHgiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuUHJlbm9tIjogIlFpcGhpZW4iLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuZXh0ZXJuYWxJRCI6ICIxMDY4MTczMjIiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuaWRlbnRpZmllciI6ICIzMTAzIiwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04uZXh0ZXJuYWxJRCI6ICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5leHRlcm5hbElEID0+IEVycm9yIGRhdGE6IENhbm5vdCByZWFkIHByb3BlcnRpZXMgb2YgdW5kZWZpbmVkIChyZWFkaW5nICdleHRlcm5hbElEJykiLAogICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5pZGVudGlmaWVyIjogIiRyZXN1bHQucmVzcG9uc2VKU09OLmlkZW50aWZpZXIgPT4gRXJyb3IgZGF0YTogQ2Fubm90IHJlYWQgcHJvcGVydGllcyBvZiB1bmRlZmluZWQgKHJlYWRpbmcgJ2lkZW50aWZpZXInKSIsCiAgIiRyZXN1bHQucmVzcG9uc2VUZXh0IjogIjw/eG1sIHZlcnNpb249JzEuMCcgZW5jb2Rpbmc9J1VURi04Jz8+PFM6RW52ZWxvcGUgeG1sbnM6Uz1cImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3NvYXAvZW52ZWxvcGUvXCI+PFM6Qm9keT48d3NzOmNyZWF0ZUFjY291bnRfVjNSZXNwb25zZSB4bWxuczp3c3M9XCJodHRwOi8vd3d3LmJvb21pLmNvbS9jb25uZWN0b3Ivd3NzXCI+XG48bnMxOkNhbGxpblNGRENfY3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlIHhtbG5zOm5zMT1cIkNyZWF0ZUFjY291bnRfVjNSZXNwb25zZS5ib29taS5jb21cIj5cbiAgPG5zMTpyZXN1bHQ+XG4gICAgPG5zMTplcnJvckNvZGU+MDAwPC9uczE6ZXJyb3JDb2RlPlxuICAgIDxuczE6aW5mb0NvZGU+MDAwPC9uczE6aW5mb0NvZGU+XG4gICAgPG5zMTpwZXJzb25hbFJlZmVyZW5jZT4xMDY4MTczMjI8L25zMTpwZXJzb25hbFJlZmVyZW5jZT5cbiAgPC9uczE6cmVzdWx0PlxuPC9uczE6Q2FsbGluU0ZEQ19jcmVhdGVBY2NvdW50X1YzUmVzcG9uc2U+PC93c3M6Y3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlPjwvUzpCb2R5PjwvUzpFbnZlbG9wZT4iLAogICIkcmVzdWx0LnN0YXR1cyI6IDIwMCwKICAiJHRlc3QuYXBpRGF0YSI6IHsKICAgICJwcm9mZXNzaW9uIjogewogICAgICAiaWQiOiA0LAogICAgICAiZGVzYyI6ICJGYXJtZXIiCiAgICB9LAogICAgImFkZHJlc3NlcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkFkZHJlc3NJQk8iLAogICAgICAgICJ6aXBDb2RlIjogIjEyMTQiLAogICAgICAgICJjb3VudHJ5IjogewogICAgICAgICAgImV4dENvZGUiOiAiQ0giCiAgICAgICAgfSwKICAgICAgICAiYWRkcmVzc1R5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxCiAgICAgICAgfSwKICAgICAgICAic3RyZWV0TmFtZSI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgICAgICAgImNpdHlOYW1lIjogIlZlcm5pZXIiLAogICAgICAgICJob3VzZU5yIjogIjQiCiAgICAgIH0KICAgIF0sCiAgICAic3Vic2NyaXB0aW9ucyI6IFtdLAogICAgImdlbmRlciI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFsZSIKICAgIH0sCiAgICAiZW50aXR5VHlwZSI6IHsKICAgICAgImlkIjogMQogICAgfSwKICAgICJpZGVudGlmaWVycyI6IFsKICAgICAgewogICAgICAgICJpZFR5cGUiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJSRUZQRVJTIgogICAgICAgIH0sCiAgICAgICAgImlkVmFsdWUiOiAiOTc2NjA5MzY1IgogICAgICB9CiAgICBdLAogICAgImNhbXBTZWN0aW9uVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjIxMiIKICAgIH0sCiAgICAiY29udGFjdEFmZmluaXR5TWVtYmVyc2hpcHMiOiBbCiAgICAgIHsKICAgICAgICAiYWZmaW5pdHlWTyI6IHsKICAgICAgICAgICJpZCI6IDIsCiAgICAgICAgICAiZGVzYyI6ICJQaHlzaWNhbCBQZXJzb25zIgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkxCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiYWZmaW5pdHlWTyI6IHsKICAgICAgICAgICJpZCI6IDEsCiAgICAgICAgICAiZGVzYyI6ICJMZWdhbCBFbnRpdHkiCiAgICAgICAgfSwKICAgICAgICAibWVtYmVyc2hpcElkIjogMjg4OTIKICAgICAgfQogICAgXSwKICAgICJ0ZWxlcGhvbmVzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6VGVsZXBob25lSUJPIiwKICAgICAgICAidGVsZXBob25lTnVtYmVyIjogIjEyMzQ1NjY3OSIsCiAgICAgICAgInRlbGVwaG9uZVR5cGUiOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiV29yayB0ZWxlcGhvbmUiCiAgICAgICAgfSwKICAgICAgICAidGVsZXBob25lUHJlZml4IjogIjAxMCIsCiAgICAgICAgImNvdW50cnlEaWFsQ29kZSI6IHsKICAgICAgICAgICJpZCI6IDEsCiAgICAgICAgICAiZGVzYyI6ICIzMiIKICAgICAgICB9CiAgICAgIH0KICAgIF0sCiAgICAiZGF0ZU9mQmlydGgiOiAiMTk3OC0wMi0xN1QwMDowMDowMCIsCiAgICAic2VjdGlvblRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICJHRSIKICAgIH0sCiAgICAibGFuZ3VhZ2UiOiB7CiAgICAgICJpZCI6IDEwMDAwMDEKICAgIH0sCiAgICAidGl0bGUiOiB7CiAgICAgICJpZCI6IDEwMDAwMDIsCiAgICAgICJkZXNjIjogIkRvbiIKICAgIH0sCiAgICAicHJlZmVycmVkUGF5bWVudE1ldGhvZCI6IHsKICAgICAgImV4dENvZGUiOiAiUVItQmlsbCIKICAgIH0sCiAgICAiZXh0ZXJuYWxDb250YWN0TnVtYmVyIjogIjk3NjYwOTM2NSIsCiAgICAiY29udGFjdFN1YlR5cGVUQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiMTUiCiAgICB9LAogICAgImVtYWlscyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkVtYWlsSUJPIiwKICAgICAgICAiZW1haWxUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgImVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIKICAgICAgfQogICAgXSwKICAgICJuYW1lIjogIk9lcm9vamEiLAogICAgImZpcnN0TmFtZSI6ICJMdW1naWxpIiwKICAgICJuYXRpb25hbGl0eSI6IHsKICAgICAgImV4dENvZGUiOiAiQ0giCiAgICB9LAogICAgImNvbnNlbnRzIjogW10sCiAgICAiZmFtaWx5U3RhdHVzIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYXJyaWVkIgogICAgfQogIH0KfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 11743000000,
+              "status": "passed"
+            },
+            "name": "I connect to its HUI portal",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLlBhc3N3b3JkIjogInBoPnxiZUFVTVE0QHcmVCojLUhVIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICIxMDY4MTczMjIiLAogICIkcGFyYW1ldGVyLnVzZXJuYW1lIjogIlRTVC1JRElULVRDUy0wMkB0Y3MuY2giCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 52247000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Membership with membershipOptions: [Individuel;Avec dépannage;CHF 93.00]",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLkJyZWFrZG93bl92YXJpYW50IjogIkF2ZWMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5GYW1pbHlfdmFyaWFudCI6ICJJbmRpdmlkdWVsIiwKICAiJHBhcmFtZXRlci5iaWtlT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FtcGluZ09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmNhcmRBc3NPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5ldGlPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG9tZU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwYk9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwZE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwaU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBPcHRpb25zIjogIltJbmRpdmlkdWVsO0F2ZWMgZOlwYW5uYWdlO0NIRiA5My4wMF0iLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICJDSEYgOTMuMDAiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 26506000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Camping Membership campingOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 26630000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS ETI Travel etiOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 26363000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Legal Driver lpdOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 9,
+            "result": {
+              "duration": 26425000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Legal Protection Building lpbOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/9/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 10,
+            "result": {
+              "duration": 26466000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Legal Internet lpiOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/10/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 11,
+            "result": {
+              "duration": 26630000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Legal Private lppOptions: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/11/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 12,
+            "result": {
+              "duration": 48401000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Home homeOptions: [random;CHF 74.25]",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/12/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJbcmFuZG9tO0NIRiA3NC4yNV0iLAogICIkcGFyYW1ldGVyLmxwYk9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwZE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwaU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiQ0hGIDc0LjI1Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 13,
+            "result": {
+              "duration": 49715000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Assurance Vélo bikeOptions: [CHF 2,000.00;CHF 42.75]",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/13/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VDYXNjb0xpbWl0IjogIkNIRiAyLDAwMC4wMCIsCiAgIiRwYXJhbWV0ZXIuYmlrZU9wdGlvbnMiOiAiW0NIRiAyLDAwMC4wMDtDSEYgNDIuNzVdIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmV0aU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmZvcmNlTG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob21lT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBiT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBkT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBpT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubHBwT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICJDSEYgNDIuNzUiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 14,
+            "result": {
+              "duration": 44034000000,
+              "status": "passed"
+            },
+            "name": "I add a TCS Card Assistance cardAssOptions: [random;CHF 21.00]",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/14/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmJpa2VPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5jYW1waW5nT3B0aW9ucyI6ICJuYSIsCiAgIiRwYXJhbWV0ZXIuY2FyZEFzc09wdGlvbnMiOiAiW3JhbmRvbTtDSEYgMjEuMDBdIiwKICAiJHBhcmFtZXRlci5ldGlPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG9tZU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwYk9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwZE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwaU9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLmxwcE9wdGlvbnMiOiAibmEiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiQ0hGIDIxLjAwIgp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 15,
+            "result": {
+              "duration": 2058000000,
+              "status": "passed"
+            },
+            "name": "The price should be totalPrice: CHF 231.00",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/16/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnRvdGFsUHJpY2UiOiAiQ0hGIDIzMS4wMCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 16,
+            "result": {
+              "duration": 27375000000,
+              "status": "passed"
+            },
+            "name": "I pay the command with paymentMethod: Carte de crédit",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/18/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLkNhcmRfbnVtYmVyIjogIjkwMTAgNTA0OSAwNDAwIDAwMDciLAogICIkcGFyYW1ldGVyLkNhcmRfdmVyaWZpY2F0aW9uX2NvZGUiOiAiMzkyIiwKICAiJHBhcmFtZXRlci5WYWxpZF91bnRpbCI6ICIwNy8yMDIxIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogIkNhcnRlIGRlIGNy6WRpdCIsCiAgIiRwcm9qZWN0LmNhcnRQcm9wb3NhbHNbMCI6ICIkcHJvamVjdC5jYXJ0UHJvcG9zYWxzWzAgPT4gRXJyb3IgZGF0YTogVW5leHBlY3RlZCBlbmQgb2YgaW5wdXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 17,
+            "result": {
+              "duration": 24275000000,
+              "status": "passed"
+            },
+            "name": "Products selected are in my portfolio",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t1/20/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNhbXBpbmdPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5ldGlPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5scGJPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5scGRPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5scGlPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5scHBPcHRpb25zIjogIm5hIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwT3B0aW9ucyI6ICJbSW5kaXZpZHVlbDtBdmVjIGTpcGFubmFnZTtDSEYgOTMuMDBdIgp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m157.t1(9)",
+          "name": "Acquire and check prices policies from Sales UI",
+          "worker": "Jenkins CI - 19",
+          "start": "05:49:23",
+          "end": "05:56:39"
+        }
+      }
+    ]
+  }
+]

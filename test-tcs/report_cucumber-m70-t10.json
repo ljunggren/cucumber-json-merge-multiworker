@@ -1,0 +1,119 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m70] SFDC Account Management",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-23",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m70",
+    "uri": "jira-features/2_NISTA-23.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m70.t10] Create a legal account (Jenkins CI - 15)",
+        "description": "Create a legal account",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-23"
+          },
+          {
+            "name": "@NISTA-2724"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 46184000000,
+              "status": "passed"
+            },
+            "name": "I am logged as a CC user in SFDC",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t10/2/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 70067000000,
+              "status": "passed"
+            },
+            "name": "I create a new legal account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t10/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICIiLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZW1haWwiOiAiZ2lhbm5pLnB1Y2NpYW5pQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJMZWdhbCIsCiAgIiRwYXJhbWV0ZXIubG9naW4iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIuc2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YnNlY3Rpb24iOiAiIiwKICAiJHBhcmFtZXRlci5zdWJ0eXBlIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLkRhdGVfZGVfbmFpc3NhbmNlIjogIjA2LjA1LjE5NzUiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuTm9tIjogIkVvanllanIiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuUHJlbm9tIjogIlVlcXdpcHMiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 27753000000,
+              "status": "passed"
+            },
+            "name": "I add an address",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t10/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkbW9kdWxlLmFkZHJlc3MuTlBBIjogIjEyMTQiLAogICIkbW9kdWxlLmFkZHJlc3Mub3JpZ2luZU11dGF0aW9uIjogIkRlbWFuZGUgZHUgY2xpZW50IiwKICAiJG1vZHVsZS5hZGRyZXNzLnN0cmVldCI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgIiRtb2R1bGUuYWRkcmVzcy5zdHJlZXROdW1iZXIiOiAiNCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJMZWdhbCIsCiAgIiRwcm9qZWN0LmFkZHJlc3Muc3RyZWV0TmFtZSI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 62966000000,
+              "status": "passed"
+            },
+            "name": "The contact with its address must exist in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t10/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiTGVnYWwiLAogICIkcHJvamVjdC5hZGRyZXNzLnN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m70.t10",
+          "name": "Create a legal account",
+          "worker": "Jenkins CI - 15",
+          "start": "06:15:25",
+          "end": "06:18:55"
+        }
+      }
+    ]
+  }
+]

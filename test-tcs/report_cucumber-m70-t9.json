@@ -1,0 +1,83 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m70] SFDC Account Management",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-23",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m70",
+    "uri": "jira-features/2_NISTA-23.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m70.t9] Create partner (Jenkins CI - 14)",
+        "description": "Create partner",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-23"
+          },
+          {
+            "name": "@NISTA-2723"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 37034000000,
+              "status": "passed"
+            },
+            "name": "I am logged as a CC user in SFDC",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t9/2/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 84117000000,
+              "status": "passed"
+            },
+            "name": "I create a new partner account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t9/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICIiLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZW1haWwiOiAiZ2lhbm5pLnB1Y2NpYW5pQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJQYXJ0bmVyIiwKICAiJHBhcmFtZXRlci5sb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3Vic2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YnR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuRGF0ZV9kZV9uYWlzc2FuY2UiOiAiMDUuMTIuMTk3NSIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5Ob20iOiAiSWFmdmVhciIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5QcmVub20iOiAiRWVtaGV3dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          }
+        ],
+        "extraData": {
+          "id": "m70.t9",
+          "name": "Create partner",
+          "worker": "Jenkins CI - 14",
+          "start": "05:32:02",
+          "end": "05:34:05"
+        }
+      }
+    ]
+  }
+]

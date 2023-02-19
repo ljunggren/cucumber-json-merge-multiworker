@@ -1,0 +1,158 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m42] IDIT - Contact Management",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-410",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m42",
+    "uri": "jira-features/2_NISTA-410.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m42.t3] Update a contact with the contact services API (Jenkins CI - 11)",
+        "description": "Update a contact with the contact services API",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-410"
+          },
+          {
+            "name": "@NISTA-412"
+          },
+          {
+            "name": "@done"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 9674000000,
+              "status": "passed"
+            },
+            "name": "A contact is created with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDM1LAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDU19DQU1QSU5HX0NMVUJfR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIkFQSSIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlQ29kZSI6ICIwIiwKICAiJHBhcmFtZXRlci5jdXN0b21lclR5cGVMYWJlbCI6ICJDbGllbnQgcHJpdukiLAogICIkcGFyYW1ldGVyLmVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJTkRJVklEVUFMIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mcm9tQm9vbWkiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob3VzZU51bWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogIlNVSVNTRSIsCiAgIiRwYXJhbWV0ZXIubG9jYWxpdHkiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6IDcwMDAxNDkxOSwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJDQ19WRVJOSUVSIiwKICAiJHBhcmFtZXRlci5zYWxlc0NoYW5uZWwiOiAiQ09OVEFDVF9DRU5URVIiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0cmVldCI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAiTkEiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiQ0xJRU5UX1BSSVbJIiwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0IiwKICAiJHBhcmFtZXRlci56aXBDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZUNvbXBsZW1lbnQiOiAiIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJCb2ljYXBoIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJHaXl0ZWJkIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmV4dGVybmFsSUQiOiAiMTc2NjExNTcwIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmlkZW50aWZpZXIiOiAxMDAwMTc3MzI3ODMsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OIjogewogICAgImlkZW50aWZpZXIiOiAxMDAwMTc3MzI3ODMsCiAgICAiZXh0ZXJuYWxJRCI6ICIxNzY2MTE1NzAiLAogICAgImlkIjogLTE1MTI2OTE0NgogIH0sCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OLmV4dGVybmFsSUQiOiAiMTc2NjExNTcwIiwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04uaWRlbnRpZmllciI6IDEwMDAxNzczMjc4MywKICAiJHJlc3VsdC5yZXNwb25zZVRleHQiOiAie1wiaWRlbnRpZmllclwiOjEwMDAxNzczMjc4MyxcImV4dGVybmFsSURcIjpcIjE3NjYxMTU3MFwiLFwiaWRcIjotMTUxMjY5MTQ2fSIsCiAgIiRyZXN1bHQuc3RhdHVzIjogMjAxLAogICIkdGVzdC5hcGlEYXRhIjogewogICAgInByb2Zlc3Npb24iOiB7CiAgICAgICJpZCI6IDQsCiAgICAgICJkZXNjIjogIkZhcm1lciIKICAgIH0sCiAgICAiYWRkcmVzc2VzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6QWRkcmVzc0lCTyIsCiAgICAgICAgInppcENvZGUiOiAiMTIxNCIsCiAgICAgICAgImNvdW50cnkiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJDSCIKICAgICAgICB9LAogICAgICAgICJhZGRyZXNzVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJzdHJlZXROYW1lIjogIkNoZW1pbiBkZSBCbGFuZG9ubmV0IiwKICAgICAgICAiY2l0eU5hbWUiOiAiVmVybmllciIsCiAgICAgICAgImhvdXNlTnIiOiAiNCIKICAgICAgfQogICAgXSwKICAgICJzdWJzY3JpcHRpb25zIjogW10sCiAgICAiZ2VuZGVyIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYWxlIgogICAgfSwKICAgICJlbnRpdHlUeXBlIjogewogICAgICAiaWQiOiAxCiAgICB9LAogICAgImlkZW50aWZpZXJzIjogWwogICAgICB7CiAgICAgICAgImlkVHlwZSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIlJFRlBFUlMiCiAgICAgICAgfSwKICAgICAgICAiaWRWYWx1ZSI6ICIxNzY2MTE1NzAiCiAgICAgIH0KICAgIF0sCiAgICAiY2FtcFNlY3Rpb25WTyI6IHsKICAgICAgImV4dENvZGUiOiAiMjEyIgogICAgfSwKICAgICJjb250YWN0QWZmaW5pdHlNZW1iZXJzaGlwcyI6IFsKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIlBoeXNpY2FsIFBlcnNvbnMiCiAgICAgICAgfSwKICAgICAgICAibWVtYmVyc2hpcElkIjogMjg4OTEKICAgICAgfSwKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIkxlZ2FsIEVudGl0eSIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MgogICAgICB9CiAgICBdLAogICAgInRlbGVwaG9uZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpUZWxlcGhvbmVJQk8iLAogICAgICAgICJ0ZWxlcGhvbmVOdW1iZXIiOiAiMTIzNDU2Njc5IiwKICAgICAgICAidGVsZXBob25lVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDIsCiAgICAgICAgICAiZGVzYyI6ICJXb3JrIHRlbGVwaG9uZSIKICAgICAgICB9LAogICAgICAgICJ0ZWxlcGhvbmVQcmVmaXgiOiAiMDEwIiwKICAgICAgICAiY291bnRyeURpYWxDb2RlIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIjMyIgogICAgICAgIH0KICAgICAgfQogICAgXSwKICAgICJkYXRlT2ZCaXJ0aCI6ICIxOTg4LTAyLTE3VDAwOjAwOjAwIiwKICAgICJzZWN0aW9uVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIkdFIgogICAgfSwKICAgICJsYW5ndWFnZSI6IHsKICAgICAgImlkIjogMTAwMDAwMQogICAgfSwKICAgICJ0aXRsZSI6IHsKICAgICAgImlkIjogMTAwMDAwMiwKICAgICAgImRlc2MiOiAiRG9uIgogICAgfSwKICAgICJwcmVmZXJyZWRQYXltZW50TWV0aG9kIjogewogICAgICAiZXh0Q29kZSI6ICJRUi1CaWxsIgogICAgfSwKICAgICJleHRlcm5hbENvbnRhY3ROdW1iZXIiOiAiMTc2NjExNTcwIiwKICAgICJjb250YWN0U3ViVHlwZVRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICIwIgogICAgfSwKICAgICJlbWFpbHMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpFbWFpbElCTyIsCiAgICAgICAgImVtYWlsVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJlbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giCiAgICAgIH0KICAgIF0sCiAgICAibmFtZSI6ICJCb2ljYXBoIiwKICAgICJmaXJzdE5hbWUiOiAiR2l5dGViZCIsCiAgICAibmF0aW9uYWxpdHkiOiB7CiAgICAgICJleHRDb2RlIjogIkNIIgogICAgfSwKICAgICJjb25zZW50cyI6IFtdLAogICAgImZhbWlseVN0YXR1cyI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFycmllZCIKICAgIH0KICB9Cn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 2448000000,
+              "status": "passed"
+            },
+            "name": "The contact is updated with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDM2LAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuZXh0ZXJuYWxJRCI6ICIxNzY2MTE1NzAiLAogICIkcmVzdWx0LnJlc3BvbnNlVGV4dCI6ICJ7XCJpZGVudGlmaWVyXCI6MTAwMDE3NzMyNzgzLFwiZXh0ZXJuYWxJRFwiOlwiMTc2NjExNTcwXCIsXCJpZFwiOi0xMzcyMzM1OTV9IiwKICAiJHJlc3VsdC5zdGF0dXMiOiAyMDAsCiAgIiR0ZXN0LmFwaURhdGEiOiB7CiAgICAicHJvZmVzc2lvbiI6IHsKICAgICAgImlkIjogNCwKICAgICAgImRlc2MiOiAiRmFybWVyIgogICAgfSwKICAgICJhZGRyZXNzZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpBZGRyZXNzSUJPIiwKICAgICAgICAiemlwQ29kZSI6ICIxMjE0IiwKICAgICAgICAiY291bnRyeSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIkNIIgogICAgICAgIH0sCiAgICAgICAgImFkZHJlc3NUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgInN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICAgICAgICJjaXR5TmFtZSI6ICJWZXJuaWVyIiwKICAgICAgICAiaG91c2VOciI6ICI0IgogICAgICB9CiAgICBdLAogICAgInN1YnNjcmlwdGlvbnMiOiBbXSwKICAgICJnZW5kZXIiOiB7CiAgICAgICJpZCI6IDIsCiAgICAgICJkZXNjIjogIk1hbGUiCiAgICB9LAogICAgImVudGl0eVR5cGUiOiB7CiAgICAgICJpZCI6IDEKICAgIH0sCiAgICAiaWRlbnRpZmllcnMiOiBbCiAgICAgIHsKICAgICAgICAiaWRUeXBlIjogewogICAgICAgICAgImV4dENvZGUiOiAiUkVGUEVSUyIKICAgICAgICB9LAogICAgICAgICJpZFZhbHVlIjogIjE3NjYxMTU3MCIKICAgICAgfQogICAgXSwKICAgICJjYW1wU2VjdGlvblZPIjogewogICAgICAiZXh0Q29kZSI6ICIyMTIiCiAgICB9LAogICAgImNvbnRhY3RBZmZpbml0eU1lbWJlcnNoaXBzIjogWwogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiUGh5c2ljYWwgUGVyc29ucyIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MQogICAgICB9LAogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiTGVnYWwgRW50aXR5IgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkyCiAgICAgIH0KICAgIF0sCiAgICAidGVsZXBob25lcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOlRlbGVwaG9uZUlCTyIsCiAgICAgICAgInRlbGVwaG9uZU51bWJlciI6ICIxMjM0NTY2NzkiLAogICAgICAgICJ0ZWxlcGhvbmVUeXBlIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIldvcmsgdGVsZXBob25lIgogICAgICAgIH0sCiAgICAgICAgInRlbGVwaG9uZVByZWZpeCI6ICIwMTAiLAogICAgICAgICJjb3VudHJ5RGlhbENvZGUiOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiMzIiCiAgICAgICAgfQogICAgICB9CiAgICBdLAogICAgImRhdGVPZkJpcnRoIjogIjE5ODctMDItMTdUMDA6MDA6MDAiLAogICAgInNlY3Rpb25UQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiR0UiCiAgICB9LAogICAgImxhbmd1YWdlIjogewogICAgICAiaWQiOiAxMDAwMDAxCiAgICB9LAogICAgInRpdGxlIjogewogICAgICAiaWQiOiAxMDAwMDAyLAogICAgICAiZGVzYyI6ICJEb24iCiAgICB9LAogICAgInByZWZlcnJlZFBheW1lbnRNZXRob2QiOiB7CiAgICAgICJleHRDb2RlIjogIlFSLUJpbGwiCiAgICB9LAogICAgImV4dGVybmFsQ29udGFjdE51bWJlciI6ICIxNzY2MTE1NzAiLAogICAgImNvbnRhY3RTdWJUeXBlVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjAiCiAgICB9LAogICAgImVtYWlscyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkVtYWlsSUJPIiwKICAgICAgICAiZW1haWxUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgImVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIKICAgICAgfQogICAgXSwKICAgICJuYW1lIjogIkJvaWNhcGgiLAogICAgImZpcnN0TmFtZSI6ICJHaXl0ZWJkIiwKICAgICJuYXRpb25hbGl0eSI6IHsKICAgICAgImV4dENvZGUiOiAiQ0giCiAgICB9LAogICAgImNvbnNlbnRzIjogW10sCiAgICAiZmFtaWx5U3RhdHVzIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYXJyaWVkIgogICAgfQogIH0KfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 31482000000,
+              "status": "passed"
+            },
+            "name": "I am logged in as frontoffice in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmZvcmNlIjogZmFsc2UsCiAgIiRwcm9qZWN0LmxvZ2luRGF0YS5jdXJyZW50VXNlcklkIjogImJnZm9mMiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 16371000000,
+              "status": "passed"
+            },
+            "name": "I search and select the contact in IDIT with firstname lastname",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSU5ESVZJRFVBTCIsCiAgIiRwYXJhbWV0ZXIubm9tIjogIkJvaWNhcGgiLAogICIkcGFyYW1ldGVyLnByZW5vbSI6ICJHaXl0ZWJkIiwKICAiJHRlc3QuZnVsbE5hbWUiOiAiR2l5dGViZCBCb2ljYXBoIgp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 5692000000,
+              "status": "passed"
+            },
+            "name": "The contact details are correct",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNpdHkiOiAiVmVybmllciIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZSI6ICIxMjE0IiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJCb2ljYXBoIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJHaXl0ZWJkIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmJpcnRoWWVhciI6IDE5ODcsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5nZW5kZXIiOiAiTW9uc2lldXIiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEudGVsZXBob25lIjogIjEyMzQ1NjY3OSIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 1525000000,
+              "status": "passed"
+            },
+            "name": "I sign out from IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m42/t3/9/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          }
+        ],
+        "extraData": {
+          "id": "m42.t3",
+          "name": "Update a contact with the contact services API",
+          "worker": "Jenkins CI - 11",
+          "start": "06:26:04",
+          "end": "06:27:14"
+        }
+      }
+    ]
+  }
+]

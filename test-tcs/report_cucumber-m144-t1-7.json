@@ -1,0 +1,119 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m144] Renewal handling",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-1828",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m144",
+    "uri": "jira-features/2_NISTA-1828.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m144.t1(7)] Check renewal pricing (Jenkins CI - 15)",
+        "description": "Check renewal pricing",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-1828"
+          },
+          {
+            "name": "@NISTA-1774"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 13514000000,
+              "status": "passed"
+            },
+            "name": "A contact entityType: Individual with subtype: Membre d’honneur section section: FR subsection <subSection>",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m144/t1/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICIzMyIsCiAgIiRwYXJhbWV0ZXIuYmlydGhkYXkiOiAiMTk5MC0wMi0xN1QwMDowMDowMCIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIkNIIiwKICAiJHBhcmFtZXRlci5jcmVhdGlvbkZsb3ciOiAiQk9PTUkiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMyIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlTGFiZWwiOiAiTWVtYnJlIGTigJlob25uZXVyIHNlY3Rpb24iLAogICIkcGFyYW1ldGVyLmVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mcm9tQm9vbWkiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5ob3VzZU51bWJlciI6ICIyMCIsCiAgIiRwYXJhbWV0ZXIubGVnYWxSZXNpZGVuY2UiOiAic3Vpc3NlIiwKICAiJHBhcmFtZXRlci5sb2NhbGl0eSI6ICJDaGV5cmVzIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6IDcwMDAxNDkxOSwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyB2ZXJuaWVyIiwKICAiJHBhcmFtZXRlci5zYWxlc0NoYW5uZWwiOiAiY29udGFjdCBjZW50ZXIiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiRlIiLAogICIkcGFyYW1ldGVyLnN0cmVldCI6ICJDaGVtLiBkZXMgR3LDqHZlIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJNZW1icmUgZOKAmWhvbm5ldXIgc2VjdGlvbiIsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZSI6ICIxNDY4IiwKICAiJHBhcmFtZXRlci56aXBDb2RlQ29tcGxlbWVudCI6ICIwMCIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5Ob20iOiAiSGF1cHVsbiIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5QcmVub20iOiAiUmV1cnV3ZiIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5leHRlcm5hbElEIjogIjEwNjgxNzM3MCIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5pZGVudGlmaWVyIjogIjMxMDMiLAogICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5leHRlcm5hbElEIjogIiRyZXN1bHQucmVzcG9uc2VKU09OLmV4dGVybmFsSUQgPT4gRXJyb3IgZGF0YTogQ2Fubm90IHJlYWQgcHJvcGVydGllcyBvZiB1bmRlZmluZWQgKHJlYWRpbmcgJ2V4dGVybmFsSUQnKSIsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OLmlkZW50aWZpZXIiOiAiJHJlc3VsdC5yZXNwb25zZUpTT04uaWRlbnRpZmllciA9PiBFcnJvciBkYXRhOiBDYW5ub3QgcmVhZCBwcm9wZXJ0aWVzIG9mIHVuZGVmaW5lZCAocmVhZGluZyAnaWRlbnRpZmllcicpIiwKICAiJHJlc3VsdC5yZXNwb25zZVRleHQiOiAiPD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz48UzpFbnZlbG9wZSB4bWxuczpTPVwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvc29hcC9lbnZlbG9wZS9cIj48UzpCb2R5Pjx3c3M6Y3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlIHhtbG5zOndzcz1cImh0dHA6Ly93d3cuYm9vbWkuY29tL2Nvbm5lY3Rvci93c3NcIj5cbjxuczE6Q2FsbGluU0ZEQ19jcmVhdGVBY2NvdW50X1YzUmVzcG9uc2UgeG1sbnM6bnMxPVwiQ3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlLmJvb21pLmNvbVwiPlxuICA8bnMxOnJlc3VsdD5cbiAgICA8bnMxOmVycm9yQ29kZT4wMDA8L25zMTplcnJvckNvZGU+XG4gICAgPG5zMTppbmZvQ29kZT4wMDA8L25zMTppbmZvQ29kZT5cbiAgICA8bnMxOnBlcnNvbmFsUmVmZXJlbmNlPjEwNjgxNzM3MDwvbnMxOnBlcnNvbmFsUmVmZXJlbmNlPlxuICA8L25zMTpyZXN1bHQ+XG48L25zMTpDYWxsaW5TRkRDX2NyZWF0ZUFjY291bnRfVjNSZXNwb25zZT48L3dzczpjcmVhdGVBY2NvdW50X1YzUmVzcG9uc2U+PC9TOkJvZHk+PC9TOkVudmVsb3BlPiIsCiAgIiRyZXN1bHQuc3RhdHVzIjogMjAwLAogICIkdGVzdC5hcGlEYXRhIjogewogICAgInByb2Zlc3Npb24iOiB7CiAgICAgICJpZCI6IDQsCiAgICAgICJkZXNjIjogIkZhcm1lciIKICAgIH0sCiAgICAiYWRkcmVzc2VzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6QWRkcmVzc0lCTyIsCiAgICAgICAgInppcENvZGUiOiAiMTIxNCIsCiAgICAgICAgImNvdW50cnkiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJDSCIKICAgICAgICB9LAogICAgICAgICJhZGRyZXNzVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJzdHJlZXROYW1lIjogIkNoZW1pbiBkZSBCbGFuZG9ubmV0IiwKICAgICAgICAiY2l0eU5hbWUiOiAiVmVybmllciIsCiAgICAgICAgImhvdXNlTnIiOiAiNCIKICAgICAgfQogICAgXSwKICAgICJzdWJzY3JpcHRpb25zIjogW10sCiAgICAiZ2VuZGVyIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYWxlIgogICAgfSwKICAgICJlbnRpdHlUeXBlIjogewogICAgICAiaWQiOiAxCiAgICB9LAogICAgImlkZW50aWZpZXJzIjogWwogICAgICB7CiAgICAgICAgImlkVHlwZSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIlJFRlBFUlMiCiAgICAgICAgfSwKICAgICAgICAiaWRWYWx1ZSI6ICI1NzY2MTEzMzAiCiAgICAgIH0KICAgIF0sCiAgICAiY2FtcFNlY3Rpb25WTyI6IHsKICAgICAgImV4dENvZGUiOiAiMjEyIgogICAgfSwKICAgICJjb250YWN0QWZmaW5pdHlNZW1iZXJzaGlwcyI6IFsKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIlBoeXNpY2FsIFBlcnNvbnMiCiAgICAgICAgfSwKICAgICAgICAibWVtYmVyc2hpcElkIjogMjg4OTEKICAgICAgfSwKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIkxlZ2FsIEVudGl0eSIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MgogICAgICB9CiAgICBdLAogICAgInRlbGVwaG9uZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpUZWxlcGhvbmVJQk8iLAogICAgICAgICJ0ZWxlcGhvbmVOdW1iZXIiOiAiMTIzNDU2Njc5IiwKICAgICAgICAidGVsZXBob25lVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDIsCiAgICAgICAgICAiZGVzYyI6ICJXb3JrIHRlbGVwaG9uZSIKICAgICAgICB9LAogICAgICAgICJ0ZWxlcGhvbmVQcmVmaXgiOiAiMDEwIiwKICAgICAgICAiY291bnRyeURpYWxDb2RlIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIjMyIgogICAgICAgIH0KICAgICAgfQogICAgXSwKICAgICJkYXRlT2ZCaXJ0aCI6ICIxOTkwLTAyLTE3VDAwOjAwOjAwIiwKICAgICJzZWN0aW9uVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIkZSIgogICAgfSwKICAgICJsYW5ndWFnZSI6IHsKICAgICAgImlkIjogMTAwMDAwMQogICAgfSwKICAgICJ0aXRsZSI6IHsKICAgICAgImlkIjogMTAwMDAwMiwKICAgICAgImRlc2MiOiAiRG9uIgogICAgfSwKICAgICJwcmVmZXJyZWRQYXltZW50TWV0aG9kIjogewogICAgICAiZXh0Q29kZSI6ICJRUi1CaWxsIgogICAgfSwKICAgICJleHRlcm5hbENvbnRhY3ROdW1iZXIiOiAiNTc2NjExMzMwIiwKICAgICJjb250YWN0U3ViVHlwZVRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICIzIgogICAgfSwKICAgICJlbWFpbHMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpFbWFpbElCTyIsCiAgICAgICAgImVtYWlsVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJlbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giCiAgICAgIH0KICAgIF0sCiAgICAibmFtZSI6ICJQdXdkZWtmIiwKICAgICJmaXJzdE5hbWUiOiAiVW9hcmlsaiIsCiAgICAibmF0aW9uYWxpdHkiOiB7CiAgICAgICJleHRDb2RlIjogIkNIIgogICAgfSwKICAgICJjb25zZW50cyI6IFtdLAogICAgImZhbWlseVN0YXR1cyI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFycmllZCIKICAgIH0KICB9Cn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 272580000000,
+              "status": "passed"
+            },
+            "name": "The contact has an active policy for the product: TCS Protection juridique privée with startDatePolicy: today-1year",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m144/t1/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiB0cnVlLAogICIkcGFyYW1ldGVyLmJpa2VJbnN1cmFuY2VMaW1pdCI6ICIiLAogICIkcGFyYW1ldGVyLmJyZWFrZG93bkFzc2lzdGFuY2UiOiAiIiwKICAiJHBhcmFtZXRlci5jYW1wQ2x1YlNlY3Rpb24iOiAiVENTIENBTVBJTkcgQ0xVQiBHRSIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdENyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFbWFpbCI6ICIiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjEwNjgxNzM3MCIsCiAgIiRwYXJhbWV0ZXIuY292ZXJBcmVhIjogIk1vbmRlIiwKICAiJHBhcmFtZXRlci5jb3ZlclR5cGUiOiAiUHJvdGVjdGlvbiBQbHVzIiwKICAiJHBhcmFtZXRlci5jcmVhdGVNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5jcmVhdGVPZmZlciI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuZGVwYW5uYWdlIjogIkF2ZWMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFJhdGUiOiAiIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFR5cGUiOiAiIiwKICAiJHBhcmFtZXRlci5kb3duZ3JhZGUiOiAiIiwKICAiJHBhcmFtZXRlci5lbmRQb2xpY3lOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZhbWlseU1lbWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmZpbmFsRGVjaXNpb24iOiAiIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuZm9yZWlnbkxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0luc3VyYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0xQRCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmluZF9mYW0iOiAiRmFtaWxsZSIsCiAgIiRwYXJhbWV0ZXIuaW50ZXJjaGFuZ2VhYmxlTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaXNFbmRvcnNlbWVudCI6ICIiLAogICIkcGFyYW1ldGVyLmlzVGVjaG5pY2FsQ2hhbmdlIjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNWYWxpZGF0aW9uQXR0cmlidXRlcyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmxlZ2FsUHJvdGVjdGlvbkRyaXZlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9naW5Qcm9maWxlIjogImJhY2tvZmZpY2UiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLm9wZW5JbnZvaWNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJDYXJkIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgYmVybiIsCiAgIiRwYXJhbWV0ZXIucGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFByb3RlY3Rpb24ganVyaWRpcXVlIHByaXbpZSIsCiAgIiRwYXJhbWV0ZXIuc2VjdGlvbiI6ICJHRSIsCiAgIiRwYXJhbWV0ZXIuc3RhcnREYXRlIjogInRvZGF5LTF5ZWFyIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJOb24gYXBwbGljYWJsZSIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZUV1cm9wZSI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VTd2l0emVybGFuZCI6IDIsCiAgIiRwYXJhbWV0ZXIudG90YWxXZWlnaHRFeGNlZWRMaW1pdCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnVzZUNyZWRpdEJhbGFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 68928000000,
+              "status": "passed"
+            },
+            "name": "I renew the policy",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m144/t1/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnBvbGljeU51bWJlciI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFByb3RlY3Rpb24ganVyaWRpcXVlIHByaXbpZSIsCiAgIiRwYXJhbWV0ZXIucmVuZXdNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5yZW5ld2FsTWFudWFsRGlzY291bnRSYXRlIjogIiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 9437000000,
+              "status": "passed"
+            },
+            "name": "The renewalDate: today and renewalPrice: CHF 206.25 are correct",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m144/t1/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLkZpcnN0X05hbWUiOiAidHQiLAogICIkcGFyYW1ldGVyLnBvbGljeU51bWJlciI6ICJQTzEwNjgxNzM3MC0xMDgwMC8wMSIsCiAgIiRwYXJhbWV0ZXIucmVuZXdhbERhdGUiOiAiMTcvMDIvMjAyMyIsCiAgIiRwYXJhbWV0ZXIucmVuZXdhbFByaWNlIjogIkNIRiAyMDYuMjUiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m144.t1(7)",
+          "name": "Check renewal pricing",
+          "worker": "Jenkins CI - 15",
+          "start": "06:22:09",
+          "end": "06:28:16"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m157] Sales User Interface (HUI)",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-2488",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m157",
+    "uri": "jira-features/2_NISTA-2488.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m157.t3(0)] Change contact portfolio through API calls (Jenkins CI - 16)",
+        "description": "Change contact portfolio through API calls",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-2488"
+          },
+          {
+            "name": "@NISTA-3411"
+          },
+          {
+            "name": "@IDITS-18493"
+          },
+          {
+            "name": "@In_progress"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 16622000000,
+              "status": "passed"
+            },
+            "name": "A contact in SFDC with <initialPortfolio> and <openRenewalInvoice>",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t3/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjEwNjgxNzMwNiIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdEV4dGVybmFsSUQgIjogIjEwNjgxNzMwNiIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIkJPT01JIiwKICAiJHBhcmFtZXRlci5maW5hbFBvcnRmb2xpbyI6ICIiLAogICIkcGFyYW1ldGVyLmluaXRpYWxQb3J0Zm9saW8iOiAiIiwKICAiJHBhcmFtZXRlci5vcGVuUmVuZXdhbEludm9pY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci51c2VyIjogIiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 11188000000,
+              "status": "passed"
+            },
+            "name": "The user: TST-IDIT-TCS-02 loads the contact portfolio",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t3/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmV4dGVybmFsSUQiOiAiMTA2ODE3MzA2IiwKICAiJHBhcmFtZXRlci51c2VyTmFtZSI6ICJUU1QtSURJVC1UQ1MtMDIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 30481000000,
+              "status": "passed"
+            },
+            "name": "Changes the contact portfolio to finalPortfolio: TCS Sociétariat,today+1,Famille,Avec Assistance and pay the basket with paymentMethod: Cash-In partenaire",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t3/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjEwNjgxNzMwNiIsCiAgIiRwYXJhbWV0ZXIuZmluYWxQb3J0Zm9saW8iOiAiVENTIFNvY2npdGFyaWF0LHRvZGF5KzEsRmFtaWxsZSxBdmVjIEFzc2lzdGFuY2UiLAogICIkcGFyYW1ldGVyLmluaXRpYWxQb3J0Zm9saW8iOiAiIiwKICAiJHBhcmFtZXRlci5vcGVuUmVuZXdhbEludm9pY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogIkNhc2gtSW4gcGFydGVuYWlyZSIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci51c2VyIjogIlRTVC1JRElULVRDUy0wMiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 2546000000,
+              "status": "passed"
+            },
+            "name": "The correct price: 139 is applied for this sale",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m157/t3/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnByaWNlIjogIjEzOSIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m157.t3(0)",
+          "name": "Change contact portfolio through API calls",
+          "worker": "Jenkins CI - 16",
+          "start": "05:38:25",
+          "end": "05:39:28"
+        }
+      }
+    ]
+  }
+]

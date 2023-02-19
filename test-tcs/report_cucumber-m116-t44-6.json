@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m116] Product pricing",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-678",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m116",
+    "uri": "jira-features/2_NISTA-678.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m116.t44(6)] Dependant products for family members (Jenkins CI - 17)",
+        "description": "Dependant products for family members",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-678"
+          },
+          {
+            "name": "@NISTA-2467"
+          },
+          {
+            "name": "@IDITS-18493"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 40602000000,
+              "status": "passed"
+            },
+            "name": "A contact with familyMember: child",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t44/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICI0NSIsCiAgIiRwYXJhbWV0ZXIuY2hpbGRBZ2UiOiAiMTYiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICJjaGlsZCIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 267772000000,
+              "status": "passed"
+            },
+            "name": "The contact is <membershipStatus> and has an active policy for the requiredProduct: TCS Sociétariat startDate: today <indFam>",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t44/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICIxMDY4MTczNjAiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlT2ZmZXIiOiB0cnVlLAogICIkcGFyYW1ldGVyLmRlcGFubmFnZSI6ICJBdmVjIGTpcGFubmFnZSIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRSYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRUeXBlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZG93bmdyYWRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW5kUG9saWN5TnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mYW1pbHlNZW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkZhbWlsbGUiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6ICIiLAogICIkcGFyYW1ldGVyLmlzVmFsaWRhdGlvbkF0dHJpYnV0ZXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5sZWdhbFByb3RlY3Rpb25Ecml2ZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvZ2luUHJvZmlsZSI6ICJiYWNrb2ZmaWNlIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwUGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwU3RhdHVzIjogIiIsCiAgIiRwYXJhbWV0ZXIubW90b3Jpc2UiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIub2ZmZXIiOiAiUG9saWN5IiwKICAiJHBhcmFtZXRlci5vcGVuSW52b2ljZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyQ2FyZCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJUeXBlIjogImNjIGJlcm4iLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBTb2Np6XRhcmlhdCIsCiAgIiRwYXJhbWV0ZXIuc2VjdGlvbiI6ICJHRSIsCiAgIiRwYXJhbWV0ZXIuc3RhcnREYXRlIjogInRvZGF5IiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJOb24gYXBwbGljYWJsZSIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZUV1cm9wZSI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VTd2l0emVybGFuZCI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsV2VpZ2h0RXhjZWVkTGltaXQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 234423000000,
+              "status": "passed"
+            },
+            "name": "The familyMember: child acquires a policy for dependantProduct: TCS Livret ETI",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t44/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICIxMDY4MTczNTkiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmNyZWF0ZU9mZmVyIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5kZXBhbm5hZ2UiOiAiQXZlYyBk6XBhbm5hZ2UiLAogICIkcGFyYW1ldGVyLmRpc2NvdW50UmF0ZSI6ICIiLAogICIkcGFyYW1ldGVyLmRpc2NvdW50VHlwZSI6ICIiLAogICIkcGFyYW1ldGVyLmRvd25ncmFkZSI6ICIiLAogICIkcGFyYW1ldGVyLmVuZFBvbGljeU51bWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSW5kaXZpZHVhbCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5TWVtYmVyIjogImNoaWxkIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkluZGl2aWR1ZWwiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6ICIiLAogICIkcGFyYW1ldGVyLmlzVmFsaWRhdGlvbkF0dHJpYnV0ZXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5sZWdhbFByb3RlY3Rpb25Ecml2ZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvZ2luUHJvZmlsZSI6ICJiYWNrb2ZmaWNlIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwUGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwU3RhdHVzIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIubW90b3Jpc2UiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIub2ZmZXIiOiAiUG9saWN5IiwKICAiJHBhcmFtZXRlci5vcGVuSW52b2ljZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyQ2FyZCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJUeXBlIjogImNjIGJlcm4iLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBMaXZyZXQgRVRJIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXkrMSIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VFdXJvcGUiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlU3dpdHplcmxhbmQiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbFdlaWdodEV4Y2VlZExpbWl0IjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIudXNlQ3JlZGl0QmFsYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 65486000000,
+              "status": "passed"
+            },
+            "name": "The price should be price: CHF 189.00",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t44/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLnByaWNlIjogIkNIRjE4OTAwIiwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogIiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m116.t44(6)",
+          "name": "Dependant products for family members",
+          "worker": "Jenkins CI - 17",
+          "start": "06:16:34",
+          "end": "06:26:45"
+        }
+      }
+    ]
+  }
+]

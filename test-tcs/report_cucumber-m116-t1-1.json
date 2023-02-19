@@ -1,0 +1,125 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m116] Product pricing",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-678",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m116",
+    "uri": "jira-features/2_NISTA-678.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m116.t1(1)] New SOC pricing (Jenkins CI - 19)",
+        "description": "New SOC pricing",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-678"
+          },
+          {
+            "name": "@NISTA-680"
+          },
+          {
+            "name": "@IDITS-18493"
+          },
+          {
+            "name": "@done"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 13758000000,
+              "status": "passed"
+            },
+            "name": "A contact with age: 40 subtype: Non applicable section: random subsection: random",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t1/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICI0MCIsCiAgIiRwYXJhbWV0ZXIuYmlydGhkYXkiOiAiMTk4My0wMi0xN1QwMDowMDowMCIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIkNIIiwKICAiJHBhcmFtZXRlci5jcmVhdGlvbkZsb3ciOiAiQk9PTUkiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMTUiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUxhYmVsIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci5lbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSW5kaXZpZHVhbCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZnJvbUJvb21pIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG91c2VOdW1iZXIiOiAiMTEiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9jYWxpdHkiOiAiTWV5cmluIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6IDcwMDAxNDkxOSwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyB2ZXJuaWVyIiwKICAiJHBhcmFtZXRlci5zYWxlc0NoYW5uZWwiOiAiY29udGFjdCBjZW50ZXIiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAicmFuZG9tIiwKICAiJHBhcmFtZXRlci5zdHJlZXQiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAicmFuZG9tIiwKICAiJHBhcmFtZXRlci5zdWJUeXBlIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0IiwKICAiJHBhcmFtZXRlci56aXBDb2RlIjogIjEyMTciLAogICIkcGFyYW1ldGVyLnppcENvZGVDb21wbGVtZW50IjogIjAwIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJZdXVxdWxiIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJaaWNuaW9sIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmV4dGVybmFsSUQiOiAiMTA2ODE3NDI4IiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmlkZW50aWZpZXIiOiAiMzEwMyIsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OLmV4dGVybmFsSUQiOiAiJHJlc3VsdC5yZXNwb25zZUpTT04uZXh0ZXJuYWxJRCA9PiBFcnJvciBkYXRhOiBDYW5ub3QgcmVhZCBwcm9wZXJ0aWVzIG9mIHVuZGVmaW5lZCAocmVhZGluZyAnZXh0ZXJuYWxJRCcpIiwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04uaWRlbnRpZmllciI6ICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5pZGVudGlmaWVyID0+IEVycm9yIGRhdGE6IENhbm5vdCByZWFkIHByb3BlcnRpZXMgb2YgdW5kZWZpbmVkIChyZWFkaW5nICdpZGVudGlmaWVyJykiLAogICIkcmVzdWx0LnJlc3BvbnNlVGV4dCI6ICI8P3htbCB2ZXJzaW9uPScxLjAnIGVuY29kaW5nPSdVVEYtOCc/PjxTOkVudmVsb3BlIHhtbG5zOlM9XCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy9zb2FwL2VudmVsb3BlL1wiPjxTOkJvZHk+PHdzczpjcmVhdGVBY2NvdW50X1YzUmVzcG9uc2UgeG1sbnM6d3NzPVwiaHR0cDovL3d3dy5ib29taS5jb20vY29ubmVjdG9yL3dzc1wiPlxuPG5zMTpDYWxsaW5TRkRDX2NyZWF0ZUFjY291bnRfVjNSZXNwb25zZSB4bWxuczpuczE9XCJDcmVhdGVBY2NvdW50X1YzUmVzcG9uc2UuYm9vbWkuY29tXCI+XG4gIDxuczE6cmVzdWx0PlxuICAgIDxuczE6ZXJyb3JDb2RlPjAwMDwvbnMxOmVycm9yQ29kZT5cbiAgICA8bnMxOmluZm9Db2RlPjAwMDwvbnMxOmluZm9Db2RlPlxuICAgIDxuczE6cGVyc29uYWxSZWZlcmVuY2U+MTA2ODE3NDI4PC9uczE6cGVyc29uYWxSZWZlcmVuY2U+XG4gIDwvbnMxOnJlc3VsdD5cbjwvbnMxOkNhbGxpblNGRENfY3JlYXRlQWNjb3VudF9WM1Jlc3BvbnNlPjwvd3NzOmNyZWF0ZUFjY291bnRfVjNSZXNwb25zZT48L1M6Qm9keT48L1M6RW52ZWxvcGU+IiwKICAiJHJlc3VsdC5zdGF0dXMiOiAyMDAsCiAgIiR0ZXN0LmFwaURhdGEiOiB7CiAgICAicHJvZmVzc2lvbiI6IHsKICAgICAgImlkIjogNCwKICAgICAgImRlc2MiOiAiRmFybWVyIgogICAgfSwKICAgICJhZGRyZXNzZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpBZGRyZXNzSUJPIiwKICAgICAgICAiemlwQ29kZSI6ICIxMjE0IiwKICAgICAgICAiY291bnRyeSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIkNIIgogICAgICAgIH0sCiAgICAgICAgImFkZHJlc3NUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgInN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICAgICAgICJjaXR5TmFtZSI6ICJWZXJuaWVyIiwKICAgICAgICAiaG91c2VOciI6ICI0IgogICAgICB9CiAgICBdLAogICAgInN1YnNjcmlwdGlvbnMiOiBbXSwKICAgICJnZW5kZXIiOiB7CiAgICAgICJpZCI6IDIsCiAgICAgICJkZXNjIjogIk1hbGUiCiAgICB9LAogICAgImVudGl0eVR5cGUiOiB7CiAgICAgICJpZCI6IDEKICAgIH0sCiAgICAiaWRlbnRpZmllcnMiOiBbCiAgICAgIHsKICAgICAgICAiaWRUeXBlIjogewogICAgICAgICAgImV4dENvZGUiOiAiUkVGUEVSUyIKICAgICAgICB9LAogICAgICAgICJpZFZhbHVlIjogIjk3NjYxMzY1MSIKICAgICAgfQogICAgXSwKICAgICJjYW1wU2VjdGlvblZPIjogewogICAgICAiZXh0Q29kZSI6ICIyMTIiCiAgICB9LAogICAgImNvbnRhY3RBZmZpbml0eU1lbWJlcnNoaXBzIjogWwogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiUGh5c2ljYWwgUGVyc29ucyIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MQogICAgICB9LAogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiTGVnYWwgRW50aXR5IgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkyCiAgICAgIH0KICAgIF0sCiAgICAidGVsZXBob25lcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOlRlbGVwaG9uZUlCTyIsCiAgICAgICAgInRlbGVwaG9uZU51bWJlciI6ICIxMjM0NTY2NzkiLAogICAgICAgICJ0ZWxlcGhvbmVUeXBlIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIldvcmsgdGVsZXBob25lIgogICAgICAgIH0sCiAgICAgICAgInRlbGVwaG9uZVByZWZpeCI6ICIwMTAiLAogICAgICAgICJjb3VudHJ5RGlhbENvZGUiOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiMzIiCiAgICAgICAgfQogICAgICB9CiAgICBdLAogICAgImRhdGVPZkJpcnRoIjogIjE5ODMtMDItMTdUMDA6MDA6MDAiLAogICAgInNlY3Rpb25UQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiU0giCiAgICB9LAogICAgImxhbmd1YWdlIjogewogICAgICAiaWQiOiAxMDAwMDAxCiAgICB9LAogICAgInRpdGxlIjogewogICAgICAiaWQiOiAxMDAwMDAyLAogICAgICAiZGVzYyI6ICJEb24iCiAgICB9LAogICAgInByZWZlcnJlZFBheW1lbnRNZXRob2QiOiB7CiAgICAgICJleHRDb2RlIjogIlFSLUJpbGwiCiAgICB9LAogICAgImV4dGVybmFsQ29udGFjdE51bWJlciI6ICI5NzY2MTM2NTEiLAogICAgImNvbnRhY3RTdWJUeXBlVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjE1IgogICAgfSwKICAgICJlbWFpbHMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpFbWFpbElCTyIsCiAgICAgICAgImVtYWlsVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJlbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giCiAgICAgIH0KICAgIF0sCiAgICAibmFtZSI6ICJOaWlhb2ZwIiwKICAgICJmaXJzdE5hbWUiOiAiSGFyeWVwbyIsCiAgICAibmF0aW9uYWxpdHkiOiB7CiAgICAgICJleHRDb2RlIjogIkNIIgogICAgfSwKICAgICJjb25zZW50cyI6IFtdLAogICAgImZhbWlseVN0YXR1cyI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFycmllZCIKICAgIH0KICB9Cn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 33837000000,
+              "status": "passed"
+            },
+            "name": "I am logged in as frontoffice in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t1/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmZvcmNlIjogdHJ1ZSwKICAiJHByb2plY3QubG9naW5EYXRhLmN1cnJlbnRVc2VySWQiOiAiYmdmb2YxMCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 272781000000,
+              "status": "passed"
+            },
+            "name": "I create a proposal for the new product: TCS Sociétariat <ind_fam> depannage: Avec dépannage",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t1/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICIxMDY4MTc0MjgiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlT2ZmZXIiOiB0cnVlLAogICIkcGFyYW1ldGVyLmRlcGFubmFnZSI6ICJBdmVjIGTpcGFubmFnZSIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRSYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRUeXBlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZG93bmdyYWRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW5kUG9saWN5TnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mYW1pbHlNZW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkluZGl2aWR1ZWwiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6ICIiLAogICIkcGFyYW1ldGVyLmlzVmFsaWRhdGlvbkF0dHJpYnV0ZXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5sZWdhbFByb3RlY3Rpb25Ecml2ZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvZ2luUHJvZmlsZSI6ICIiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQcm9wb3NhbCIsCiAgIiRwYXJhbWV0ZXIub3Blbkludm9pY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5wYXJlbnRDb250YWN0RXh0TnVtIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lckNhcmQiOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyBiZXJuIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLnByaWNlIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvZHVjdCI6ICJUQ1MgU29jael0YXJpYXQiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0YXJ0RGF0ZSI6ICJ0b2RheSsxIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJOb24gYXBwbGljYWJsZSIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZUV1cm9wZSI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VTd2l0emVybGFuZCI6ICIiLAogICIkcGFyYW1ldGVyLnRvdGFsV2VpZ2h0RXhjZWVkTGltaXQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 62331000000,
+              "status": "passed"
+            },
+            "name": "The price shall be price: CHF 93.00",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t1/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQcm9wb3NhbCIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiQ0hGOTMwMCIsCiAgIiRwYXJhbWV0ZXIudXNlQ3JlZGl0QmFsYW5jZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m116.t1(1)",
+          "name": "New SOC pricing",
+          "worker": "Jenkins CI - 19",
+          "start": "07:00:50",
+          "end": "07:07:14"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m116] Product pricing",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-678",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m116",
+    "uri": "jira-features/2_NISTA-678.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m116.t39(0)] Carte Entreprise Pricing (Jenkins CI - 17)",
+        "description": "Carte Entreprise Pricing",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-678"
+          },
+          {
+            "name": "@NISTA-2154"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 108700000000,
+              "status": "passed"
+            },
+            "name": "A legal entity contact",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t39/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDQwLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIlNGREMiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMCIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlTGFiZWwiOiAiQ2xpZW50IHByaXbpIiwKICAiJHBhcmFtZXRlci5lbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiTGVnYWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZyb21Cb29taSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhvdXNlTnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIubGVnYWxSZXNpZGVuY2UiOiAic3Vpc3NlIiwKICAiJHBhcmFtZXRlci5sb2NhbGl0eSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5wYXJlbnRDb250YWN0RXh0TnVtIjogNzAwMDE0OTE5LAogICIkcGFyYW1ldGVyLnBhcnRuZXJUeXBlIjogImNjIHZlcm5pZXIiLAogICIkcGFyYW1ldGVyLnNhbGVzQ2hhbm5lbCI6ICJjb250YWN0IGNlbnRlciIsCiAgIiRwYXJhbWV0ZXIuc2VjdGlvbiI6ICJHRSIsCiAgIiRwYXJhbWV0ZXIuc3RyZWV0IjogIiIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICJOQSIsCiAgIiRwYXJhbWV0ZXIuc3ViVHlwZSI6ICJjbGllbnQgcHJpdukiLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiLAogICIkcGFyYW1ldGVyLnppcENvZGUiOiAiIiwKICAiJHBhcmFtZXRlci56aXBDb2RlQ29tcGxlbWVudCI6ICIiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuTm9tIjogIlpvZ25pengiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuUHJlbm9tIjogIlVpZHN1b3EiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuZXh0ZXJuYWxJRCI6ICI3MDAwMjI1NTIiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuaWRlbnRpZmllciI6ICIzMTAzIiwKICAiJHJlc3VsdC5yZXNwb25zZUpTT04iOiBbCiAgICB7CiAgICAgICJwb2xpY3lJbkxpc3RJQk8iOiBbCiAgICAgICAgewogICAgICAgICAgInBvbGljeVZlcnNpb24iOiAiMCIsCiAgICAgICAgICAic3RhdHVzQ29kZVZPIjogewogICAgICAgICAgICAiaWQiOiAyMCwKICAgICAgICAgICAgImV4dENvZGUiOiAicG9saWN5IiwKICAgICAgICAgICAgImRlc2MiOiAiUG9saWN5IgogICAgICAgICAgfSwKICAgICAgICAgICJ1cGRhdGVWZXJzaW9uIjogLTEsCiAgICAgICAgICAiZW5kRGF0ZSI6ICIyMDI0LTAyLTE3IiwKICAgICAgICAgICJtYXN0ZXJQb2xpY3lJZCI6IG51bGwsCiAgICAgICAgICAiZnV0dXJlQ2FuY2VsbGF0aW9uRGF0ZSI6IG51bGwsCiAgICAgICAgICAiaXNBY3RpdmVQb2xpY3kiOiB0cnVlLAogICAgICAgICAgInByb3Bvc2FsVmVyc2lvbiI6IG51bGwsCiAgICAgICAgICAicG9saWN5TnIiOiAiUE83NzY2MTM4ODEtMTAxMDAvMDAiLAogICAgICAgICAgImNhbmNlbEZyb20iOiBudWxsLAogICAgICAgICAgInBvbGljeU93bmVyRXh0TnVtYmVyIjogIjc3NjYxMzg4MSIsCiAgICAgICAgICAicG9saWN5WWVhcmx5UHJlbWl1bSI6IHsKICAgICAgICAgICAgImFtb3VudCI6IDEzOSwKICAgICAgICAgICAgImFtb3VudFN5c3RlbSI6IG51bGwsCiAgICAgICAgICAgICJ1cGRhdGVWZXJzaW9uIjogLTEsCiAgICAgICAgICAgICJhbW91bnRSYXRlIjogbnVsbCwKICAgICAgICAgICAgImN1cnJlbmN5Vk8iOiB7CiAgICAgICAgICAgICAgImlkIjogMzIsCiAgICAgICAgICAgICAgImV4dENvZGUiOiAiQ0hGIiwKICAgICAgICAgICAgICAiZGVzYyI6ICJTd2lzcyBGcmFuYyIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgImJhc2lzQW1vdW50U3lzdGVtIjogbnVsbCwKICAgICAgICAgICAgInJhdGVEYXRlIjogbnVsbCwKICAgICAgICAgICAgImlkIjogLTYyNzIwMzkzNSwKICAgICAgICAgICAgImFtb3VudEluZGV4Vk8iOiBudWxsLAogICAgICAgICAgICAiYmFzaXNBbW91bnRJbmRleFZPIjogbnVsbAogICAgICAgICAgfSwKICAgICAgICAgICJpZCI6IDQ0MDkyMDYsCiAgICAgICAgICAicHJvZHVjdElkIjogMTAwMDAwMiwKICAgICAgICAgICJwcm9kdWN0Vk8iOiB7CiAgICAgICAgICAgICJpZCI6IDEwMDAwMDIsCiAgICAgICAgICAgICJleHRDb2RlIjogIjEwMSIsCiAgICAgICAgICAgICJkZXNjIjogIlRDUyBNZW1iZXJzaGlwIgogICAgICAgICAgfSwKICAgICAgICAgICJpc01hc3RlclBvbGljeSI6IGZhbHNlLAogICAgICAgICAgInBvbGljeVN0YXJ0RGF0ZSI6ICIyMDIzLTAyLTE4IiwKICAgICAgICAgICJwcm9kdWN0RGlzcGxheVZPIjogbnVsbCwKICAgICAgICAgICJwcm9kdWN0RGlzcGxheUlkIjogbnVsbCwKICAgICAgICAgICJzdGF0dXNJZCI6IDIwLAogICAgICAgICAgInByb3Bvc2FsTnIiOiBudWxsLAogICAgICAgICAgInZhbGlkVW50aWwiOiAiMjAyMy0wOC0xNiIsCiAgICAgICAgICAicG9saWN5T3duZXJOYW1lIjogIlhlcHJheXogSGVpYmV0YyIsCiAgICAgICAgICAic3RhcnREYXRlIjogIjIwMjMtMDItMTgiCiAgICAgICAgfQogICAgICBdLAogICAgICAiaWQiOiAtMzMwMjAxNDQ0CiAgICB9CiAgXSwKICAiJHJlc3VsdC5yZXNwb25zZVRleHQiOiAiW3tcInBvbGljeUluTGlzdElCT1wiOlt7XCJwb2xpY3lWZXJzaW9uXCI6XCIwXCIsXCJzdGF0dXNDb2RlVk9cIjp7XCJpZFwiOjIwLFwiZXh0Q29kZVwiOlwicG9saWN5XCIsXCJkZXNjXCI6XCJQb2xpY3lcIn0sXCJ1cGRhdGVWZXJzaW9uXCI6LTEsXCJlbmREYXRlXCI6XCIyMDI0LTAyLTE3XCIsXCJtYXN0ZXJQb2xpY3lJZFwiOm51bGwsXCJmdXR1cmVDYW5jZWxsYXRpb25EYXRlXCI6bnVsbCxcImlzQWN0aXZlUG9saWN5XCI6dHJ1ZSxcInByb3Bvc2FsVmVyc2lvblwiOm51bGwsXCJwb2xpY3lOclwiOlwiUE83NzY2MTM4ODEtMTAxMDAvMDBcIixcImNhbmNlbEZyb21cIjpudWxsLFwicG9saWN5T3duZXJFeHROdW1iZXJcIjpcIjc3NjYxMzg4MVwiLFwicG9saWN5WWVhcmx5UHJlbWl1bVwiOntcImFtb3VudFwiOjEzOS4wMCxcImFtb3VudFN5c3RlbVwiOm51bGwsXCJ1cGRhdGVWZXJzaW9uXCI6LTEsXCJhbW91bnRSYXRlXCI6bnVsbCxcImN1cnJlbmN5Vk9cIjp7XCJpZFwiOjMyLFwiZXh0Q29kZVwiOlwiQ0hGXCIsXCJkZXNjXCI6XCJTd2lzcyBGcmFuY1wifSxcImJhc2lzQW1vdW50U3lzdGVtXCI6bnVsbCxcInJhdGVEYXRlXCI6bnVsbCxcImlkXCI6LTYyNzIwMzkzNSxcImFtb3VudEluZGV4Vk9cIjpudWxsLFwiYmFzaXNBbW91bnRJbmRleFZPXCI6bnVsbH0sXCJpZFwiOjQ0MDkyMDYsXCJwcm9kdWN0SWRcIjoxMDAwMDAyLFwicHJvZHVjdFZPXCI6e1wiaWRcIjoxMDAwMDAyLFwiZXh0Q29kZVwiOlwiMTAxXCIsXCJkZXNjXCI6XCJUQ1MgTWVtYmVyc2hpcFwifSxcImlzTWFzdGVyUG9saWN5XCI6ZmFsc2UsXCJwb2xpY3lTdGFydERhdGVcIjpcIjIwMjMtMDItMThcIixcInByb2R1Y3REaXNwbGF5Vk9cIjpudWxsLFwicHJvZHVjdERpc3BsYXlJZFwiOm51bGwsXCJzdGF0dXNJZFwiOjIwLFwicHJvcG9zYWxOclwiOm51bGwsXCJ2YWxpZFVudGlsXCI6XCIyMDIzLTA4LTE2XCIsXCJwb2xpY3lPd25lck5hbWVcIjpcIlhlcHJheXogSGVpYmV0Y1wiLFwic3RhcnREYXRlXCI6XCIyMDIzLTAyLTE4XCJ9XSxcImlkXCI6LTMzMDIwMTQ0NH1dIiwKICAiJHJlc3VsdC5zdGF0dXMiOiAyMDAsCiAgIiR0ZXN0LmFwaURhdGEiOiB7CiAgICAiY29udGFjdFJlbGF0aW9uc2hpcHMiOiBbXSwKICAgICJhZGRyZXNzZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpBZGRyZXNzSUJPIiwKICAgICAgICAiemlwQ29kZSI6ICIxMjE3IiwKICAgICAgICAiY291bnRyeSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIkNIIgogICAgICAgIH0sCiAgICAgICAgImFkZHJlc3NUeXBlIjogewogICAgICAgICAgImlkIjogMgogICAgICAgIH0sCiAgICAgICAgInN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICAgICAgICJjaXR5TmFtZSI6ICJWZXJuaWVyIiwKICAgICAgICAiaG91c2VOciI6ICI0IgogICAgICB9LAogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6QWRkcmVzc0lCTyIsCiAgICAgICAgInppcENvZGUiOiAiMTIxNyIsCiAgICAgICAgImNvdW50cnkiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJDSCIKICAgICAgICB9LAogICAgICAgICJhZGRyZXNzVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDYKICAgICAgICB9LAogICAgICAgICJzdHJlZXROYW1lIjogIkNoZW1pbiBkZSBCbGFuZG9ubmV0IiwKICAgICAgICAiY2l0eU5hbWUiOiAiVmVybmllciIsCiAgICAgICAgImhvdXNlTnIiOiAiNCIKICAgICAgfQogICAgXSwKICAgICJzdWJzY3JpcHRpb25zIjogW10sCiAgICAiZWFuIjogIjEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MCIsCiAgICAiZ2VuZGVyIjogewogICAgICAiZXh0Q29kZSI6ICIyIgogICAgfSwKICAgICJlbnRpdHlUeXBlIjogewogICAgICAiZXh0Q29kZSI6ICIyIgogICAgfSwKICAgICJpZGVudGlmaWVycyI6IFtdLAogICAgImNvbnRhY3RBZmZpbml0eU1lbWJlcnNoaXBzIjogW10sCiAgICAidGVsZXBob25lcyI6IFtdLAogICAgImxhbmd1YWdlIjogewogICAgICAiaWQiOiAxMDEsCiAgICAgICJkZXNjIjogIkVuZ2xpc2ggLSBVUyIKICAgIH0sCiAgICAiY2hhbm5lbFR5cGUiOiB7CiAgICAgICJpZCI6IDMsCiAgICAgICJkZXNjIjogIkludGVyZmFjZSIKICAgIH0sCiAgICAiZXh0ZXJuYWxDb250YWN0TnVtYmVyIjogIjc3NjYxNDI4NiIsCiAgICAiZW1haWxzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6RW1haWxJQk8iLAogICAgICAgICJlbWFpbFR5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiUHJpbWFyeSIKICAgICAgICB9LAogICAgICAgICJlbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giCiAgICAgIH0KICAgIF0sCiAgICAibmF0aW9uYWxpdHkiOiB7CiAgICAgICJpZCI6IDc3CiAgICB9LAogICAgIm5hbWUiOiAiTG9kZWF6aiIsCiAgICAiY29uc2VudHMiOiBbXSwKICAgICJjb250YWN0U3ViVHlwZVRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICIxMCIKICAgIH0KICB9Cn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 334285000000,
+              "status": "passed"
+            },
+            "name": "The contact acquires a TCS Carte Entreprise policy with totalCoverageSwitzerland: 1 totalCoverageEurope: 0",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t39/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5iaWtlSW5zdXJhbmNlTGltaXQiOiAiIiwKICAiJHBhcmFtZXRlci5icmVha2Rvd25Bc3Npc3RhbmNlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RDcmVhdGlvbkZsb3ciOiAiQVBJIiwKICAiJHBhcmFtZXRlci5jb250YWN0RW1haWwiOiAiIiwKICAiJHBhcmFtZXRlci5jb250YWN0RXh0ZXJuYWxJRCI6ICI3MDAwMjI1NTIiLAogICIkcGFyYW1ldGVyLmNvdmVyQXJlYSI6ICJNb25kZSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJUeXBlIjogIlByb3RlY3Rpb24gUGx1cyIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlTWVtYmVyc2hpcCI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuY3JlYXRlT2ZmZXIiOiB0cnVlLAogICIkcGFyYW1ldGVyLmRlcGFubmFnZSI6ICJBdmVjIGTpcGFubmFnZSIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRSYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZGlzY291bnRUeXBlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZG93bmdyYWRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW5kUG9saWN5TnVtYmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5mYW1pbHkiOiAiIiwKICAiJHBhcmFtZXRlci5mYW1pbHlNZW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5maW5hbERlY2lzaW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuZm9yY2VMb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmZvcmVpZ25MaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNJbnN1cmFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5oYXNMUEQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pbmRfZmFtIjogIkZhbWlsbGUiLAogICIkcGFyYW1ldGVyLmludGVyY2hhbmdlYWJsZUxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiAiIiwKICAiJHBhcmFtZXRlci5pc1RlY2huaWNhbENoYW5nZSI6ICIiLAogICIkcGFyYW1ldGVyLmlzVmFsaWRhdGlvbkF0dHJpYnV0ZXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5sZWdhbFByb3RlY3Rpb25Ecml2ZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvZ2luUHJvZmlsZSI6ICJiYWNrb2ZmaWNlIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwUGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5tZW1iZXJzaGlwU3RhdHVzIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIubW90b3Jpc2UiOiAiIiwKICAiJHBhcmFtZXRlci5uYW1lUHJlZml4IjogIiIsCiAgIiRwYXJhbWV0ZXIub2ZmZXIiOiAiUG9saWN5IiwKICAiJHBhcmFtZXRlci5vcGVuSW52b2ljZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyQ2FyZCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJUeXBlIjogImNjIGJlcm4iLAogICIkcGFyYW1ldGVyLnBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIucHJpY2UiOiAiIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBDYXJ0ZSBFbnRyZXByaXNlIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXkrMSIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VFdXJvcGUiOiAiMCIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZVN3aXR6ZXJsYW5kIjogIjEiLAogICIkcGFyYW1ldGVyLnRvdGFsV2VpZ2h0RXhjZWVkTGltaXQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 73854000000,
+              "status": "passed"
+            },
+            "name": "The price shall be price: CHF 137,00",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m116/t39/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmlzRW5kb3JzZW1lbnQiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLnByaWNlIjogIkNIRjEzNzAwIiwKICAiJHBhcmFtZXRlci51c2VDcmVkaXRCYWxhbmNlIjogIiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m116.t39(0)",
+          "name": "Carte Entreprise Pricing",
+          "worker": "Jenkins CI - 17",
+          "start": "07:11:24",
+          "end": "07:20:04"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m118] Sales - negative checks",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-462",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m118",
+    "uri": "jira-features/2_NISTA-462.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m118.t6(0)] Membership Camping without Camping section (Jenkins CI - 15)",
+        "description": "Membership Camping without Camping section",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-462"
+          },
+          {
+            "name": "@NISTA-728"
+          },
+          {
+            "name": "@done"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 9501000000,
+              "status": "passed"
+            },
+            "name": "A contact without camping section campClubSection: na is created with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDQwLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIk5BIiwKICAiJHBhcmFtZXRlci5jb3VudHJ5Q29kZSI6ICIiLAogICIkcGFyYW1ldGVyLmNyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMCIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlTGFiZWwiOiAiQ2xpZW50IHByaXbpIiwKICAiJHBhcmFtZXRlci5lbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSU5ESVZJRFVBTCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZnJvbUJvb21pIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG91c2VOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJTVUlTU0UiLAogICIkcGFyYW1ldGVyLmxvY2FsaXR5IjogIiIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiA3MDAwMTQ5MTksCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiQ0NfVkVSTklFUiIsCiAgIiRwYXJhbWV0ZXIuc2FsZXNDaGFubmVsIjogIkNPTlRBQ1RfQ0VOVEVSIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdHJlZXQiOiAiIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIk5BIiwKICAiJHBhcmFtZXRlci5zdWJUeXBlIjogIkNMSUVOVF9QUklWySIsCiAgIiRwYXJhbWV0ZXIud2l0aE9yV2l0aG91dElCQU4iOiAid2l0aG91dCIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZSI6ICIiLAogICIkcGFyYW1ldGVyLnppcENvZGVDb21wbGVtZW50IjogIiIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5Ob20iOiAiVWlneXVtYSIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5QcmVub20iOiAiTmV1cnV1biIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5leHRlcm5hbElEIjogIjU3NjYwODIzMSIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5pZGVudGlmaWVyIjogMTAwMDE3NzMxNzYxLAogICIkcmVzdWx0LnJlc3BvbnNlSlNPTiI6IHsKICAgICJpZGVudGlmaWVyIjogMTAwMDE3NzMxNzYxLAogICAgImV4dGVybmFsSUQiOiAiNTc2NjA4MjMxIiwKICAgICJpZCI6IC0yNDI3Nzg1NDMKICB9LAogICIkcmVzdWx0LnJlc3BvbnNlSlNPTi5leHRlcm5hbElEIjogIjU3NjYwODIzMSIsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OLmlkZW50aWZpZXIiOiAxMDAwMTc3MzE3NjEsCiAgIiRyZXN1bHQucmVzcG9uc2VUZXh0IjogIntcImlkZW50aWZpZXJcIjoxMDAwMTc3MzE3NjEsXCJleHRlcm5hbElEXCI6XCI1NzY2MDgyMzFcIixcImlkXCI6LTI0Mjc3ODU0M30iLAogICIkcmVzdWx0LnN0YXR1cyI6IDIwMSwKICAiJHRlc3QuYXBpRGF0YSI6IHsKICAgICJwcm9mZXNzaW9uIjogewogICAgICAiaWQiOiA0LAogICAgICAiZGVzYyI6ICJGYXJtZXIiCiAgICB9LAogICAgImFkZHJlc3NlcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkFkZHJlc3NJQk8iLAogICAgICAgICJ6aXBDb2RlIjogIjEyMTQiLAogICAgICAgICJjb3VudHJ5IjogewogICAgICAgICAgImV4dENvZGUiOiAiQ0giCiAgICAgICAgfSwKICAgICAgICAiYWRkcmVzc1R5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxCiAgICAgICAgfSwKICAgICAgICAic3RyZWV0TmFtZSI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgICAgICAgImNpdHlOYW1lIjogIlZlcm5pZXIiLAogICAgICAgICJob3VzZU5yIjogIjQiCiAgICAgIH0KICAgIF0sCiAgICAic3Vic2NyaXB0aW9ucyI6IFtdLAogICAgImdlbmRlciI6IHsKICAgICAgImlkIjogMiwKICAgICAgImRlc2MiOiAiTWFsZSIKICAgIH0sCiAgICAiZW50aXR5VHlwZSI6IHsKICAgICAgImlkIjogMQogICAgfSwKICAgICJpZGVudGlmaWVycyI6IFsKICAgICAgewogICAgICAgICJpZFR5cGUiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJSRUZQRVJTIgogICAgICAgIH0sCiAgICAgICAgImlkVmFsdWUiOiAiNTc2NjA4MjMxIgogICAgICB9CiAgICBdLAogICAgImNvbnRhY3RBZmZpbml0eU1lbWJlcnNoaXBzIjogWwogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAyLAogICAgICAgICAgImRlc2MiOiAiUGh5c2ljYWwgUGVyc29ucyIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MQogICAgICB9LAogICAgICB7CiAgICAgICAgImFmZmluaXR5Vk8iOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiTGVnYWwgRW50aXR5IgogICAgICAgIH0sCiAgICAgICAgIm1lbWJlcnNoaXBJZCI6IDI4ODkyCiAgICAgIH0KICAgIF0sCiAgICAidGVsZXBob25lcyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOlRlbGVwaG9uZUlCTyIsCiAgICAgICAgInRlbGVwaG9uZU51bWJlciI6ICIxMjM0NTY2NzkiLAogICAgICAgICJ0ZWxlcGhvbmVUeXBlIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIldvcmsgdGVsZXBob25lIgogICAgICAgIH0sCiAgICAgICAgInRlbGVwaG9uZVByZWZpeCI6ICIwMTAiLAogICAgICAgICJjb3VudHJ5RGlhbENvZGUiOiB7CiAgICAgICAgICAiaWQiOiAxLAogICAgICAgICAgImRlc2MiOiAiMzIiCiAgICAgICAgfQogICAgICB9CiAgICBdLAogICAgImRhdGVPZkJpcnRoIjogIjE5ODMtMDItMTdUMDA6MDA6MDAiLAogICAgInNlY3Rpb25UQ1NWTyI6IHsKICAgICAgImV4dENvZGUiOiAiR0UiCiAgICB9LAogICAgImxhbmd1YWdlIjogewogICAgICAiaWQiOiAxMDAwMDAxCiAgICB9LAogICAgInRpdGxlIjogewogICAgICAiaWQiOiAxMDAwMDAyLAogICAgICAiZGVzYyI6ICJEb24iCiAgICB9LAogICAgInByZWZlcnJlZFBheW1lbnRNZXRob2QiOiB7CiAgICAgICJleHRDb2RlIjogIlFSLUJpbGwiCiAgICB9LAogICAgImV4dGVybmFsQ29udGFjdE51bWJlciI6ICI1NzY2MDgyMzEiLAogICAgImNvbnRhY3RTdWJUeXBlVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIjAiCiAgICB9LAogICAgImVtYWlscyI6IFsKICAgICAgewogICAgICAgICJAdHlwZSI6ICJpbnRlcmZhY2VzOkVtYWlsSUJPIiwKICAgICAgICAiZW1haWxUeXBlIjogewogICAgICAgICAgImlkIjogMQogICAgICAgIH0sCiAgICAgICAgImVtYWlsIjogInJlbmUtZnJhbmNrLm5rdXNpQHRjcy5jaCIKICAgICAgfQogICAgXSwKICAgICJuYW1lIjogIlVpZ3l1bWEiLAogICAgImZpcnN0TmFtZSI6ICJOZXVydXVuIiwKICAgICJuYXRpb25hbGl0eSI6IHsKICAgICAgImV4dENvZGUiOiAiQ0giCiAgICB9LAogICAgImNvbnNlbnRzIjogW10sCiAgICAiZmFtaWx5U3RhdHVzIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYXJyaWVkIgogICAgfQogIH0KfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 65213000000,
+              "status": "passed"
+            },
+            "name": "The contact has an active policy for product1: TCS Sociétariat",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiB0cnVlLAogICIkcGFyYW1ldGVyLmJpa2VJbnN1cmFuY2VMaW1pdCI6ICIiLAogICIkcGFyYW1ldGVyLmJyZWFrZG93bkFzc2lzdGFuY2UiOiAiIiwKICAiJHBhcmFtZXRlci5jYW1wQ2x1YlNlY3Rpb24iOiAiVENTIENBTVBJTkcgQ0xVQiBHRSIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdENyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFbWFpbCI6ICIiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjU3NjYwODIzMSIsCiAgIiRwYXJhbWV0ZXIuY292ZXJBcmVhIjogIk1vbmRlIiwKICAiJHBhcmFtZXRlci5jb3ZlclR5cGUiOiAiUHJvdGVjdGlvbiBQbHVzIiwKICAiJHBhcmFtZXRlci5jcmVhdGVNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5jcmVhdGVPZmZlciI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuZGVwYW5uYWdlIjogIkF2ZWMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFJhdGUiOiAiIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFR5cGUiOiAiIiwKICAiJHBhcmFtZXRlci5kb3duZ3JhZGUiOiAiIiwKICAiJHBhcmFtZXRlci5lbmRQb2xpY3lOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZhbWlseU1lbWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmZpbmFsRGVjaXNpb24iOiAiIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5mb3JlaWduTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzSW5zdXJhbmNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaGFzTFBEIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaW5kX2ZhbSI6ICJGYW1pbGxlIiwKICAiJHBhcmFtZXRlci5pbnRlcmNoYW5nZWFibGVMaWNlbnNlUGxhdGUiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5pc0VuZG9yc2VtZW50IjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNUZWNobmljYWxDaGFuZ2UiOiAiIiwKICAiJHBhcmFtZXRlci5pc1ZhbGlkYXRpb25BdHRyaWJ1dGVzIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIubGVnYWxQcm90ZWN0aW9uRHJpdmVyIjogIiIsCiAgIiRwYXJhbWV0ZXIubGVnYWxSZXNpZGVuY2UiOiAic3Vpc3NlIiwKICAiJHBhcmFtZXRlci5sb2dpblByb2ZpbGUiOiAiYmFja29mZmljZSIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFBheW1lbnRNZXRob2QiOiAiY2FzaCIsCiAgIiRwYXJhbWV0ZXIubWVtYmVyc2hpcFN0YXR1cyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLm1vdG9yaXNlIjogIiIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLm9mZmVyIjogIlBvbGljeSIsCiAgIiRwYXJhbWV0ZXIub3Blbkludm9pY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5wYXJlbnRDb250YWN0RXh0TnVtIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lckNhcmQiOiAiIiwKICAiJHBhcmFtZXRlci5wYXJ0bmVyVHlwZSI6ICJjYyBiZXJuIiwKICAiJHBhcmFtZXRlci5wYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLnByaWNlIjogIiIsCiAgIiRwYXJhbWV0ZXIucHJvZHVjdCI6ICJUQ1MgU29jael0YXJpYXQiLAogICIkcGFyYW1ldGVyLnNlY3Rpb24iOiAiR0UiLAogICIkcGFyYW1ldGVyLnN0YXJ0RGF0ZSI6ICJ0b2RheS0xNSIsCiAgIiRwYXJhbWV0ZXIuc3ViU2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YlR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcGFyYW1ldGVyLnRvdGFsQ292ZXJhZ2VFdXJvcGUiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlU3dpdHplcmxhbmQiOiAiIiwKICAiJHBhcmFtZXRlci50b3RhbFdlaWdodEV4Y2VlZExpbWl0IjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIudXNlQ3JlZGl0QmFsYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLndpdGhPcldpdGhvdXRJQkFOIjogIndpdGhvdXQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 31952000000,
+              "status": "passed"
+            },
+            "name": "I am logged in as frontoffice in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmZvcmNlIjogdHJ1ZSwKICAiJHByb2plY3QubG9naW5EYXRhLmN1cnJlbnRVc2VySWQiOiAiYmdmb2Y2Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 132890000000,
+              "status": "passed"
+            },
+            "name": "I start to create a proposal for product2: TCS Sociétariat Camping for the contact",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNyZWF0ZU1lbWJlcnNoaXAiOiAiIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBTb2Np6XRhcmlhdCBDYW1waW5nIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAiMTgvMDIvMjAyMyIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5leHRlcm5hbElEIjogIjU3NjYwODIzMSIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 9864000000,
+              "status": "passed"
+            },
+            "name": "An alert is displayed and proposal cannot be created",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnByb2R1Y3RCdW5kbGUiOiAiIiwKICAiJHBhcmFtZXRlci51bmRlcndyaXRpbmdBbGVydCI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 1528000000,
+              "status": "passed"
+            },
+            "name": "I sign out from IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m118/t6/9/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          }
+        ],
+        "extraData": {
+          "id": "m118.t6(0)",
+          "name": "Membership Camping without Camping section",
+          "worker": "Jenkins CI - 15",
+          "start": "05:30:25",
+          "end": "05:34:38"
+        }
+      }
+    ]
+  }
+]

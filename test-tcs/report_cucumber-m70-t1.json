@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m70] SFDC Account Management",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-23",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m70",
+    "uri": "jira-features/2_NISTA-23.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m70.t1] Add an address for an account (Jenkins CI - 11)",
+        "description": "Add an address for an account",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-23"
+          },
+          {
+            "name": "@NISTA-20"
+          },
+          {
+            "name": "@NISTA-34"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 43125000000,
+              "status": "passed"
+            },
+            "name": "I am logged as a CC user",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t1/2/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 76280000000,
+              "status": "passed"
+            },
+            "name": "I create a new personal account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t1/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICIiLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZW1haWwiOiAiZ2lhbm5pLnB1Y2NpYW5pQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5sb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3Vic2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YnR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuRGF0ZV9kZV9uYWlzc2FuY2UiOiAiMjQuMDYuMTk3NSIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5Ob20iOiAiTW9udGFzayIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5QcmVub20iOiAiUWF6bG9lYyIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 65288000000,
+              "status": "passed"
+            },
+            "name": "I add an address",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t1/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkbW9kdWxlLmFkZHJlc3MuTlBBIjogIjEyMTQiLAogICIkbW9kdWxlLmFkZHJlc3Mub3JpZ2luZU11dGF0aW9uIjogIkRlbWFuZGUgZHUgY2xpZW50IiwKICAiJG1vZHVsZS5hZGRyZXNzLnN0cmVldCI6ICJDaGVtaW4gZGUgQmxhbmRvbm5ldCIsCiAgIiRtb2R1bGUuYWRkcmVzcy5zdHJlZXROdW1iZXIiOiAiNCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHByb2plY3QuYWRkcmVzcy5zdHJlZXROYW1lIjogIkNoZW1pbiBkZSBCbGFuZG9ubmV0Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 2656000000,
+              "status": "passed"
+            },
+            "name": "The address is displayed in the account's addresses",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m70/t1/7/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLnN0cmVldE5hbWUiOiAiQ2hlbWluIGRlIEJsYW5kb25uZXQiLAogICIkcGFyYW1ldGVyLnN0cmVldE51bWJlciI6ICI0Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m70.t1",
+          "name": "Add an address for an account",
+          "worker": "Jenkins CI - 11",
+          "start": "05:11:21",
+          "end": "05:14:31"
+        }
+      }
+    ]
+  }
+]

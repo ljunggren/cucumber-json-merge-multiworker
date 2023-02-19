@@ -1,0 +1,137 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m68] SFDC Family links",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-32",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m68",
+    "uri": "jira-features/2_NISTA-32.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m68.t4] Add and remove child (Jenkins CI - 19)",
+        "description": "Add and remove child",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-32"
+          },
+          {
+            "name": "@NISTA-36"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 21576000000,
+              "status": "passed"
+            },
+            "name": "I am logged as a CC user",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m68/t4/2/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 78434000000,
+              "status": "passed"
+            },
+            "name": "I create a personal account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m68/t4/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6ICIiLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZW1haWwiOiAiZ2lhbm5pLnB1Y2NpYW5pQHRjcy5jaCIsCiAgIiRwYXJhbWV0ZXIuZW50aXR5VHlwZSI6ICJJbmRpdmlkdWFsIiwKICAiJHBhcmFtZXRlci5sb2dpbiI6IGZhbHNlLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIiIsCiAgIiRwYXJhbWV0ZXIuc3Vic2VjdGlvbiI6ICIiLAogICIkcGFyYW1ldGVyLnN1YnR5cGUiOiAiTm9uIGFwcGxpY2FibGUiLAogICIkcHJvamVjdC5wZXJzb25hbERhdGEuRGF0ZV9kZV9uYWlzc2FuY2UiOiAiMjUuMTEuMTk3NSIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5Ob20iOiAiWGVqam9keiIsCiAgIiRwcm9qZWN0LnBlcnNvbmFsRGF0YS5QcmVub20iOiAiRWltd29oZiIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 73985000000,
+              "status": "passed"
+            },
+            "name": "I add a child on the personal account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m68/t4/5/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkbW9kdWxlLmNoaWxkRGF0YS5EYXRlX2RlX25haXNzYW5jZSI6ICIxNS4xMS4yMDAwIiwKICAiJG1vZHVsZS5jaGlsZERhdGEuTm9tIjogIlh1emtpYXAiLAogICIkbW9kdWxlLmNoaWxkRGF0YS5QcmVub20iOiAiUHVmZ2V6ayIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 55683000000,
+              "status": "passed"
+            },
+            "name": "I detach the child from the personal account",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m68/t4/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkbW9kdWxlLmZhbWlseURhdGEubWVtYmVyTm9tIjogIlh1emtpYXAiLAogICIkbW9kdWxlLmZhbWlseURhdGEubWVtYmVyUHJlbm9tIjogIlB1ZmdlemsiLAogICIkdGVzdC50bXBWYWx1ZSI6ICIxIOls6W1lbnQiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 56336000000,
+              "status": "passed"
+            },
+            "name": "The child is no longer part of the personal account family members list",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m68/t4/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkbW9kdWxlLmZhbWlseURhdGEubWVtYmVyTm9tIjogIlh1emtpYXAiLAogICIkbW9kdWxlLmZhbWlseURhdGEubWVtYmVyUHJlbm9tIjogIlB1ZmdlemsiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          }
+        ],
+        "extraData": {
+          "id": "m68.t4",
+          "name": "Add and remove child",
+          "worker": "Jenkins CI - 19",
+          "start": "07:29:28",
+          "end": "07:34:16"
+        }
+      }
+    ]
+  }
+]

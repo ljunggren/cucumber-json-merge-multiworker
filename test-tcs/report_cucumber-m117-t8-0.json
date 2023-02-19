@@ -1,0 +1,158 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "[m117] Policy cancellation",
+    "line": 1,
+    "tags": [
+      {
+        "name": "@NISTA-698",
+        "type": "tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ],
+    "id": "m117",
+    "uri": "jira-features/2_NISTA-698.feature",
+    "elements": [
+      {
+        "before": [],
+        "after": [],
+        "line": 2,
+        "name": "[m117.t8(0)] Policy cancellation - Reception date (Jenkins CI - 14)",
+        "description": "Policy cancellation - Reception date",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "tags": [
+          {
+            "name": "@NISTA-698"
+          },
+          {
+            "name": "@NISTA-815"
+          },
+          {
+            "name": "@done"
+          }
+        ],
+        "steps": [
+          {
+            "line": 3,
+            "result": {
+              "duration": 143056000000,
+              "status": "passed"
+            },
+            "name": "A contact is created with the contact services API",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/2/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFnZSI6IDQwLAogICIkcGFyYW1ldGVyLmJpcnRoZGF5IjogIiIsCiAgIiRwYXJhbWV0ZXIuY2FtcENsdWJTZWN0aW9uIjogIlRDUyBDQU1QSU5HIENMVUIgR0UiLAogICIkcGFyYW1ldGVyLmNvdW50cnlDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuY3JlYXRpb25GbG93IjogIlNGREMiLAogICIkcGFyYW1ldGVyLmN1c3RvbWVyVHlwZUNvZGUiOiAiMCIsCiAgIiRwYXJhbWV0ZXIuY3VzdG9tZXJUeXBlTGFiZWwiOiAiQ2xpZW50IHByaXbpIiwKICAiJHBhcmFtZXRlci5lbWFpbCI6ICJyZW5lLWZyYW5jay5ua3VzaUB0Y3MuY2giLAogICIkcGFyYW1ldGVyLmVudGl0eVR5cGUiOiAiSW5kaXZpZHVhbCIsCiAgIiRwYXJhbWV0ZXIuZmFtaWx5IjogIiIsCiAgIiRwYXJhbWV0ZXIuZnJvbUJvb21pIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaG91c2VOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5sZWdhbFJlc2lkZW5jZSI6ICJzdWlzc2UiLAogICIkcGFyYW1ldGVyLmxvY2FsaXR5IjogIiIsCiAgIiRwYXJhbWV0ZXIubmFtZVByZWZpeCI6ICIiLAogICIkcGFyYW1ldGVyLnBhcmVudENvbnRhY3RFeHROdW0iOiA3MDAwMTQ5MTksCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgdmVybmllciIsCiAgIiRwYXJhbWV0ZXIuc2FsZXNDaGFubmVsIjogImNvbnRhY3QgY2VudGVyIiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdHJlZXQiOiAiIiwKICAiJHBhcmFtZXRlci5zdWJTZWN0aW9uIjogIk5BIiwKICAiJHBhcmFtZXRlci5zdWJUeXBlIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0IiwKICAiJHBhcmFtZXRlci56aXBDb2RlIjogIiIsCiAgIiRwYXJhbWV0ZXIuemlwQ29kZUNvbXBsZW1lbnQiOiAiIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLk5vbSI6ICJTb2hpdWNkIiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLlByZW5vbSI6ICJEaXFtb3B5IiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmV4dGVybmFsSUQiOiAiMTA2ODE3MzU2IiwKICAiJHByb2plY3QucGVyc29uYWxEYXRhLmlkZW50aWZpZXIiOiAiMzEwMyIsCiAgIiRyZXN1bHQucmVzcG9uc2VKU09OIjogWwogICAgewogICAgICAicG9saWN5SW5MaXN0SUJPIjogWwogICAgICAgIHsKICAgICAgICAgICJwb2xpY3lWZXJzaW9uIjogIjAiLAogICAgICAgICAgInN0YXR1c0NvZGVWTyI6IHsKICAgICAgICAgICAgImlkIjogMjAsCiAgICAgICAgICAgICJleHRDb2RlIjogInBvbGljeSIsCiAgICAgICAgICAgICJkZXNjIjogIlBvbGljeSIKICAgICAgICAgIH0sCiAgICAgICAgICAidXBkYXRlVmVyc2lvbiI6IC0xLAogICAgICAgICAgImVuZERhdGUiOiAiMjAyMy0wNC0yMiIsCiAgICAgICAgICAibWFzdGVyUG9saWN5SWQiOiBudWxsLAogICAgICAgICAgImZ1dHVyZUNhbmNlbGxhdGlvbkRhdGUiOiBudWxsLAogICAgICAgICAgImlzQWN0aXZlUG9saWN5IjogdHJ1ZSwKICAgICAgICAgICJwcm9wb3NhbFZlcnNpb24iOiBudWxsLAogICAgICAgICAgInBvbGljeU5yIjogIlBPMTA2ODE3MzQ4LTEwMTAwLzAwIiwKICAgICAgICAgICJjYW5jZWxGcm9tIjogbnVsbCwKICAgICAgICAgICJwb2xpY3lPd25lckV4dE51bWJlciI6ICIxMDY4MTczNDgiLAogICAgICAgICAgInBvbGljeVllYXJseVByZW1pdW0iOiB7CiAgICAgICAgICAgICJhbW91bnQiOiAxMzksCiAgICAgICAgICAgICJhbW91bnRTeXN0ZW0iOiBudWxsLAogICAgICAgICAgICAidXBkYXRlVmVyc2lvbiI6IC0xLAogICAgICAgICAgICAiYW1vdW50UmF0ZSI6IG51bGwsCiAgICAgICAgICAgICJjdXJyZW5jeVZPIjogewogICAgICAgICAgICAgICJpZCI6IDMyLAogICAgICAgICAgICAgICJleHRDb2RlIjogIkNIRiIsCiAgICAgICAgICAgICAgImRlc2MiOiAiU3dpc3MgRnJhbmMiCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJiYXNpc0Ftb3VudFN5c3RlbSI6IG51bGwsCiAgICAgICAgICAgICJyYXRlRGF0ZSI6IG51bGwsCiAgICAgICAgICAgICJpZCI6IC02MDI0MjAzMDEsCiAgICAgICAgICAgICJhbW91bnRJbmRleFZPIjogbnVsbCwKICAgICAgICAgICAgImJhc2lzQW1vdW50SW5kZXhWTyI6IG51bGwKICAgICAgICAgIH0sCiAgICAgICAgICAiaWQiOiA0NDA4MTY3LAogICAgICAgICAgInByb2R1Y3RJZCI6IDEwMDAwMDIsCiAgICAgICAgICAicHJvZHVjdFZPIjogewogICAgICAgICAgICAiaWQiOiAxMDAwMDAyLAogICAgICAgICAgICAiZXh0Q29kZSI6ICIxMDEiLAogICAgICAgICAgICAiZGVzYyI6ICJUQ1MgTWVtYmVyc2hpcCIKICAgICAgICAgIH0sCiAgICAgICAgICAiaXNNYXN0ZXJQb2xpY3kiOiBmYWxzZSwKICAgICAgICAgICJwb2xpY3lTdGFydERhdGUiOiAiMjAyMi0wNC0yMyIsCiAgICAgICAgICAicHJvZHVjdERpc3BsYXlWTyI6IG51bGwsCiAgICAgICAgICAicHJvZHVjdERpc3BsYXlJZCI6IG51bGwsCiAgICAgICAgICAic3RhdHVzSWQiOiAyMCwKICAgICAgICAgICJwcm9wb3NhbE5yIjogbnVsbCwKICAgICAgICAgICJ2YWxpZFVudGlsIjogIjIwMjMtMDgtMTYiLAogICAgICAgICAgInBvbGljeU93bmVyTmFtZSI6ICJNZW5pdXRqIFZvdGV1dGsiLAogICAgICAgICAgInN0YXJ0RGF0ZSI6ICIyMDIyLTA0LTIzIgogICAgICAgIH0KICAgICAgXSwKICAgICAgImlkIjogLTQ0NDExNjU1NAogICAgfQogIF0sCiAgIiRyZXN1bHQucmVzcG9uc2VUZXh0IjogIlt7XCJwb2xpY3lJbkxpc3RJQk9cIjpbe1wicG9saWN5VmVyc2lvblwiOlwiMFwiLFwic3RhdHVzQ29kZVZPXCI6e1wiaWRcIjoyMCxcImV4dENvZGVcIjpcInBvbGljeVwiLFwiZGVzY1wiOlwiUG9saWN5XCJ9LFwidXBkYXRlVmVyc2lvblwiOi0xLFwiZW5kRGF0ZVwiOlwiMjAyMy0wNC0yMlwiLFwibWFzdGVyUG9saWN5SWRcIjpudWxsLFwiZnV0dXJlQ2FuY2VsbGF0aW9uRGF0ZVwiOm51bGwsXCJpc0FjdGl2ZVBvbGljeVwiOnRydWUsXCJwcm9wb3NhbFZlcnNpb25cIjpudWxsLFwicG9saWN5TnJcIjpcIlBPMTA2ODE3MzQ4LTEwMTAwLzAwXCIsXCJjYW5jZWxGcm9tXCI6bnVsbCxcInBvbGljeU93bmVyRXh0TnVtYmVyXCI6XCIxMDY4MTczNDhcIixcInBvbGljeVllYXJseVByZW1pdW1cIjp7XCJhbW91bnRcIjoxMzkuMDAsXCJhbW91bnRTeXN0ZW1cIjpudWxsLFwidXBkYXRlVmVyc2lvblwiOi0xLFwiYW1vdW50UmF0ZVwiOm51bGwsXCJjdXJyZW5jeVZPXCI6e1wiaWRcIjozMixcImV4dENvZGVcIjpcIkNIRlwiLFwiZGVzY1wiOlwiU3dpc3MgRnJhbmNcIn0sXCJiYXNpc0Ftb3VudFN5c3RlbVwiOm51bGwsXCJyYXRlRGF0ZVwiOm51bGwsXCJpZFwiOi02MDI0MjAzMDEsXCJhbW91bnRJbmRleFZPXCI6bnVsbCxcImJhc2lzQW1vdW50SW5kZXhWT1wiOm51bGx9LFwiaWRcIjo0NDA4MTY3LFwicHJvZHVjdElkXCI6MTAwMDAwMixcInByb2R1Y3RWT1wiOntcImlkXCI6MTAwMDAwMixcImV4dENvZGVcIjpcIjEwMVwiLFwiZGVzY1wiOlwiVENTIE1lbWJlcnNoaXBcIn0sXCJpc01hc3RlclBvbGljeVwiOmZhbHNlLFwicG9saWN5U3RhcnREYXRlXCI6XCIyMDIyLTA0LTIzXCIsXCJwcm9kdWN0RGlzcGxheVZPXCI6bnVsbCxcInByb2R1Y3REaXNwbGF5SWRcIjpudWxsLFwic3RhdHVzSWRcIjoyMCxcInByb3Bvc2FsTnJcIjpudWxsLFwidmFsaWRVbnRpbFwiOlwiMjAyMy0wOC0xNlwiLFwicG9saWN5T3duZXJOYW1lXCI6XCJNZW5pdXRqIFZvdGV1dGtcIixcInN0YXJ0RGF0ZVwiOlwiMjAyMi0wNC0yM1wifV0sXCJpZFwiOi00NDQxMTY1NTR9XSIsCiAgIiRyZXN1bHQuc3RhdHVzIjogMjAwLAogICIkdGVzdC5hcGlEYXRhIjogewogICAgInByb2Zlc3Npb24iOiB7CiAgICAgICJpZCI6IDQsCiAgICAgICJkZXNjIjogIkZhcm1lciIKICAgIH0sCiAgICAiYWRkcmVzc2VzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6QWRkcmVzc0lCTyIsCiAgICAgICAgInppcENvZGUiOiAiMTIxNCIsCiAgICAgICAgImNvdW50cnkiOiB7CiAgICAgICAgICAiZXh0Q29kZSI6ICJDSCIKICAgICAgICB9LAogICAgICAgICJhZGRyZXNzVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDEKICAgICAgICB9LAogICAgICAgICJzdHJlZXROYW1lIjogIkNoZW1pbiBkZSBCbGFuZG9ubmV0IiwKICAgICAgICAiY2l0eU5hbWUiOiAiVmVybmllciIsCiAgICAgICAgImhvdXNlTnIiOiAiNCIKICAgICAgfQogICAgXSwKICAgICJzdWJzY3JpcHRpb25zIjogW10sCiAgICAiZ2VuZGVyIjogewogICAgICAiaWQiOiAyLAogICAgICAiZGVzYyI6ICJNYWxlIgogICAgfSwKICAgICJlbnRpdHlUeXBlIjogewogICAgICAiaWQiOiAxCiAgICB9LAogICAgImlkZW50aWZpZXJzIjogWwogICAgICB7CiAgICAgICAgImlkVHlwZSI6IHsKICAgICAgICAgICJleHRDb2RlIjogIlJFRlBFUlMiCiAgICAgICAgfSwKICAgICAgICAiaWRWYWx1ZSI6ICI0NzY2MTA3MTYiCiAgICAgIH0KICAgIF0sCiAgICAiY2FtcFNlY3Rpb25WTyI6IHsKICAgICAgImV4dENvZGUiOiAiMjEyIgogICAgfSwKICAgICJjb250YWN0QWZmaW5pdHlNZW1iZXJzaGlwcyI6IFsKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMiwKICAgICAgICAgICJkZXNjIjogIlBoeXNpY2FsIFBlcnNvbnMiCiAgICAgICAgfSwKICAgICAgICAibWVtYmVyc2hpcElkIjogMjg4OTEKICAgICAgfSwKICAgICAgewogICAgICAgICJhZmZpbml0eVZPIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIkxlZ2FsIEVudGl0eSIKICAgICAgICB9LAogICAgICAgICJtZW1iZXJzaGlwSWQiOiAyODg5MgogICAgICB9CiAgICBdLAogICAgInRlbGVwaG9uZXMiOiBbCiAgICAgIHsKICAgICAgICAiQHR5cGUiOiAiaW50ZXJmYWNlczpUZWxlcGhvbmVJQk8iLAogICAgICAgICJ0ZWxlcGhvbmVOdW1iZXIiOiAiMTIzNDU2Njc5IiwKICAgICAgICAidGVsZXBob25lVHlwZSI6IHsKICAgICAgICAgICJpZCI6IDIsCiAgICAgICAgICAiZGVzYyI6ICJXb3JrIHRlbGVwaG9uZSIKICAgICAgICB9LAogICAgICAgICJ0ZWxlcGhvbmVQcmVmaXgiOiAiMDEwIiwKICAgICAgICAiY291bnRyeURpYWxDb2RlIjogewogICAgICAgICAgImlkIjogMSwKICAgICAgICAgICJkZXNjIjogIjMyIgogICAgICAgIH0KICAgICAgfQogICAgXSwKICAgICJkYXRlT2ZCaXJ0aCI6ICIxOTgzLTAyLTE3VDAwOjAwOjAwIiwKICAgICJzZWN0aW9uVENTVk8iOiB7CiAgICAgICJleHRDb2RlIjogIkdFIgogICAgfSwKICAgICJsYW5ndWFnZSI6IHsKICAgICAgImlkIjogMTAwMDAwMQogICAgfSwKICAgICJ0aXRsZSI6IHsKICAgICAgImlkIjogMTAwMDAwMiwKICAgICAgImRlc2MiOiAiRG9uIgogICAgfSwKICAgICJwcmVmZXJyZWRQYXltZW50TWV0aG9kIjogewogICAgICAiZXh0Q29kZSI6ICJRUi1CaWxsIgogICAgfSwKICAgICJleHRlcm5hbENvbnRhY3ROdW1iZXIiOiAiNDc2NjEwNzE2IiwKICAgICJjb250YWN0U3ViVHlwZVRDU1ZPIjogewogICAgICAiZXh0Q29kZSI6ICIxNSIKICAgIH0sCiAgICAiZW1haWxzIjogWwogICAgICB7CiAgICAgICAgIkB0eXBlIjogImludGVyZmFjZXM6RW1haWxJQk8iLAogICAgICAgICJlbWFpbFR5cGUiOiB7CiAgICAgICAgICAiaWQiOiAxCiAgICAgICAgfSwKICAgICAgICAiZW1haWwiOiAicmVuZS1mcmFuY2submt1c2lAdGNzLmNoIgogICAgICB9CiAgICBdLAogICAgIm5hbWUiOiAiTGVsZmVmbyIsCiAgICAiZmlyc3ROYW1lIjogIk91dnJvdXMiLAogICAgIm5hdGlvbmFsaXR5IjogewogICAgICAiZXh0Q29kZSI6ICJDSCIKICAgIH0sCiAgICAiY29uc2VudHMiOiBbXSwKICAgICJmYW1pbHlTdGF0dXMiOiB7CiAgICAgICJpZCI6IDIsCiAgICAgICJkZXNjIjogIk1hcnJpZWQiCiAgICB9CiAgfQp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Given"
+          },
+          {
+            "line": 4,
+            "result": {
+              "duration": 82001000000,
+              "status": "passed"
+            },
+            "name": "The contact has an active policy for the product: TCS Sociétariat",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/3/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmFjdGl2ZU9sZFZlcnNpb24iOiBmYWxzZSwKICAiJHBhcmFtZXRlci5hZ2UiOiAiMzAiLAogICIkcGFyYW1ldGVyLmFwaUNhbGwiOiB0cnVlLAogICIkcGFyYW1ldGVyLmJpa2VJbnN1cmFuY2VMaW1pdCI6ICIiLAogICIkcGFyYW1ldGVyLmJyZWFrZG93bkFzc2lzdGFuY2UiOiAiIiwKICAiJHBhcmFtZXRlci5jYW1wQ2x1YlNlY3Rpb24iOiAiVENTIENBTVBJTkcgQ0xVQiBHRSIsCiAgIiRwYXJhbWV0ZXIuY29udGFjdENyZWF0aW9uRmxvdyI6ICJBUEkiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFbWFpbCI6ICIiLAogICIkcGFyYW1ldGVyLmNvbnRhY3RFeHRlcm5hbElEIjogIjEwNjgxNzM1NiIsCiAgIiRwYXJhbWV0ZXIuY292ZXJBcmVhIjogIk1vbmRlIiwKICAiJHBhcmFtZXRlci5jb3ZlclR5cGUiOiAiUHJvdGVjdGlvbiBQbHVzIiwKICAiJHBhcmFtZXRlci5jcmVhdGVNZW1iZXJzaGlwIjogdHJ1ZSwKICAiJHBhcmFtZXRlci5jcmVhdGVPZmZlciI6IHRydWUsCiAgIiRwYXJhbWV0ZXIuZGVwYW5uYWdlIjogIkF2ZWMgZOlwYW5uYWdlIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFJhdGUiOiAiIiwKICAiJHBhcmFtZXRlci5kaXNjb3VudFR5cGUiOiAiIiwKICAiJHBhcmFtZXRlci5kb3duZ3JhZGUiOiAiIiwKICAiJHBhcmFtZXRlci5lbmRQb2xpY3lOdW1iZXIiOiAiIiwKICAiJHBhcmFtZXRlci5lbnRpdHlUeXBlIjogIkluZGl2aWR1YWwiLAogICIkcGFyYW1ldGVyLmZhbWlseSI6ICIiLAogICIkcGFyYW1ldGVyLmZhbWlseU1lbWJlciI6ICIiLAogICIkcGFyYW1ldGVyLmZpbmFsRGVjaXNpb24iOiAiIiwKICAiJHBhcmFtZXRlci5mb3JjZUxvZ2luIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuZm9yZWlnbkxpY2Vuc2VQbGF0ZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0luc3VyYW5jZSI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmhhc0xQRCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmluZF9mYW0iOiAiRmFtaWxsZSIsCiAgIiRwYXJhbWV0ZXIuaW50ZXJjaGFuZ2VhYmxlTGljZW5zZVBsYXRlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIuaXNFbmRvcnNlbWVudCI6ICIiLAogICIkcGFyYW1ldGVyLmlzVGVjaG5pY2FsQ2hhbmdlIjogIiIsCiAgIiRwYXJhbWV0ZXIuaXNWYWxpZGF0aW9uQXR0cmlidXRlcyI6IGZhbHNlLAogICIkcGFyYW1ldGVyLmxlZ2FsUHJvdGVjdGlvbkRyaXZlciI6ICIiLAogICIkcGFyYW1ldGVyLmxlZ2FsUmVzaWRlbmNlIjogInN1aXNzZSIsCiAgIiRwYXJhbWV0ZXIubG9naW5Qcm9maWxlIjogImJhY2tvZmZpY2UiLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBQYXltZW50TWV0aG9kIjogImNhc2giLAogICIkcGFyYW1ldGVyLm1lbWJlcnNoaXBTdGF0dXMiOiBmYWxzZSwKICAiJHBhcmFtZXRlci5tb3RvcmlzZSI6ICIiLAogICIkcGFyYW1ldGVyLm5hbWVQcmVmaXgiOiAiIiwKICAiJHBhcmFtZXRlci5vZmZlciI6ICJQb2xpY3kiLAogICIkcGFyYW1ldGVyLm9wZW5JbnZvaWNlIjogZmFsc2UsCiAgIiRwYXJhbWV0ZXIucGFyZW50Q29udGFjdEV4dE51bSI6ICIiLAogICIkcGFyYW1ldGVyLnBhcnRuZXJDYXJkIjogIiIsCiAgIiRwYXJhbWV0ZXIucGFydG5lclR5cGUiOiAiY2MgYmVybiIsCiAgIiRwYXJhbWV0ZXIucGF5bWVudE1ldGhvZCI6ICJjYXNoIiwKICAiJHBhcmFtZXRlci5wcmljZSI6ICIiLAogICIkcGFyYW1ldGVyLnByb2R1Y3QiOiAiVENTIFNvY2npdGFyaWF0IiwKICAiJHBhcmFtZXRlci5zZWN0aW9uIjogIkdFIiwKICAiJHBhcmFtZXRlci5zdGFydERhdGUiOiAidG9kYXktMTUiLAogICIkcGFyYW1ldGVyLnN1YlNlY3Rpb24iOiAiIiwKICAiJHBhcmFtZXRlci5zdWJUeXBlIjogIk5vbiBhcHBsaWNhYmxlIiwKICAiJHBhcmFtZXRlci50b3RhbENvdmVyYWdlRXVyb3BlIjogIiIsCiAgIiRwYXJhbWV0ZXIudG90YWxDb3ZlcmFnZVN3aXR6ZXJsYW5kIjogIiIsCiAgIiRwYXJhbWV0ZXIudG90YWxXZWlnaHRFeGNlZWRMaW1pdCI6IGZhbHNlLAogICIkcGFyYW1ldGVyLnVzZUNyZWRpdEJhbGFuY2UiOiBmYWxzZSwKICAiJHBhcmFtZXRlci53aXRoT3JXaXRob3V0SUJBTiI6ICJ3aXRob3V0Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 5,
+            "result": {
+              "duration": 4186000000,
+              "status": "passed"
+            },
+            "name": "I am logged in as frontoffice in IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/4/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmZvcmNlIjogZmFsc2UsCiAgIiRwcm9qZWN0LmxvZ2luRGF0YS5jdXJyZW50VXNlcklkIjogImJnYm81Igp9PC9wcmU+dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          },
+          {
+            "line": 6,
+            "result": {
+              "duration": 57926000000,
+              "status": "passed"
+            },
+            "name": "I start a policy cancellation at cancellationRequestDate: na",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/6/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNhbmNlbGxhdGlvblJlcXVlc3REYXRlIjogIiIsCiAgIiRwYXJhbWV0ZXIuZWZmZWN0aXZlRGF0ZSI6ICIiCn08L3ByZT51bmRlZmluZWQ=",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "When"
+          },
+          {
+            "line": 7,
+            "result": {
+              "duration": 8616000000,
+              "status": "passed"
+            },
+            "name": "The cancellation request date cancellationRequestDate: na is valid: not valid to perform the cancellation of the product: TCS Sociétariat",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/8/"
+            },
+            "embeddings": [
+              {
+                "data": "PHByZSBzdHlsZT0nYmFja2dyb3VuZC1jb2xvcjojQ0NDO3BhZGRpbmc6MTBweDsnPjxiPkRhdGE6PC9iPiA8YnIvPjxici8+ewogICIkcGFyYW1ldGVyLmNhbmNlbGxhdGlvblJlcXVlc3REYXRlIjogIm5hIiwKICAiJHBhcmFtZXRlci5wcm9kdWN0IjogIlRDUyBTb2Np6XRhcmlhdCIsCiAgIiRwYXJhbWV0ZXIudmFsaWQiOiAibm90IHZhbGlkIiwKICAiJHRlc3QuZGF0ZXMudG9tb3Jyb3ciOiAiMTgvMDIvMjAyMyIKfTwvcHJlPnVuZGVmaW5lZA==",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "Then"
+          },
+          {
+            "line": 8,
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "name": "I sign out from IDIT",
+            "match": {
+              "location": "5e60f3e3deb43b53367fb106/master/m117/t8/9/"
+            },
+            "embeddings": [
+              {
+                "data": "dW5kZWZpbmVk",
+                "mime_type": "text/html"
+              }
+            ],
+            "keyword": "and"
+          }
+        ],
+        "extraData": {
+          "id": "m117.t8(0)",
+          "name": "Policy cancellation - Reception date",
+          "worker": "Jenkins CI - 14",
+          "start": "06:11:55",
+          "end": "06:16:55"
+        }
+      }
+    ]
+  }
+]
